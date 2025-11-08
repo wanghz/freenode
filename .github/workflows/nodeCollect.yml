@@ -9,7 +9,7 @@ name: node collect
 # Controls when the workflow will run
 on:
   schedule:
-    - cron: '0/10 * * * *'  # 每10分钟执行一次
+    - cron: '0/50 * * * *'  # 每10分钟执行一次
   repository_dispatch:
   workflow_dispatch:
 
