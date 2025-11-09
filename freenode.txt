@@ -22,6 +22,7 @@ vless://b86ce95e-d3a7-4173-acb7-d041b3504b56@skk.moe:443?encryption=none&securit
 vless://b86ce95e-d3a7-4173-acb7-d041b3504b56@iplocation.io:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#【Free Nodes】360ms
 vless://b86ce95e-d3a7-4173-acb7-d041b3504b56@russia.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#【Free Nodes】363ms
 vless://b86ce95e-d3a7-4173-acb7-d041b3504b56@cfip.1323123.xyz:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#【Free Nodes】365ms
+hy2://a2678c97b8d79059@46.62.152.236:443/?insecure=1&obfs=salamander&obfs-password=9242a8bf#@NoForcedheaven
 hy2://937f8940-ad8a-409f-93c3-4d6249af628f@us1.oomz.ru:30000/?insecure=1&sni=bing.com#%25F0%259F%258C%259F54%2540oneclickvpnkeys%2520%253E%253E%2540oneclickvpnkeys%3A%3AUS
 hy2://937f8940-ad8a-409f-93c3-4d6249af628f@us3.oomz.ru:30000/?insecure=1&sni=bing.com#%25F0%259F%258C%259F55%2540oneclickvpnkeys%2520%253E%253E%2540oneclickvpnkeys%3A%3AUS
 hy2://937f8940-ad8a-409f-93c3-4d6249af628f@us4.oomz.ru:30000/?insecure=1&sni=bing.com#%25F0%259F%258C%259F47%2540oneclickvpnkeys%2520%253E%253E%2540oneclickvpnkeys%3A%3AUS
@@ -35,6 +36,7 @@ hy2://937f8940-ad8a-409f-93c3-4d6249af628f@us7.oomz.ru:30000/?insecure=1&sni=bin
 hy2://2429bee3-e0c1-47dd-b420-75e6512b184b@140.238.155.160:30300/?insecure=1&sni=www.bing.com#%2525F0%25259F%252590%2525B876%252540oneclickvpnkeys%252520%25253E%25253E%252540oneclickvpnkeys%253A%253ACA%3A%3ACA
 hy2://cfe032e4-1bc3-454f-9d09-301b0aea08ff@40.233.71.65:45979/?insecure=1&sni=www.bing.com#Chan%2520%253E%253E%2540ShadowsocksM%3A%3ACA\n//profile-title: base64:8J+RkSBAUmF5YW5fQ29uZmlnICDwn5GR
 tuic://10822856-7452-43ec-b35b-6f24ea33530f:10822856-7452-43ec-b35b-6f24ea33530f@chervhill.hajalii.com:23887?congestion_control=cubic&udp_relay_mode=native&alpn=h3&sni=chervhill.hajalii.com&insecure=0#@Mr_Config_Group✌️
+tuic://2f77527e-678c-4af6-9a0a-30823885bd53:2f77527e-678c-4af6-9a0a-30823885bd53@134.209.28.89.sslip.io:54773?congestion_control=cubic&udp_relay_mode=native&sni=134.209.28.89.sslip.io&alpn=h3#Tuic3
 hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36600?sni=YAPC-1.afshin.ir&insecure=0&obfs=salamander#XX   HYSTERIA2-TCP-NTLS  None
 hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@lundun4.nezhasu.com:443?sni=lundun4.nezhasu.com&insecure=1#GB   HYSTERIA2-TCP-NTLS - ORACLE-BMC-31898  79.72.84.81
 hysteria2://dongtaiwang.com@163.172.21.105:5355?sni=www.bing.com&insecure=1#FR   HYSTERIA2-TCP-NTLS - Scaleway S.a.s.  163.172.21.105
