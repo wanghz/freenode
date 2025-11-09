@@ -39,7 +39,7 @@ jobs:
 
         curl -s https://raw.githubusercontent.com/bin1site1/V2rayFree/refs/heads/main/config.txt > ./freenode-2.txt
         curl -s https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/Vless.txt >> ./freenode-2.txt
-        curl -s https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/base64.txt|base64 -d >> ./freenode-2.txt
+        curl -s https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/base64.txt|base64 -d -i >> ./freenode-2.txt
         sed -i 's/amp;//g' ./freenode-2.txt
         cat ./freenode-2.txt | base64 -w 0  > ./freenode-2-base64
         cat ./freenode-2-base64
