@@ -28,9 +28,9 @@ jobs:
         curl -s https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/Vless.txt >> ./freenode-2.txt
         curl https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/base64.txt | sed 's/#.*$//' | base64 -d -i >> ./freenode-2.txt
         curl https://raw.githubusercontent.com/WLget/V2Ray_configs_64/refs/heads/master/ConfigSub_list.txt | sed 's/#.*$//' | base64 -d -i >> ./freenode-2.txt
-        sed -i 's/amp;//g' ./freenode-2.txt
+        curl https://raw.githubusercontent.com/WLget/V2Ray_configs_64/refs/heads/master/ConfigSub_list.txt > ./freenode-3.txt
         cat ./freenode-2.txt | base64 -w 0  > ./freenode-2-base64
-        cat ./freenode-2-base64
+        #cat ./freenode-2-base64
       
       continue-on-error: true  # 即使出错也继续执行后续步骤
         
