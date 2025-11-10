@@ -23,6 +23,8 @@ vless://b86ce95e-d3a7-4173-acb7-d041b3504b56@whatismyipaddress.com:443?encryptio
 vless://b86ce95e-d3a7-4173-acb7-d041b3504b56@gur.gov.ua:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#【Free Nodes】453ms
 vless://b86ce95e-d3a7-4173-acb7-d041b3504b56@www.ipaddress.my:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#【Free Nodes】458ms
 hy2://a2678c97b8d79059@46.62.152.236:443/?insecure=1&obfs=salamander&obfs-password=9242a8bf#@NoForcedheaven
+hy2://9772ecf2-6732-4bfb-a8b1-f48af577c76c@113.192.61.19:63979/?insecure=1&sni=www.bing.com#%253E%253E%2540ShadowsocksM%3A%3AXX
+hy2://c232f411-96b5-4b07-b2f7-66a434725ffb@193.142.59.41:23899/?insecure=1&sni=hl01.mistea.top#%253E%253E%2540oneclickvpnkeys%3A%3AXX
 tuic://10822856-7452-43ec-b35b-6f24ea33530f:10822856-7452-43ec-b35b-6f24ea33530f@chervhill.hajalii.com:23887?congestion_control=cubic&udp_relay_mode=native&alpn=h3&sni=chervhill.hajalii.com&insecure=0#@Mr_Config_Group✌️
 tuic://2f77527e-678c-4af6-9a0a-30823885bd53:2f77527e-678c-4af6-9a0a-30823885bd53@134.209.28.89.sslip.io:54773?congestion_control=cubic&udp_relay_mode=native&sni=134.209.28.89.sslip.io&alpn=h3#Tuic3
 hysteria2://6acd1086-d285-43f2-adc3-ecb28839b13d@xjp1.qucloud.top:58430?sni=xjp1.qucloud.top&insecure=1#US   HYSTERIA2-TCP-NTLS - AS-COLOCROSSING  107.175.75.47
