@@ -26,14 +26,14 @@ jobs:
       run: |
         curl -s https://raw.githubusercontent.com/bin1site1/V2rayFree/refs/heads/main/config.txt > ./freenode-2.txt
         curl -s https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/Vless.txt >> ./freenode-2.txt
-        curl https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/base64.txt | sed 's/#.*$//' | base64 -d -i >> ./freenode-2.txt
-        curl https://raw.githubusercontent.com/WLget/V2Ray_configs_64/refs/heads/master/ConfigSub_list.txt | sed 's/#.*$//' | base64 -d -i >> ./freenode-2.txt
-        curl https://raw.githubusercontent.com/WLget/V2Ray_configs_64/refs/heads/master/ConfigSub_list.txt > ./freenode-3.txt
+        curl -s https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/base64.txt | sed 's/#.*$//' | base64 -d -i >> ./freenode-2.txt
+        curl -s https://raw.githubusercontent.com/WLget/V2Ray_configs_64/refs/heads/master/ConfigSub_list.txt | sed 's/#.*$//' | base64 -d -i >> ./freenode-2.txt
+        curl -s https://raw.githubusercontent.com/WLget/V2Ray_configs_64/refs/heads/master/ConfigSub_list.txt > ./freenode-3.txt
         cat ./freenode-2.txt | base64 -w 0  > ./freenode-2-base64
         #cat ./freenode-2-base64
 
         # 1. 提取 URL 并存入变量 FIRST_URL
-        FIRST_URL=$(curl -sL "https://github.com/hysteria350/free-jichang" | grep -oP 'https://[^"\s]+' | head -n 1)
+        FIRST_URL=$(curl -sL "https:///raw.githubusercontent.com/hysteria350/free-jichang/refs/heads/readme.md" | grep -oP 'https://[^"\s]+' | head -n 1)
         
         # 2. 检查变量内容（可选）
         echo "提取到的第一条 URL 是: $FIRST_URL" | sed 's/#.*$//' | base64 -d -i >> ./freenode-4.txt
