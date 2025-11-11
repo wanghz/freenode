@@ -33,8 +33,7 @@ jobs:
         #cat ./freenode-2-base64
 
         # 1. 提取 URL 并存入变量 FIRST_URL
-        FIRST_URL=$(curl "https://github.com/hysteria350/free-jichang" | grep -oP 'https://pub\S+' | head -n 1)
-        # 2. 检查变量内容（可选）
+        FIRST_URL=$(curl -s "https://raw.githubusercontent.com/hysteria350/free-jichang/main/README.md" | grep -oP 'https://pub\S+' | head -n 1)        # 2. 检查变量内容（可选）
         echo "提取到的第一条 URL 是: $FIRST_URL" 
         # 3. 使用 curl 访问变量 $FIRST_URL 存储的地址的内容
         curl -sL "$FIRST_URL" | sed 's/#.*$//' | base64 -d -i > ./freenode-4.txt
