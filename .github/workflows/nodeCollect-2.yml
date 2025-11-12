@@ -32,6 +32,8 @@ jobs:
         cat ./freenode-2.txt | base64 -w 0  > ./freenode-2-base64
         #cat ./freenode-2-base64
 
+        curl -s https://raw.githubusercontent.com/kismetpro/NodeSuber/refs/heads/main/Splitted-By-Protocol/hy2.txt > ./freenode-k.txt
+
         # 1. 提取 URL 并存入变量 FIRST_URL
         FIRST_URL=$(curl -s "https://raw.githubusercontent.com/hysteria350/free-jichang/main/README.md" | grep -oP 'https://pub\S+' | head -n 1)        # 2. 检查变量内容（可选）
         #echo "提取到的第一条 URL 是: $FIRST_URL" 
@@ -45,7 +47,6 @@ jobs:
         # 3. 使用 curl 访问变量 $FIRST_URL 存储的地址的内容
         #curl -sL "$A_URL" | sed 's/#.*$//' | base64 -d -i > ./freenode-4.txt
         curl -sL "$A_URL" > ./freenode-5.txt
-        curl -s https://raw.githubusercontent.com/kismetpro/NodeSuber/refs/heads/main/Splitted-By-Protocol/hy2.txt >> ./freenode-5.txt
 
       continue-on-error: true  # 即使出错也继续执行后续步骤
         
