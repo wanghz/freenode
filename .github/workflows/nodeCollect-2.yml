@@ -57,10 +57,10 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         if: |
-          ! git diff --quiet freenode-2-base64 ||
-          ! git diff --quiet freenode-3.txt ||
-          ! git diff --quiet freenode-4-base64 ||
-          ! git diff --quiet freenode-5.txt 
+          ( ! git diff --quiet freenode-2-base64 ) ||
+          ( ! git diff --quiet freenode-4-base64 ) ||
+          ( ! git diff --quiet freenode-5.txt ) ||
+          ( ! git diff --quiet freenode-3.txt )
           echo "File has changes."
           echo "1-检查时间：$(TZ=UTC-8 date +%Y-%m-%d" "%H:%M:%S)" > status
           git add .
