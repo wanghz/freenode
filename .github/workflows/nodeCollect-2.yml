@@ -56,7 +56,7 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        if: |
+        if \
           ( ! git diff --quiet freenode-2-base64 ) ||
           ( ! git diff --quiet freenode-4-base64 ) ||
           ( ! git diff --quiet freenode-5.txt ) ||
