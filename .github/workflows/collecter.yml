@@ -1,0 +1,50 @@
+# This is a basic workflow to help you get started with Actions
+#
+# This is free software, licensed under the MIT License.
+# See /LICENSE for more information.
+#
+
+name: collect more
+
+# Controls when the workflow will run
+on:
+  schedule:
+    - cron: '0/90 * * * *'  # 每10分钟执行一次
+  repository_dispatch:
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Use curl to read remote webpage and filter with grep
+      run: |
+        dir="sub"  # 替换成你的目录路径，例如 "./downloads"
+        
+        if [ ! -d "$dir" ]; then
+            mkdir -p "$dir"
+        fi
+        
+        cd sub
+        i = 1
+        for url in $(curl -s "https://raw.githubusercontent.com/hysteria350/free-jichang/main/README.md" | grep -oP 'https://pub\S+'); do
+          # 在这里处理每个 $url，
+          echo "处理 URL: $url"
+          curl -s "$url" > "nodes_$i"  # 示例：下载内容到文件
+          ((i++))
+        done
+      continue-on-error: true  # 即使出错也继续执行后续步骤
+        
+    - name: 提交并推送更改
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        echo "1-检查时间：$(TZ=UTC-8 date +%Y-%m-%d" "%H:%M:%S)" > status
+        git add .
+        git commit -m "节点更新时间：$(TZ=UTC-8 date +%Y-%m-%d" "%H:%M:%S)"
+        git push
