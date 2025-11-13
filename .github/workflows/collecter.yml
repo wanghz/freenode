@@ -29,7 +29,7 @@ jobs:
             mkdir -p "$dir"
         fi
         
-        i = 1
+        i=1
         for url in $(curl -s "https://raw.githubusercontent.com/hysteria350/free-jichang/main/README.md" | grep -oP 'https://pub\S+'); do
           # 在这里处理每个 $url，
           echo "处理 URL: $url"
