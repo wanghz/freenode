@@ -36,7 +36,14 @@ jobs:
           curl -s "$url" > "./sub/nodes_$i"  # 示例：下载内容到文件
           i=$((i + 1))
         done
-      shell: bash
+        for url in $(curl -s "https://raw.githubusercontent.com/gslege/CloudflareIP/main/README.md" | grep -oP 'https://suba\S+'); do
+          # 在这里处理每个 $url，
+          echo "处理 URL: $url"
+          curl -s "$url" > "./sub/nodes_$i"  # 示例：下载内容到文件
+          i=$((i + 1))
+        done
+        
+        shell: bash
       continue-on-error: true  # 即使出错也继续执行后续步骤
         
     - name: 提交并推送更改
