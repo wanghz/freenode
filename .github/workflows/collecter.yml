@@ -43,7 +43,7 @@ jobs:
           i=$((i + 1))
         done
         
-        shell: bash
+      shell: bash
       continue-on-error: true  # 即使出错也继续执行后续步骤
         
     - name: 提交并推送更改
