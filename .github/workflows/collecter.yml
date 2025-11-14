@@ -39,10 +39,11 @@ jobs:
         for url in $(curl -s "https://raw.githubusercontent.com/gslege/CloudflareIP/main/README.md" | grep -oP 'https://sub[a-z]\S+'); do
           # 在这里处理每个 $url，
           echo "处理 URL: $url"
-          curl -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"           
           curl -s \
             -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" \
-            -H "Accept: text/plain"  "$url" -o "./sub/nodes_$i"
+            -H "Accept: text/plain" \
+            "$url" \
+            -o "./sub/nodes_$i"
           i=$((i + 1))
         done
         
