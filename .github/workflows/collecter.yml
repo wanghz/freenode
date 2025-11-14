@@ -30,6 +30,8 @@ jobs:
         fi
         
         i=1
+        curl -s "https://raw.githubusercontent.com/g-hunter-g/awesome-vpn/refs/heads/main/key.txt" -o ./sub/nodes_k.txt
+        
         for url in $(curl -s "https://raw.githubusercontent.com/hysteria350/free-jichang/main/README.md" | grep -oP 'https://pub\S+'); do
           # 在这里处理每个 $url，
           echo "处理 URL: $url"
