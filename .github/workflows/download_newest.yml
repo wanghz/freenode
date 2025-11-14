@@ -30,10 +30,51 @@ jobs:
       
     - name: Use curl to read remote webpage and filter with grep
       run: |
-        # 使用 GitHub API 获取 githubmirror 目录下最新更新的文件名
-        latest_file=$(curl -s "https://api.github.com/repos/kort0881/vpn-key-vless/commits?path=githubmirror&per_page=1" | jq -r '.[0].files[0].filename')
+        # 获取 GitHub 仓库某目录最新一次提交里更新的文件名（不需 clone）
+        # 依赖：curl、jq
+        # 可选：设置环境变量 GITHUB_TOKEN 以提升 API 速率限制
         
-        echo "最新更新的文件是: $latest_file"
+        set -euo pipefail
+        
+        REPO="kort0881/vpn-key-vless"
+        PATH_IN_REPO="githubmirror"
+        
+        API="https://api.github.com"
+        UA="curl/latest"
+        AUTH_HEADER=""
+        if [[ -n "${GITHUB_TOKEN:-}" ]]; then
+          AUTH_HEADER="-H Authorization: Bearer ${GITHUB_TOKEN}"
+        fi
+        
+        # 1) 获取针对指定目录的最新提交的 sha
+        latest_sha=$(
+          curl -sS -H "User-Agent: ${UA}" ${AUTH_HEADER} \
+            "${API}/repos/${REPO}/commits?path=${PATH_IN_REPO}&per_page=1" \
+          | jq -r '.[0].sha'
+        )
+        
+        if [[ -z "${latest_sha}" || "${latest_sha}" == "null" ]]; then
+          echo "未找到该目录的最新提交（可能是路径不匹配或 API 受限）。"
+          exit 1
+        fi
+        
+        # 2) 用 sha 获取提交详情里的文件列表
+        # 提交详情才包含 .files 字段，列表接口不包含
+        latest_file=$(
+          curl -sS -H "User-Agent: ${UA}" ${AUTH_HEADER} \
+            "${API}/repos/${REPO}/commits/${latest_sha}" \
+          | jq -r '.files[].filename' \
+          | grep -E "^${PATH_IN_REPO}/" \
+          | head -n 1
+        )
+        
+        if [[ -z "${latest_file}" ]]; then
+          echo "该提交未修改 ${PATH_IN_REPO}/ 下的文件，或未返回文件列表。"
+          exit 1
+        fi
+        
+        echo "最新更新的文件是: ${latest_file}"
+  
         curl -s "https://raw.githubusercontent.com/kort0881/vpn-key-vless/refs/heads/main/githubmirror/$latest_file" -o "./sub/nodes_v1.txt"  # 示例：下载内容到文件
         
       shell: bash
