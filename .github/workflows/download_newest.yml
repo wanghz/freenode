@@ -4,7 +4,7 @@
 # See /LICENSE for more information.
 #
 
-name: collect more
+name: download newest
 
 # Controls when the workflow will run
 on:
