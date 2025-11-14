@@ -39,7 +39,7 @@ jobs:
         for url in $(curl -s "https://raw.githubusercontent.com/gslege/CloudflareIP/main/README.md" | grep -oP 'https://sub\S+'); do
           # 在这里处理每个 $url，
           echo "处理 URL: $url"
-          curl -s "$url" > "./sub/nodes_$i"  # 示例：下载内容到文件
+          curl -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" "$url" > "./sub/nodes_$i"  # 示例：下载内容到文件          
           i=$((i + 1))
         done
         
