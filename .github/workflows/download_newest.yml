@@ -31,8 +31,7 @@ jobs:
     - name: Use curl to read remote webpage and filter with grep
       run: |
         # 使用 GitHub API 获取 githubmirror 目录下最新更新的文件名
-        latest_file=$(curl -s "https://api.github.com/repos/kort0881/vpn-key-vless/commits?path=githubmirror&per_page=1" \
-          | jq -r '.[0].files[0].filename')
+        latest_file=$(curl -s "https://api.github.com/repos/kort0881/vpn-key-vless/commits?path=githubmirror&per_page=1" | jq -r '.[0].files[0].filename')
         
         echo "最新更新的文件是: $latest_file"
         curl -s "https://raw.githubusercontent.com/kort0881/vpn-key-vless/refs/heads/main/githubmirror/$latest_file" -o "./sub/nodes_v1.txt"  # 示例：下载内容到文件
