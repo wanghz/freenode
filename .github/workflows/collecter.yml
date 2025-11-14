@@ -42,6 +42,7 @@ jobs:
           curl -s \
             -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" \
             -H "Accept: text/plain" \
+            -H "Cookie: cf_clearance=你的cf_clearance值; other_cookie=其他值" \
             "$url" \
             -o "./sub/nodes_$i"
           i=$((i + 1))
