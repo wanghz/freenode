@@ -75,7 +75,7 @@ jobs:
         
         echo "最新更新的文件是: ${latest_file}"
   
-        curl -s "https://raw.githubusercontent.com/kort0881/vpn-key-vless/refs/heads/main/githubmirror/$latest_file" -o "./sub/nodes_v1.txt"  # 示例：下载内容到文件
+        curl -s "https://raw.githubusercontent.com/kort0881/vpn-key-vless/refs/heads/main/$latest_file" -o "./sub/nodes_v1.txt"  # 示例：下载内容到文件
         
       shell: bash
       continue-on-error: true  # 即使出错也继续执行后续步骤
