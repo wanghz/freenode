@@ -22,7 +22,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Use curl to read remote webpage and filter with grep
+    - name: Use curl to read remote webpage 
       run: |
         dir="sub" 
         if [ ! -d "$dir" ]; then
@@ -49,6 +49,13 @@ jobs:
             -o "./sub/nodes_$i"
           i=$((i + 1))
         done
+        
+      shell: bash
+      continue-on-error: true  # 即使出错也继续执行后续步骤
+        
+    - name: Use curl to read some more
+      run: |
+        curl -s "https://raw.githubusercontent.com/maimengmeng/mysub/refs/heads/main/valid_content.txt" -o ./sub/nodes_mmm.txt
         
       shell: bash
       continue-on-error: true  # 即使出错也继续执行后续步骤
