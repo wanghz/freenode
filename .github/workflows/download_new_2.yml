@@ -1,0 +1,95 @@
+# This is a basic workflow to help you get started with Actions
+#
+# This is free software, licensed under the MIT License.
+# See /LICENSE for more information.
+#
+
+name: download newer subs
+
+# Controls when the workflow will run
+on:
+  schedule:
+    - cron: '0/90 * * * *'  # 每10分钟执行一次
+  repository_dispatch:
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    # 下载转换工具，jq
+    - name: Download jq programs
+      run: |
+        sudo apt install jq
+      continue-on-error: true  # 即使出错也继续执行后续步骤
+      
+    - name: Use curl to read remote webpage
+      run: |
+        # 获取 GitHub 仓库某目录最新一次提交里更新的文件名（不需 clone）
+        # 依赖：curl、jq
+        # 可选：设置环境变量 GITHUB_TOKEN 以提升 API 速率限制
+        
+        set -euo pipefail
+
+        REPO="Firmfox/Proxify/v2ray_configs"
+        PATH_IN_REPO="mixed"
+        
+        API="https://api.github.com"
+        UA="curl/latest"
+        AUTH_HEADER=""
+        if [[ -n "${GITHUB_TOKEN:-}" ]]; then
+          AUTH_HEADER="-H Authorization: Bearer ${GITHUB_TOKEN}"
+        fi
+        
+        # 1) 获取针对指定目录的最新提交的 sha
+        latest_sha=$(
+          curl -sS -H "User-Agent: ${UA}" ${AUTH_HEADER} \
+            "${API}/repos/${REPO}/commits?path=${PATH_IN_REPO}&per_page=1" \
+          | jq -r '.[0].sha'
+        )
+        
+        if [[ -z "${latest_sha}" || "${latest_sha}" == "null" ]]; then
+          echo "未找到该目录的最新提交（可能是路径不匹配或 API 受限）。"
+          exit 1
+        fi
+        
+        # 2) 用 sha 获取提交详情里的文件列表
+        # 提交详情才包含 .files 字段，列表接口不包含
+        latest_files=$(
+          curl -sS -H "User-Agent: ${UA}" ${AUTH_HEADER} \
+            "${API}/repos/${REPO}/commits/${latest_sha}" \
+          | jq -r '.files[].filename' \
+          | grep -E "^${PATH_IN_REPO}/" \
+          | head -n 12
+        )
+        
+        if [[ -z "${latest_file}" ]]; then
+          echo "该提交未修改 ${PATH_IN_REPO}/ 下的文件，或未返回文件列表。"
+          exit 1
+        fi
+        
+        #echo "最新更新的文件是: ${latest_files}"
+        i=60
+        for url in $latest_files; do
+          # 在这里处理每个 $url，
+          echo "处理 : $url"
+          curl -s "https://raw.githubusercontent.com/Firmfox/Proxify/refs/heads/main/v2ray_configs/$url" > "./sub/nodes_$i"  # 示例：下载内容到文件
+          i=$((i + 1))
+        done        
+          
+      shell: bash
+      continue-on-error: true  # 即使出错也继续执行后续步骤
+        
+    - name: 提交并推送更改
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        echo "1-检查时间：$(TZ=UTC-8 date +%Y-%m-%d" "%H:%M:%S)" > status
+        git add .
+        git commit -m "节点更新时间：$(TZ=UTC-8 date +%Y-%m-%d" "%H:%M:%S)"
+        git push
