@@ -67,6 +67,8 @@ jobs:
           | grep -E "^${PATH_IN_REPO}/" \
           | head -n 12
         )
+
+        echo $latest_files
         
         if [[ -z "${latest_file}" ]]; then
           echo "该提交未修改 ${PATH_IN_REPO}/ 下的文件，或未返回文件列表。"
