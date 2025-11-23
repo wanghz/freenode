@@ -47,4 +47,3 @@ jobs:
           git add .
           git diff --quiet && git diff --staged --quiet || git commit -m "🔄 delete outdated [$(date +'%Y-%m-%d %H:%M')]"
           git push
-🔄 Auto update proxies [2025-11-21 15:10] · wanghz/Proxify@f56e438
