@@ -1,0 +1,50 @@
+name: Delete old migrations
+
+on:
+  schedule:
+    - cron: '10 15 */3 * *'
+  workflow_dispatch:
+
+jobs:
+  delete_old_files:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 允许推送分支
+      pull-requests: write  # 允许创建PR
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取完整历史，确保文件修改时间准确
+
+      - name: 清理超过60天的旧迁移文件
+        run: |
+          # 定义目标目录（请确认路径正确）
+          TARGET_DIR="./sub"
+          days=3   # 举例，超过7天的文件
+          current_time=$(date +%s)
+          threshold=$((current_time - days*24*3600))
+          
+          # 检查目录是否存在
+          if [ ! -d "$TARGET_DIR" ]; then
+            echo "目录 $TARGET_DIR 不存在，跳过清理"
+            exit 0
+          fi
+          
+          #find "$TARGET_DIR" -type f -mtime +3 -exec rm {} \;
+          find "$TARGET_DIR" -type f \
+            -print0 | while IFS= read -r -d '' file; do
+            commit_time=$(git log -1 --format="%ct" -- "$file")
+            if [ -n "$commit_time" ] && [ "$commit_time" -lt "$threshold" ]; then
+              echo "$file" 
+              rm "$file"
+            fi
+          done
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "🔄 delete outdated [$(date +'%Y-%m-%d %H:%M')]"
+          git push
+🔄 Auto update proxies [2025-11-21 15:10] · wanghz/Proxify@f56e438
