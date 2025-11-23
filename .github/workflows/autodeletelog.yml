@@ -16,6 +16,6 @@ jobs:
         uses: Mattraks/delete-workflow-runs@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          repository: 'ATang007ZH/freenode'
+          repository: 'wanghz/freenode'
           retain_days: 1
           keep_minimum_runs: 1
