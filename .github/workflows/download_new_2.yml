@@ -47,26 +47,22 @@ jobs:
         fi
         
         # 1) 获取针对指定目录的最新提交的 sha
-        latest_sha=$(
-          curl -sS -H "User-Agent: ${UA}" ${AUTH_HEADER} \
-            "${API}/repos/${REPO}/commits?path=${PATH_IN_REPO}&per_page=1" \
-          | jq -r '.[0].sha'
-        )
+        # 获取最新一次 commit（或者你指定的 commit）相对于它的 parent 的变化
+        latest_files=$(curl -sS -H "User-Agent: ${UA}" ${AUTH_HEADER} \
+            "${API}/repos/${REPO}/commits/${latest_sha}" | jq -r '.parents[0].sha')
         
-        if [[ -z "${latest_sha}" || "${latest_sha}" == "null" ]]; then
-          echo "未找到该目录的最新提交（可能是路径不匹配或 API 受限）。"
-          exit 1
-        fi
+        # 如果 parents 为空（比如初始 commit）就直接用 HEAD
+        parent_sha=$(curl -sS -H "User-Agent: ${UA}" ${AUTH_HEADER} \
+            "${API}/repos/${REPO}/commits/${latest_sha}" | jq -r '.parents[0].sha // "4b825dc642cb6eb9a060e54bf8d69288fbee4904"')
         
-        # 2) 用 sha 获取提交详情里的文件列表
-        # 提交详情才包含 .files 字段，列表接口不包含
-        latest_files=$(
-          curl -sS -H "User-Agent: ${UA}" ${AUTH_HEADER} \
-            "${API}/repos/${REPO}/commits/${latest_sha}" \
-          | jq -r '.files[].filename' \
-          | grep -E "^${PATH_IN_REPO}/" \
-          | head -n 12
-        )
+        files_json=$(curl -sS -H "User-Agent: ${UA}" ${AUTH_HEADER} \
+            "${API}/repos/${REPO}/compare/${parent_sha}...${latest_sha}")
+        
+        latest_files=$(echo "$files_json" | jq -r '
+          .files[]
+          | select(.filename | startswith(env.PATH_IN_REPO + "/"))
+          | .filename
+        ' | head -n 12)
 
         echo $latest_files
         
