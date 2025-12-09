@@ -57,6 +57,8 @@ jobs:
       run: |
         curl -s "https://raw.githubusercontent.com/maimengmeng/mysub/refs/heads/main/valid_content.txt" -o ./sub/nodes_mmm.txt
         curl -s "https://raw.githubusercontent.com/free-nodes/v2rayfree/refs/heads/main/v2" -o ./sub/nodes_v2_base64
+        curl -s "https://raw.githubusercontent.com/ovmvo/SubShare/refs/heads/main/sub/permanent/mihomo.yaml" -o ./sub//mihomo.yaml
+        curl -s "https://raw.githubusercontent.com/ovmvo/SubShare/refs/heads/main/sub/latest/94154066.yaml" -o ./sub/latest.yaml
         
       shell: bash
       continue-on-error: true  # 即使出错也继续执行后续步骤
