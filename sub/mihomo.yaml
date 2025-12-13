@@ -5,186 +5,133 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 001 | ⬇️ 4KB/s, server: 8.218.207.5, port: 20344, type: http, username: kZXMC3Z1, password: nOEy3w0R, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 002 | ⬇️ 7KB/s, server: 8.218.207.5, port: 20344, type: http, username: kZXMC3Z1, password: nOEy3w0R, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 003 | ⬇️ 1MB/s, server: 154.29.151.219, port: 38353, type: http, username: kZXMC3Z1, password: V8SKoIbr, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 004 | ⬇️ 970KB/s, server: 154.29.151.219, port: 38353, type: http, username: kZXMC3Z1, password: V8SKoIbr, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 005 | ⬇️ 941KB/s, server: 154.29.151.219, port: 38353, type: http, username: kZXMC3Z1, password: V8SKoIbr, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 006 | ⬇️ 1MB/s, server: 154.29.151.219, port: 38353, type: http, username: kZXMC3Z1, password: V8SKoIbr, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 007 | ⬇️ 151KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 008 | ⬇️ 359KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 009 | ⬇️ 156KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 010 | ⬇️ 171KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 011 | ⬇️ 198KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 012 | ⬇️ 32KB/s, server: 8.218.207.5, port: 20344, type: http, username: kZXMC3Z1, password: nOEy3w0R, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 013 | ⬇️ 150KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 014 | ⬇️ 232KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 015 | ⬇️ 153KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 016 | ⬇️ 181KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 017 | ⬇️ 15KB/s, server: 8.218.207.5, port: 20344, type: http, username: kZXMC3Z1, password: nOEy3w0R, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 018 | ⬇️ 175KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 019 | ⬇️ 144KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 020 | ⬇️ 19KB/s, server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: 123}
-  - {name: 🎁 t.me/PFSub | 🇯🇵 JP 021 | ⬇️ 57KB/s, server: 47.74.5.51, port: 8002, type: vless, uuid: 00000000-0000-4000-8000-000000000000, tls: true, servername: kus.mais.ip-ddns.com, client-fingerprint: chrome, network: ws, ws-opts: {path: /@Marisa_kristi, headers: {Host: kus.mais.ip-ddns.com}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 022 | ⬇️ 222KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 023 | ⬇️ 8KB/s, server: 8.218.207.5, port: 20344, type: http, username: kZXMC3Z1, password: nOEy3w0R, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 024 | ⬇️ 15KB/s, server: 8.218.207.5, port: 20344, type: http, username: kZXMC3Z1, password: nOEy3w0R, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 025 | ⬇️ 13KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 026 | ⬇️ 13KB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 027 | ⬇️ 6KB/s, server: 8.218.207.5, port: 20344, type: http, username: kZXMC3Z1, password: nOEy3w0R, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 028 | ⬇️ 8KB/s, server: 8.218.207.5, port: 20344, type: http, username: kZXMC3Z1, password: nOEy3w0R, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 029 | ⬇️ 51KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇹🇼 TW 030 | ⬇️ 38KB/s, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 031 | ⬇️ 6KB/s, server: 8.218.207.5, port: 20344, type: http, username: kZXMC3Z1, password: nOEy3w0R, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 032 | ⬇️ 21KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇹🇼 TW 033 | ⬇️ 585KB/s, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true}
-  - {name: 🎁 t.me/PFSub | 🇮🇪 IE 034 | ⬇️ 1MB/s, server: 54.246.35.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 035 | ⬇️ 503KB/s, server: 184.72.124.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 036 | ⬇️ 8KB/s, server: 103.186.154.13, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 037 | ⬇️ 12KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 038 | ⬇️ 11KB/s, server: 103.186.154.58, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 039 | ⬇️ 143KB/s, server: 103.186.154.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 040 | ⬇️ 10KB/s, server: 103.186.155.3, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 041 | ⬇️ 11KB/s, server: 103.186.155.222, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 042 | ⬇️ 391KB/s, server: 98.81.59.20, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 043 | ⬇️ 12KB/s, server: 103.186.155.232, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 044 | ⬇️ 21KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 045 | ⬇️ 13KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇸🇪 SE 046 | ⬇️ 114KB/s, server: 51.20.125.235, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 047 | ⬇️ 3MB/s, server: kevin.vpny.online, port: 22002, type: hysteria2, password: "@KevinZakarian", auth: "@KevinZakarian", skip-cert-verify: true, obfs: salamander, obfs-password: KevinZakarian}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 048 | ⬇️ 10KB/s, server: 103.186.155.204, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇯🇵 JP 049 | ⬇️ 1MB/s, server: 103.134.35.75, port: 38736, type: http, username: kZXMC3Z1, password: vZ9gnU, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 050 | ⬇️ 226KB/s, server: 85.209.53.170, port: 80, type: hysteria2, password: 7f23c97d-5978-48d8-ab23-9b35188b4f9a, auth: 7f23c97d-5978-48d8-ab23-9b35188b4f9a, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 051 | ⬇️ 457KB/s, server: 103.186.154.234, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 052 | ⬇️ 46KB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 053 | ⬇️ 11KB/s, server: 103.186.154.80, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 054 | ⬇️ 18KB/s, server: 103.186.155.133, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 055 | ⬇️ 222KB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 056 | ⬇️ 12KB/s, server: 103.186.155.143, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇯🇵 JP 057 | ⬇️ 2MB/s, server: 103.134.35.75, port: 38736, type: http, username: kZXMC3Z1, password: vZ9gnU, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 058 | ⬇️ 923KB/s, server: 13.218.107.141, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 059 | ⬇️ 22KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 060 | ⬇️ 12KB/s, server: 8.218.207.5, port: 20344, type: http, username: kZXMC3Z1, password: nOEy3w0R, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 061 | ⬇️ 20KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 062 | ⬇️ 747KB/s, server: 98.89.32.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 063 | ⬇️ 646KB/s, server: 3.89.113.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 064 | ⬇️ 550KB/s, server: 54.91.94.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 065 | ⬇️ 12KB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 066 | ⬇️ 256KB/s, server: 184.72.124.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 067 | ⬇️ 214KB/s, server: 85.209.53.170, port: 80, type: hysteria2, password: 16946742-5a43-4888-ad2c-eaeaaffafe7f, auth: 16946742-5a43-4888-ad2c-eaeaaffafe7f, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 068 | ⬇️ 11KB/s, server: 103.186.154.174, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 069 | ⬇️ 10KB/s, server: 103.186.154.182, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 070 | ⬇️ 213KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: 7f1681a2-c47d-4fe5-9a28-91c5e69b2440, auth: 7f1681a2-c47d-4fe5-9a28-91c5e69b2440, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 071 | ⬇️ 1MB/s, server: 54.227.38.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 072 | ⬇️ 20KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇯🇵 JP 073 | ⬇️ 63KB/s, server: 47.74.5.51, port: 8002, type: vless, uuid: 00000000-0000-4000-8000-000000000000, tls: true, servername: miku.mikuru.ip-ddns.com, client-fingerprint: chrome, network: ws, ws-opts: {path: /@Marisa_kristi, headers: {Host: miku.mikuru.ip-ddns.com}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 074 | ⬇️ 217KB/s, server: 98.89.32.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 075 | ⬇️ 13KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇸🇪 SE 076 | ⬇️ 133KB/s, server: 13.61.13.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇸🇪 SE 077 | ⬇️ 72KB/s, server: 51.20.125.235, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 078 | ⬇️ 10KB/s, server: 103.186.154.243, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 079 | ⬇️ 12KB/s, server: 103.186.155.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 080 | ⬇️ 25KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 081 | ⬇️ 10KB/s, server: 103.186.155.132, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇫🇷 FR 082 | ⬇️ 471KB/s, server: 13.38.24.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 083 | ⬇️ 10KB/s, server: 103.186.154.244, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇫🇷 FR 084 | ⬇️ 1MB/s, server: 35.180.209.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇸🇪 SE 085 | ⬇️ 287KB/s, server: 13.61.13.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 086 | ⬇️ 11KB/s, server: 103.186.154.238, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 087 | ⬇️ 113KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: f5f29134-d123-4822-b1ce-f5975b046988, auth: f5f29134-d123-4822-b1ce-f5975b046988, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 088 | ⬇️ 594KB/s, server: 54.159.62.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 089 | ⬇️ 10KB/s, server: 103.186.154.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 090 | ⬇️ 18KB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇯🇵 JP 091 | ⬇️ 1MB/s, server: 103.134.35.75, port: 38736, type: http, username: kZXMC3Z1, password: vZ9gnU, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇮🇪 IE 092 | ⬇️ 203KB/s, server: 34.251.86.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 093 | ⬇️ 726KB/s, server: 184.72.124.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 094 | ⬇️ 16KB/s, server: 103.186.155.69, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 095 | ⬇️ 11KB/s, server: 103.186.155.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 096 | ⬇️ 12KB/s, server: 103.186.155.65, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇮🇪 IE 097 | ⬇️ 417KB/s, server: 54.246.35.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 098 | ⬇️ 11KB/s, server: 103.186.155.153, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 099 | ⬇️ 16KB/s, server: 103.186.155.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇸🇪 SE 100 | ⬇️ 1MB/s, server: 13.61.13.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 101 | ⬇️ 496KB/s, server: 54.159.62.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 102 | ⬇️ 502KB/s, server: 13.222.155.147, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 103 | ⬇️ 95KB/s, server: 185.136.132.171, port: 24170, type: vless, uuid: fe21e399-ec6f-4cb5-8441-e911178665b1, tls: true, reality-opts: {public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4, short-id: "2fb2106a629b" }, servername: speedtest.net, client-fingerprint: chrome, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 104 | ⬇️ 12KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 105 | ⬇️ 221KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: 855d914b-a74b-4477-bc0a-d9cc15cb359f, auth: 855d914b-a74b-4477-bc0a-d9cc15cb359f, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 106 | ⬇️ 10KB/s, server: 103.186.154.63, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 107 | ⬇️ 11KB/s, server: 103.186.154.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 108 | ⬇️ 36KB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 109 | ⬇️ 17KB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇮🇪 IE 110 | ⬇️ 86KB/s, server: 34.251.86.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 111 | ⬇️ 222KB/s, server: 85.209.53.170, port: 80, type: hysteria2, password: 71944cc1-b7d2-4ff5-822e-169606d85959, auth: 71944cc1-b7d2-4ff5-822e-169606d85959, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 112 | ⬇️ 211KB/s, server: 85.209.53.170, port: 80, type: hysteria2, password: f9e8787d-48e9-4375-900a-e00ee42bf830, auth: f9e8787d-48e9-4375-900a-e00ee42bf830, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 113 | ⬇️ 221KB/s, server: 85.209.53.170, port: 80, type: hysteria2, password: fef5ca01-f954-4729-a798-b365ea60688c, auth: fef5ca01-f954-4729-a798-b365ea60688c, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 114 | ⬇️ 193KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: dd84018a-4e1e-4a38-acd6-f98742623564, auth: dd84018a-4e1e-4a38-acd6-f98742623564, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 115 | ⬇️ 17KB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 116 | ⬇️ 11KB/s, server: 103.186.155.135, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇵🇭 PH 117 | ⬇️ 10KB/s, server: 38.54.87.34, port: 10881, type: http, username: 09ahaEWmXn, password: Ejtp4SfY82, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 118 | ⬇️ 10KB/s, server: 103.186.154.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 119 | ⬇️ 10KB/s, server: 103.186.155.142, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 120 | ⬇️ 194KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: b66e7e79-2725-42e5-814a-63427de19cf5, auth: b66e7e79-2725-42e5-814a-63427de19cf5, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 121 | ⬇️ 16KB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 122 | ⬇️ 498KB/s, server: 54.91.94.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 123 | ⬇️ 274KB/s, server: 103.186.154.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 124 | ⬇️ 12KB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 125 | ⬇️ 12KB/s, server: 103.186.154.174, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 126 | ⬇️ 177KB/s, server: 85.209.53.170, port: 80, type: hysteria2, password: d27b8f81-0a9b-4fab-b743-539efa576ea6, auth: d27b8f81-0a9b-4fab-b743-539efa576ea6, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 127 | ⬇️ 219KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: 88af8c07-5ae3-4422-b942-913a19167912, auth: 88af8c07-5ae3-4422-b942-913a19167912, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 128 | ⬇️ 9KB/s, server: 103.186.155.232, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 129 | ⬇️ 1MB/s, server: 194.164.56.165, port: 9424, type: tuic, password: 3c19d79b-7692-4db9-85f0-36d6bb05997a, uuid: 3c19d79b-7692-4db9-85f0-36d6bb05997a, sni: example.com, skip-cert-verify: true, disable-sni: false, reduce-rtt: false, request-timeout: 0, congestion-controller: cubic}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 130 | ⬇️ 10KB/s, server: 103.186.155.138, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 131 | ⬇️ 9KB/s, server: 103.186.155.221, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 132 | ⬇️ 9KB/s, server: 103.186.155.69, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 133 | ⬇️ 173KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: 535e421a-03d1-46b7-8382-ca2ccfb356c4, auth: 535e421a-03d1-46b7-8382-ca2ccfb356c4, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 134 | ⬇️ 654KB/s, server: 98.81.59.20, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 135 | ⬇️ 209KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: 1c27366b-7816-442b-b5f9-89aec493c8a4, auth: 1c27366b-7816-442b-b5f9-89aec493c8a4, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 136 | ⬇️ 306KB/s, server: 13.218.107.141, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 137 | ⬇️ 210KB/s, server: 85.209.53.170, port: 80, type: hysteria2, password: d788aa37-baad-49e6-ab20-f9814b38033f, auth: d788aa37-baad-49e6-ab20-f9814b38033f, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 138 | ⬇️ 8KB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇮🇪 IE 139 | ⬇️ 162KB/s, server: 3.250.105.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 140 | ⬇️ 9KB/s, server: 103.186.155.145, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 141 | ⬇️ 94KB/s, server: 98.89.32.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 142 | ⬇️ 207KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: c5fd31d2-8514-444a-9fd9-6189b8d0d05c, auth: c5fd31d2-8514-444a-9fd9-6189b8d0d05c, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 143 | ⬇️ 227KB/s, server: 85.209.53.170, port: 80, type: hysteria2, password: cc963553-6663-43ff-83e1-548207f7b364, auth: cc963553-6663-43ff-83e1-548207f7b364, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 144 | ⬇️ 16KB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇫🇷 FR 145 | ⬇️ 1MB/s, server: 195.154.200.40, port: 15010, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 100, down: 100, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 146 | ⬇️ 16KB/s, server: 103.186.155.41, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 147 | ⬇️ 31KB/s, server: 103.186.155.109, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 148 | ⬇️ 200KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: 117b3d02-cdd0-4957-b88e-c03db3e7afca, auth: 117b3d02-cdd0-4957-b88e-c03db3e7afca, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 149 | ⬇️ 10KB/s, server: 103.186.154.54, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 150 | ⬇️ 10KB/s, server: 185.136.132.171, port: 24170, type: vless, uuid: fe21e399-ec6f-4cb5-8441-e911178665b1, tls: true, reality-opts: {public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4, short-id: "2fb2106a629b" }, servername: speedtest.net, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 151 | ⬇️ 8KB/s, server: 103.186.155.221, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 152 | ⬇️ 1MB/s, server: 185.136.132.171, port: 24170, type: vless, uuid: fe21e399-ec6f-4cb5-8441-e911178665b1, tls: true, reality-opts: {public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4, short-id: "2fb2106a629b" }, servername: speedtest.net, client-fingerprint: chrome, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 153 | ⬇️ 10KB/s, server: 103.186.155.128, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇸🇪 SE 154 | ⬇️ 505KB/s, server: 13.61.13.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 155 | ⬇️ 10KB/s, server: 103.186.155.234, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 156 | ⬇️ 10KB/s, server: 103.186.154.63, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 157 | ⬇️ 10KB/s, server: 103.186.154.13, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 158 | ⬇️ 11KB/s, server: 185.136.132.171, port: 24170, type: vless, uuid: fe21e399-ec6f-4cb5-8441-e911178665b1, tls: true, reality-opts: {public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4, short-id: "2fb2106a629b" }, servername: speedtest.net, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 159 | ⬇️ 397KB/s, server: 13.222.155.147, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 160 | ⬇️ 282KB/s, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 161 | ⬇️ 174KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: f5f29134-d123-4822-b1ce-f5975b046988, auth: f5f29134-d123-4822-b1ce-f5975b046988, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇫🇷 FR 162 | ⬇️ 813KB/s, server: 15.236.142.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 163 | ⬇️ 11KB/s, server: 103.186.154.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 164 | ⬇️ 249KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: 1e142a99-415f-4a94-8a41-124cc3a31528, auth: 1e142a99-415f-4a94-8a41-124cc3a31528, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 165 | ⬇️ 1MB/s, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 166 | ⬇️ 82KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: f820701a-5c24-485d-a2e2-07d69135aafa, auth: f820701a-5c24-485d-a2e2-07d69135aafa, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 167 | ⬇️ 11KB/s, server: 103.186.154.58, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 168 | ⬇️ 11KB/s, server: 103.186.155.222, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 169 | ⬇️ 29KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 170 | ⬇️ 679KB/s, server: 172.67.134.185, port: 443, type: trojan, password: POORIARED, sni: reDfRee8.REDFree8.ir, network: ws, ws-opts: {path: "/eyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560", headers: {Host: reDfRee8.REDFree8.ir}}}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 171 | ⬇️ 40KB/s, server: 91.98.92.70, port: 2025, type: vless, uuid: 40e5abcd-0770-4dee-9d76-a4827c776c12, tls: true, reality-opts: {public-key: LnDnwg2lFWruzisAY8t6ouWZ3JoQ_47XAl-jUx8tJx0, short-id: "acd96c5fc628f1" }, servername: miro.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn}}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 172 | ⬇️ 10KB/s, server: 103.186.155.65, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 173 | ⬇️ 2MB/s, server: 172.67.134.185, port: 443, type: trojan, password: POORIARED, sni: reDfRee8.REDFree8.ir, network: ws, ws-opts: {path: "/eyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560", headers: {Host: reDfRee8.REDFree8.ir}}}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 174 | ⬇️ 9KB/s, server: 103.186.154.159, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 175 | ⬇️ 19KB/s, server: 103.186.155.3, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 176 | ⬇️ 9KB/s, server: Ded.vspess.store, port: 4040, type: vless, uuid: 2163d112-4a09-4889-b095-eed65a9d1293, tls: false, network: ws, ws-opts: {path: /, headers: {Host: Ded.vspess.store}}}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 177 | ⬇️ 11KB/s, server: 103.186.155.204, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 178 | ⬇️ 16KB/s, server: 103.186.154.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 179 | ⬇️ 1011KB/s, server: 54.227.38.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🎁 t.me/PFSub | 🇸🇬 SG 180 | ⬇️ 8KB/s, server: 213.35.126.34, port: 10808, type: socks5}
+  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 001 | ⬇️ 13KB/s, server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: 123}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 002 | ⬇️ 104KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 003 | ⬇️ 105KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 004 | ⬇️ 169KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 005 | ⬇️ 114KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 006 | ⬇️ 105KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 007 | ⬇️ 122KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 008 | ⬇️ 123KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 009 | ⬇️ 186KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 010 | ⬇️ 142KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 011 | ⬇️ 120KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 012 | ⬇️ 149KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 013 | ⬇️ 105KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 014 | ⬇️ 10KB/s, server: 103.186.155.234, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇮🇪 IE 015 | ⬇️ 74KB/s, server: 34.251.86.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 016 | ⬇️ 17KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇹🇼 TW 017 | ⬇️ 53KB/s, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 018 | ⬇️ 10KB/s, server: 103.186.155.41, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 019 | ⬇️ 8KB/s, server: 103.186.155.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇮🇪 IE 020 | ⬇️ 921KB/s, server: 54.246.35.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 021 | ⬇️ 7KB/s, server: 103.186.155.222, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 022 | ⬇️ 10KB/s, server: 103.186.155.70, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 023 | ⬇️ 16KB/s, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 024 | ⬇️ 9KB/s, server: 103.186.154.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇸🇪 SE 025 | ⬇️ 539KB/s, server: 13.61.13.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇯🇵 JP 026 | ⬇️ 25KB/s, server: 178.239.126.118, port: 2443, type: vless, uuid: d6b62381-8d75-4a0c-9946-bf8f40772afe, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, servername: pizzastrada.jp, client-fingerprint: chrome, network: tcp}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 027 | ⬇️ 10KB/s, server: 103.186.155.69, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 028 | ⬇️ 11KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇮🇪 IE 029 | ⬇️ 925KB/s, server: 3.253.99.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 030 | ⬇️ 7KB/s, server: 103.186.155.103, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 031 | ⬇️ 4KB/s, server: 8.218.207.5, port: 20344, type: http, username: kZXMC3Z1, password: nOEy3w0R, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇮🇪 IE 032 | ⬇️ 113KB/s, server: 3.250.105.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇵🇭 PH 033 | ⬇️ 41KB/s, server: 38.54.87.34, port: 10881, type: http, username: 09ahaEWmXn, password: Ejtp4SfY82, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇮🇪 IE 034 | ⬇️ 24KB/s, server: 54.246.35.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 035 | ⬇️ 7KB/s, server: 103.186.155.70, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 036 | ⬇️ 23KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇯🇵 JP 037 | ⬇️ 211KB/s, server: 103.134.35.75, port: 38736, type: http, username: kZXMC3Z1, password: vZ9gnU, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 038 | ⬇️ 15KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 039 | ⬇️ 6KB/s, server: 103.186.154.174, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇵🇭 PH 040 | ⬇️ 22KB/s, server: 38.54.87.34, port: 10881, type: http, username: 09ahaEWmXn, password: Ejtp4SfY82, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 041 | ⬇️ 10KB/s, server: 103.186.155.153, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇵🇭 PH 042 | ⬇️ 177KB/s, server: 38.54.87.34, port: 10881, type: http, username: 09ahaEWmXn, password: Ejtp4SfY82, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 043 | ⬇️ 8KB/s, server: 103.186.155.142, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 044 | ⬇️ 8KB/s, server: 103.186.154.63, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 045 | ⬇️ 16KB/s, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 046 | ⬇️ 214KB/s, server: 85.209.53.170, port: 80, type: hysteria2, password: af8c9c3d-f394-4471-99c8-1c61d91f90c1, auth: af8c9c3d-f394-4471-99c8-1c61d91f90c1, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 047 | ⬇️ 8KB/s, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 048 | ⬇️ 10KB/s, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 049 | ⬇️ 752KB/s, server: 54.227.38.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇸🇪 SE 050 | ⬇️ 395KB/s, server: 51.20.125.235, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 051 | ⬇️ 213KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: 6b7a8c4b-73ab-4efa-8e3e-1270fb30cd86, auth: 6b7a8c4b-73ab-4efa-8e3e-1270fb30cd86, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 052 | ⬇️ 7KB/s, server: 103.186.155.234, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 053 | ⬇️ 851KB/s, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: e534d120-d32f-11ef-bdb9-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 054 | ⬇️ 219KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: 4454c089-948c-4a20-8e9f-3b6cba703a80, auth: 4454c089-948c-4a20-8e9f-3b6cba703a80, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 055 | ⬇️ 279KB/s, server: 98.81.59.20, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 056 | ⬇️ 15KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇸🇪 SE 057 | ⬇️ 326KB/s, server: 13.61.13.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 058 | ⬇️ 7KB/s, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 059 | ⬇️ 36KB/s, server: 184.72.124.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 060 | ⬇️ 9KB/s, server: 103.186.155.232, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 061 | ⬇️ 10KB/s, server: 103.186.155.145, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇮🇪 IE 062 | ⬇️ 469KB/s, server: 3.253.99.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇵🇭 PH 063 | ⬇️ 232KB/s, server: 38.54.87.34, port: 10881, type: http, username: 09ahaEWmXn, password: Ejtp4SfY82, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 064 | ⬇️ 9KB/s, server: 103.186.155.132, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇮🇪 IE 065 | ⬇️ 422KB/s, server: 34.251.86.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 066 | ⬇️ 76KB/s, server: 58.152.30.120, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 067 | ⬇️ 9KB/s, server: 103.186.154.234, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 068 | ⬇️ 104KB/s, server: 85.209.53.170, port: 80, type: hysteria2, password: 87a60198-e486-41cf-81d4-bbc7067f3caf, auth: 87a60198-e486-41cf-81d4-bbc7067f3caf, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 069 | ⬇️ 161KB/s, server: 13.222.155.147, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 070 | ⬇️ 13KB/s, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 071 | ⬇️ 9KB/s, server: 103.186.154.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇵🇭 PH 072 | ⬇️ 195KB/s, server: 38.54.87.34, port: 10881, type: http, username: 09ahaEWmXn, password: Ejtp4SfY82, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 073 | ⬇️ 189KB/s, server: 3.89.113.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇮🇪 IE 074 | ⬇️ 1MB/s, server: 54.246.35.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 075 | ⬇️ 8KB/s, server: 103.186.155.69, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 076 | ⬇️ 53KB/s, server: 184.72.124.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 077 | ⬇️ 10KB/s, server: 8.218.207.5, port: 20344, type: http, username: kZXMC3Z1, password: nOEy3w0R, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 078 | ⬇️ 14KB/s, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 079 | ⬇️ 9KB/s, server: 103.186.154.63, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇮🇪 IE 080 | ⬇️ 2MB/s, server: 3.250.105.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 081 | ⬇️ 651KB/s, server: 54.227.38.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 082 | ⬇️ 24KB/s, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: 🎁 t.me/PFSub | 🇫🇷 FR 083 | ⬇️ 196KB/s, server: 195.154.202.111, port: 58290, type: trojan, password: 90y2l3mu48d10uy3ibad, sni: ads.x5.ru, skip-cert-verify: true, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 084 | ⬇️ 15KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 085 | ⬇️ 15KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇫🇷 FR 086 | ⬇️ 1MB/s, server: 195.154.200.40, port: 15010, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 100, down: 100, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3]}
+  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 087 | ⬇️ 186KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: ef1aa22a-8d90-401e-844b-c893e6d36c02, auth: ef1aa22a-8d90-401e-844b-c893e6d36c02, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 088 | ⬇️ 6KB/s, server: 8.218.207.5, port: 20344, type: http, username: kZXMC3Z1, password: nOEy3w0R, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 089 | ⬇️ 7KB/s, server: 23.88.119.83, port: 2025, type: vless, uuid: 280768e7-ebc7-48f1-91e8-af4fbe0f90b0, tls: true, reality-opts: {public-key: hGlEVjlgkbHz7APkZPO6ZV3WEtCJW3Wkdx7xOISyP3Y, short-id: "d9" }, servername: miro.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn}}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 090 | ⬇️ 739KB/s, server: 54.227.38.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇵🇭 PH 091 | ⬇️ 16KB/s, server: 38.54.87.34, port: 10881, type: http, username: 09ahaEWmXn, password: Ejtp4SfY82, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇮🇪 IE 092 | ⬇️ 41KB/s, server: 34.251.86.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇸🇪 SE 093 | ⬇️ 57KB/s, server: 51.20.125.235, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 094 | ⬇️ 218KB/s, server: 85.209.53.170, port: 80, type: hysteria2, password: 3b8791be-f45b-43cb-aaf3-4a5b91131d41, auth: 3b8791be-f45b-43cb-aaf3-4a5b91131d41, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 095 | ⬇️ 17KB/s, server: 8.218.207.5, port: 20344, type: http, username: kZXMC3Z1, password: nOEy3w0R, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 096 | ⬇️ 9KB/s, server: 103.186.155.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 097 | ⬇️ 55KB/s, server: 58.152.30.120, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🎁 t.me/PFSub | 🇮🇪 IE 098 | ⬇️ 475KB/s, server: 34.251.86.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 099 | ⬇️ 15KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 100 | ⬇️ 7KB/s, server: 103.186.155.135, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 101 | ⬇️ 7KB/s, server: 103.186.154.243, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 102 | ⬇️ 38KB/s, server: 8.218.207.5, port: 20344, type: http, username: kZXMC3Z1, password: nOEy3w0R, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 103 | ⬇️ 346KB/s, server: 54.227.38.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇫🇷 FR 104 | ⬇️ 206KB/s, server: 15.236.122.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇫🇷 FR 105 | ⬇️ 3MB/s, server: 62.210.196.68, port: 26691, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11 Mbps, down: 55 Mbps, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3]}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 106 | ⬇️ 416KB/s, server: 58.152.30.120, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 107 | ⬇️ 609KB/s, server: 13.218.107.141, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 108 | ⬇️ 86KB/s, server: 13.218.107.141, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 109 | ⬇️ 10KB/s, server: 103.186.154.234, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 110 | ⬇️ 9KB/s, server: 103.186.154.182, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 111 | ⬇️ 49KB/s, server: 58.152.53.174, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 112 | ⬇️ 7KB/s, server: 121.169.46.116, port: 1090, type: socks5}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 113 | ⬇️ 325KB/s, server: 3.89.113.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇸🇪 SE 114 | ⬇️ 66KB/s, server: 51.20.125.235, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 115 | ⬇️ 115KB/s, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 116 | ⬇️ 12KB/s, server: 172.93.165.193, port: 36855, type: http, username: xZedCGy2A5, password: 76nlxJLO35, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 117 | ⬇️ 30KB/s, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: hkt.gotochinatown.net, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
+  - {name: 🎁 t.me/PFSub | 🇵🇭 PH 118 | ⬇️ 10KB/s, server: 38.54.87.34, port: 10881, type: http, username: 09ahaEWmXn, password: Ejtp4SfY82, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 119 | ⬇️ 10KB/s, server: 103.186.155.232, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇵🇭 PH 120 | ⬇️ 55KB/s, server: 38.54.87.34, port: 10881, type: http, username: 09ahaEWmXn, password: Ejtp4SfY82, tls: false}
+  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 121 | ⬇️ 199KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: ef1aa22a-8d90-401e-844b-c893e6d36c02, auth: ef1aa22a-8d90-401e-844b-c893e6d36c02, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 122 | ⬇️ 10KB/s, server: 103.186.155.234, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 123 | ⬇️ 76KB/s, server: 58.152.25.242, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 124 | ⬇️ 165KB/s, server: 85.209.53.170, port: 443, type: hysteria2, password: 936cd851-5e3b-4774-8f31-3bca691be50c, auth: 936cd851-5e3b-4774-8f31-3bca691be50c, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 125 | ⬇️ 226KB/s, server: 85.209.53.170, port: 80, type: hysteria2, password: ea1cdc31-3518-44d1-9cfe-ad9db6a4fe41, auth: ea1cdc31-3518-44d1-9cfe-ad9db6a4fe41, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🎁 t.me/PFSub | 🇺🇸 US 126 | ⬇️ 132KB/s, server: 184.72.124.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 127 | ⬇️ 37KB/s, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -203,558 +150,399 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🎁 t.me/PFSub | 🇭🇰 HK 001 | ⬇️ 4KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 002 | ⬇️ 7KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 003 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 004 | ⬇️ 970KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 005 | ⬇️ 941KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 006 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 007 | ⬇️ 151KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 008 | ⬇️ 359KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 009 | ⬇️ 156KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 010 | ⬇️ 171KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 011 | ⬇️ 198KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 012 | ⬇️ 32KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 013 | ⬇️ 150KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 014 | ⬇️ 232KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 015 | ⬇️ 153KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 016 | ⬇️ 181KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 017 | ⬇️ 15KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 018 | ⬇️ 175KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 019 | ⬇️ 144KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 020 | ⬇️ 19KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 021 | ⬇️ 57KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 022 | ⬇️ 222KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 023 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 024 | ⬇️ 15KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 025 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 026 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 027 | ⬇️ 6KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 028 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 029 | ⬇️ 51KB/s
-      - 🎁 t.me/PFSub | 🇹🇼 TW 030 | ⬇️ 38KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 031 | ⬇️ 6KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 032 | ⬇️ 21KB/s
-      - 🎁 t.me/PFSub | 🇹🇼 TW 033 | ⬇️ 585KB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 034 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 035 | ⬇️ 503KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 036 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 037 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 038 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 039 | ⬇️ 143KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 040 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 041 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 042 | ⬇️ 391KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 043 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 044 | ⬇️ 21KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 045 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 046 | ⬇️ 114KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 047 | ⬇️ 3MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 048 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 049 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 050 | ⬇️ 226KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 051 | ⬇️ 457KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 052 | ⬇️ 46KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 053 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 054 | ⬇️ 18KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 055 | ⬇️ 222KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 056 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 057 | ⬇️ 2MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 058 | ⬇️ 923KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 059 | ⬇️ 22KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 060 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 061 | ⬇️ 20KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 062 | ⬇️ 747KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 063 | ⬇️ 646KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 064 | ⬇️ 550KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 065 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 066 | ⬇️ 256KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 067 | ⬇️ 214KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 068 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 069 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 070 | ⬇️ 213KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 071 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 072 | ⬇️ 20KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 073 | ⬇️ 63KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 074 | ⬇️ 217KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 075 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 076 | ⬇️ 133KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 077 | ⬇️ 72KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 078 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 079 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 080 | ⬇️ 25KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 081 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇫🇷 FR 082 | ⬇️ 471KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 083 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇫🇷 FR 084 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 085 | ⬇️ 287KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 086 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 087 | ⬇️ 113KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 088 | ⬇️ 594KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 089 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 090 | ⬇️ 18KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 091 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 092 | ⬇️ 203KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 093 | ⬇️ 726KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 094 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 095 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 096 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 097 | ⬇️ 417KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 098 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 099 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 100 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 101 | ⬇️ 496KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 102 | ⬇️ 502KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 103 | ⬇️ 95KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 104 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 105 | ⬇️ 221KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 106 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 107 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 108 | ⬇️ 36KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 109 | ⬇️ 17KB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 110 | ⬇️ 86KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 111 | ⬇️ 222KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 112 | ⬇️ 211KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 113 | ⬇️ 221KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 114 | ⬇️ 193KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 115 | ⬇️ 17KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 116 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇵🇭 PH 117 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 118 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇳🇱 NL 001 | ⬇️ 13KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 002 | ⬇️ 104KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 003 | ⬇️ 105KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 004 | ⬇️ 169KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 005 | ⬇️ 114KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 006 | ⬇️ 105KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 007 | ⬇️ 122KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 008 | ⬇️ 123KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 009 | ⬇️ 186KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 010 | ⬇️ 142KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 011 | ⬇️ 120KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 012 | ⬇️ 149KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 013 | ⬇️ 105KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 014 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 015 | ⬇️ 74KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 016 | ⬇️ 17KB/s
+      - 🎁 t.me/PFSub | 🇹🇼 TW 017 | ⬇️ 53KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 018 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 019 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 020 | ⬇️ 921KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 021 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 022 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 023 | ⬇️ 16KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 024 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 025 | ⬇️ 539KB/s
+      - 🎁 t.me/PFSub | 🇯🇵 JP 026 | ⬇️ 25KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 027 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 028 | ⬇️ 11KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 029 | ⬇️ 925KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 030 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 031 | ⬇️ 4KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 032 | ⬇️ 113KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 033 | ⬇️ 41KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 034 | ⬇️ 24KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 035 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 036 | ⬇️ 23KB/s
+      - 🎁 t.me/PFSub | 🇯🇵 JP 037 | ⬇️ 211KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 038 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 039 | ⬇️ 6KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 040 | ⬇️ 22KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 041 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 042 | ⬇️ 177KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 043 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 044 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 045 | ⬇️ 16KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 046 | ⬇️ 214KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 047 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 048 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 049 | ⬇️ 752KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 050 | ⬇️ 395KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 051 | ⬇️ 213KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 052 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 053 | ⬇️ 851KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 054 | ⬇️ 219KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 055 | ⬇️ 279KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 056 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 057 | ⬇️ 326KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 058 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 059 | ⬇️ 36KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 060 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 061 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 062 | ⬇️ 469KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 063 | ⬇️ 232KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 064 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 065 | ⬇️ 422KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 066 | ⬇️ 76KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 067 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 068 | ⬇️ 104KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 069 | ⬇️ 161KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 070 | ⬇️ 13KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 071 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 072 | ⬇️ 195KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 073 | ⬇️ 189KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 074 | ⬇️ 1MB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 075 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 076 | ⬇️ 53KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 077 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 078 | ⬇️ 14KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 079 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 080 | ⬇️ 2MB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 081 | ⬇️ 651KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 082 | ⬇️ 24KB/s
+      - 🎁 t.me/PFSub | 🇫🇷 FR 083 | ⬇️ 196KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 084 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 085 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇫🇷 FR 086 | ⬇️ 1MB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 087 | ⬇️ 186KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 088 | ⬇️ 6KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 089 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 090 | ⬇️ 739KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 091 | ⬇️ 16KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 092 | ⬇️ 41KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 093 | ⬇️ 57KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 094 | ⬇️ 218KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 095 | ⬇️ 17KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 096 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 097 | ⬇️ 55KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 098 | ⬇️ 475KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 099 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 100 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 101 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 102 | ⬇️ 38KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 103 | ⬇️ 346KB/s
+      - 🎁 t.me/PFSub | 🇫🇷 FR 104 | ⬇️ 206KB/s
+      - 🎁 t.me/PFSub | 🇫🇷 FR 105 | ⬇️ 3MB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 106 | ⬇️ 416KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 107 | ⬇️ 609KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 108 | ⬇️ 86KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 109 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 110 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 111 | ⬇️ 49KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 112 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 113 | ⬇️ 325KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 114 | ⬇️ 66KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 115 | ⬇️ 115KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 116 | ⬇️ 12KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 117 | ⬇️ 30KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 118 | ⬇️ 10KB/s
       - 🎁 t.me/PFSub | 🇻🇳 VN 119 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 120 | ⬇️ 194KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 121 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 122 | ⬇️ 498KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 123 | ⬇️ 274KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 124 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 125 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 126 | ⬇️ 177KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 127 | ⬇️ 219KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 128 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 129 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 130 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 131 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 132 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 133 | ⬇️ 173KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 134 | ⬇️ 654KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 135 | ⬇️ 209KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 136 | ⬇️ 306KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 137 | ⬇️ 210KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 138 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 139 | ⬇️ 162KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 140 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 141 | ⬇️ 94KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 142 | ⬇️ 207KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 143 | ⬇️ 227KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 144 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇫🇷 FR 145 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 146 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 147 | ⬇️ 31KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 148 | ⬇️ 200KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 149 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 150 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 151 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 152 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 153 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 154 | ⬇️ 505KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 155 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 156 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 157 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 158 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 159 | ⬇️ 397KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 160 | ⬇️ 282KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 161 | ⬇️ 174KB/s
-      - 🎁 t.me/PFSub | 🇫🇷 FR 162 | ⬇️ 813KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 163 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 164 | ⬇️ 249KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 165 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 166 | ⬇️ 82KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 167 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 168 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 169 | ⬇️ 29KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 170 | ⬇️ 679KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 171 | ⬇️ 40KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 172 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 173 | ⬇️ 2MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 174 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 175 | ⬇️ 19KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 176 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 177 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 178 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 179 | ⬇️ 1011KB/s
-      - 🎁 t.me/PFSub | 🇸🇬 SG 180 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 120 | ⬇️ 55KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 121 | ⬇️ 199KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 122 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 123 | ⬇️ 76KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 124 | ⬇️ 165KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 125 | ⬇️ 226KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 126 | ⬇️ 132KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 127 | ⬇️ 37KB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🎁 t.me/PFSub | 🇭🇰 HK 001 | ⬇️ 4KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 002 | ⬇️ 7KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 003 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 004 | ⬇️ 970KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 005 | ⬇️ 941KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 006 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 007 | ⬇️ 151KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 008 | ⬇️ 359KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 009 | ⬇️ 156KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 010 | ⬇️ 171KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 011 | ⬇️ 198KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 012 | ⬇️ 32KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 013 | ⬇️ 150KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 014 | ⬇️ 232KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 015 | ⬇️ 153KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 016 | ⬇️ 181KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 017 | ⬇️ 15KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 018 | ⬇️ 175KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 019 | ⬇️ 144KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 020 | ⬇️ 19KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 021 | ⬇️ 57KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 022 | ⬇️ 222KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 023 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 024 | ⬇️ 15KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 025 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 026 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 027 | ⬇️ 6KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 028 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 029 | ⬇️ 51KB/s
-      - 🎁 t.me/PFSub | 🇹🇼 TW 030 | ⬇️ 38KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 031 | ⬇️ 6KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 032 | ⬇️ 21KB/s
-      - 🎁 t.me/PFSub | 🇹🇼 TW 033 | ⬇️ 585KB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 034 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 035 | ⬇️ 503KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 036 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 037 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 038 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 039 | ⬇️ 143KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 040 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 041 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 042 | ⬇️ 391KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 043 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 044 | ⬇️ 21KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 045 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 046 | ⬇️ 114KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 047 | ⬇️ 3MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 048 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 049 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 050 | ⬇️ 226KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 051 | ⬇️ 457KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 052 | ⬇️ 46KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 053 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 054 | ⬇️ 18KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 055 | ⬇️ 222KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 056 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 057 | ⬇️ 2MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 058 | ⬇️ 923KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 059 | ⬇️ 22KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 060 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 061 | ⬇️ 20KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 062 | ⬇️ 747KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 063 | ⬇️ 646KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 064 | ⬇️ 550KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 065 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 066 | ⬇️ 256KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 067 | ⬇️ 214KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 068 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 069 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 070 | ⬇️ 213KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 071 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 072 | ⬇️ 20KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 073 | ⬇️ 63KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 074 | ⬇️ 217KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 075 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 076 | ⬇️ 133KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 077 | ⬇️ 72KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 078 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 079 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 080 | ⬇️ 25KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 081 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇫🇷 FR 082 | ⬇️ 471KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 083 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇫🇷 FR 084 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 085 | ⬇️ 287KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 086 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 087 | ⬇️ 113KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 088 | ⬇️ 594KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 089 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 090 | ⬇️ 18KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 091 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 092 | ⬇️ 203KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 093 | ⬇️ 726KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 094 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 095 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 096 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 097 | ⬇️ 417KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 098 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 099 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 100 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 101 | ⬇️ 496KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 102 | ⬇️ 502KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 103 | ⬇️ 95KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 104 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 105 | ⬇️ 221KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 106 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 107 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 108 | ⬇️ 36KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 109 | ⬇️ 17KB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 110 | ⬇️ 86KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 111 | ⬇️ 222KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 112 | ⬇️ 211KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 113 | ⬇️ 221KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 114 | ⬇️ 193KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 115 | ⬇️ 17KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 116 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇵🇭 PH 117 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 118 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇳🇱 NL 001 | ⬇️ 13KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 002 | ⬇️ 104KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 003 | ⬇️ 105KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 004 | ⬇️ 169KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 005 | ⬇️ 114KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 006 | ⬇️ 105KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 007 | ⬇️ 122KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 008 | ⬇️ 123KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 009 | ⬇️ 186KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 010 | ⬇️ 142KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 011 | ⬇️ 120KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 012 | ⬇️ 149KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 013 | ⬇️ 105KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 014 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 015 | ⬇️ 74KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 016 | ⬇️ 17KB/s
+      - 🎁 t.me/PFSub | 🇹🇼 TW 017 | ⬇️ 53KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 018 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 019 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 020 | ⬇️ 921KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 021 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 022 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 023 | ⬇️ 16KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 024 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 025 | ⬇️ 539KB/s
+      - 🎁 t.me/PFSub | 🇯🇵 JP 026 | ⬇️ 25KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 027 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 028 | ⬇️ 11KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 029 | ⬇️ 925KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 030 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 031 | ⬇️ 4KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 032 | ⬇️ 113KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 033 | ⬇️ 41KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 034 | ⬇️ 24KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 035 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 036 | ⬇️ 23KB/s
+      - 🎁 t.me/PFSub | 🇯🇵 JP 037 | ⬇️ 211KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 038 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 039 | ⬇️ 6KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 040 | ⬇️ 22KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 041 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 042 | ⬇️ 177KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 043 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 044 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 045 | ⬇️ 16KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 046 | ⬇️ 214KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 047 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 048 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 049 | ⬇️ 752KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 050 | ⬇️ 395KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 051 | ⬇️ 213KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 052 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 053 | ⬇️ 851KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 054 | ⬇️ 219KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 055 | ⬇️ 279KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 056 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 057 | ⬇️ 326KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 058 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 059 | ⬇️ 36KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 060 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 061 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 062 | ⬇️ 469KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 063 | ⬇️ 232KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 064 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 065 | ⬇️ 422KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 066 | ⬇️ 76KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 067 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 068 | ⬇️ 104KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 069 | ⬇️ 161KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 070 | ⬇️ 13KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 071 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 072 | ⬇️ 195KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 073 | ⬇️ 189KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 074 | ⬇️ 1MB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 075 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 076 | ⬇️ 53KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 077 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 078 | ⬇️ 14KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 079 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 080 | ⬇️ 2MB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 081 | ⬇️ 651KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 082 | ⬇️ 24KB/s
+      - 🎁 t.me/PFSub | 🇫🇷 FR 083 | ⬇️ 196KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 084 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 085 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇫🇷 FR 086 | ⬇️ 1MB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 087 | ⬇️ 186KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 088 | ⬇️ 6KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 089 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 090 | ⬇️ 739KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 091 | ⬇️ 16KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 092 | ⬇️ 41KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 093 | ⬇️ 57KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 094 | ⬇️ 218KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 095 | ⬇️ 17KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 096 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 097 | ⬇️ 55KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 098 | ⬇️ 475KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 099 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 100 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 101 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 102 | ⬇️ 38KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 103 | ⬇️ 346KB/s
+      - 🎁 t.me/PFSub | 🇫🇷 FR 104 | ⬇️ 206KB/s
+      - 🎁 t.me/PFSub | 🇫🇷 FR 105 | ⬇️ 3MB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 106 | ⬇️ 416KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 107 | ⬇️ 609KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 108 | ⬇️ 86KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 109 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 110 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 111 | ⬇️ 49KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 112 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 113 | ⬇️ 325KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 114 | ⬇️ 66KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 115 | ⬇️ 115KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 116 | ⬇️ 12KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 117 | ⬇️ 30KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 118 | ⬇️ 10KB/s
       - 🎁 t.me/PFSub | 🇻🇳 VN 119 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 120 | ⬇️ 194KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 121 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 122 | ⬇️ 498KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 123 | ⬇️ 274KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 124 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 125 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 126 | ⬇️ 177KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 127 | ⬇️ 219KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 128 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 129 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 130 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 131 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 132 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 133 | ⬇️ 173KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 134 | ⬇️ 654KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 135 | ⬇️ 209KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 136 | ⬇️ 306KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 137 | ⬇️ 210KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 138 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 139 | ⬇️ 162KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 140 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 141 | ⬇️ 94KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 142 | ⬇️ 207KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 143 | ⬇️ 227KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 144 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇫🇷 FR 145 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 146 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 147 | ⬇️ 31KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 148 | ⬇️ 200KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 149 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 150 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 151 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 152 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 153 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 154 | ⬇️ 505KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 155 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 156 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 157 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 158 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 159 | ⬇️ 397KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 160 | ⬇️ 282KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 161 | ⬇️ 174KB/s
-      - 🎁 t.me/PFSub | 🇫🇷 FR 162 | ⬇️ 813KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 163 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 164 | ⬇️ 249KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 165 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 166 | ⬇️ 82KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 167 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 168 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 169 | ⬇️ 29KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 170 | ⬇️ 679KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 171 | ⬇️ 40KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 172 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 173 | ⬇️ 2MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 174 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 175 | ⬇️ 19KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 176 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 177 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 178 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 179 | ⬇️ 1011KB/s
-      - 🎁 t.me/PFSub | 🇸🇬 SG 180 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 120 | ⬇️ 55KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 121 | ⬇️ 199KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 122 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 123 | ⬇️ 76KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 124 | ⬇️ 165KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 125 | ⬇️ 226KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 126 | ⬇️ 132KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 127 | ⬇️ 37KB/s
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🎁 t.me/PFSub | 🇭🇰 HK 001 | ⬇️ 4KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 002 | ⬇️ 7KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 003 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 004 | ⬇️ 970KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 005 | ⬇️ 941KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 006 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 007 | ⬇️ 151KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 008 | ⬇️ 359KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 009 | ⬇️ 156KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 010 | ⬇️ 171KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 011 | ⬇️ 198KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 012 | ⬇️ 32KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 013 | ⬇️ 150KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 014 | ⬇️ 232KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 015 | ⬇️ 153KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 016 | ⬇️ 181KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 017 | ⬇️ 15KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 018 | ⬇️ 175KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 019 | ⬇️ 144KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 020 | ⬇️ 19KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 021 | ⬇️ 57KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 022 | ⬇️ 222KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 023 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 024 | ⬇️ 15KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 025 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 026 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 027 | ⬇️ 6KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 028 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 029 | ⬇️ 51KB/s
-      - 🎁 t.me/PFSub | 🇹🇼 TW 030 | ⬇️ 38KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 031 | ⬇️ 6KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 032 | ⬇️ 21KB/s
-      - 🎁 t.me/PFSub | 🇹🇼 TW 033 | ⬇️ 585KB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 034 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 035 | ⬇️ 503KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 036 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 037 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 038 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 039 | ⬇️ 143KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 040 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 041 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 042 | ⬇️ 391KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 043 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 044 | ⬇️ 21KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 045 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 046 | ⬇️ 114KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 047 | ⬇️ 3MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 048 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 049 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 050 | ⬇️ 226KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 051 | ⬇️ 457KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 052 | ⬇️ 46KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 053 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 054 | ⬇️ 18KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 055 | ⬇️ 222KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 056 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 057 | ⬇️ 2MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 058 | ⬇️ 923KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 059 | ⬇️ 22KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 060 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 061 | ⬇️ 20KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 062 | ⬇️ 747KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 063 | ⬇️ 646KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 064 | ⬇️ 550KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 065 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 066 | ⬇️ 256KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 067 | ⬇️ 214KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 068 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 069 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 070 | ⬇️ 213KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 071 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 072 | ⬇️ 20KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 073 | ⬇️ 63KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 074 | ⬇️ 217KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 075 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 076 | ⬇️ 133KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 077 | ⬇️ 72KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 078 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 079 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 080 | ⬇️ 25KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 081 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇫🇷 FR 082 | ⬇️ 471KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 083 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇫🇷 FR 084 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 085 | ⬇️ 287KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 086 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 087 | ⬇️ 113KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 088 | ⬇️ 594KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 089 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 090 | ⬇️ 18KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 091 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 092 | ⬇️ 203KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 093 | ⬇️ 726KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 094 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 095 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 096 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 097 | ⬇️ 417KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 098 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 099 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 100 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 101 | ⬇️ 496KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 102 | ⬇️ 502KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 103 | ⬇️ 95KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 104 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 105 | ⬇️ 221KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 106 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 107 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 108 | ⬇️ 36KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 109 | ⬇️ 17KB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 110 | ⬇️ 86KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 111 | ⬇️ 222KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 112 | ⬇️ 211KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 113 | ⬇️ 221KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 114 | ⬇️ 193KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 115 | ⬇️ 17KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 116 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇵🇭 PH 117 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 118 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇳🇱 NL 001 | ⬇️ 13KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 002 | ⬇️ 104KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 003 | ⬇️ 105KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 004 | ⬇️ 169KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 005 | ⬇️ 114KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 006 | ⬇️ 105KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 007 | ⬇️ 122KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 008 | ⬇️ 123KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 009 | ⬇️ 186KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 010 | ⬇️ 142KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 011 | ⬇️ 120KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 012 | ⬇️ 149KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 013 | ⬇️ 105KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 014 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 015 | ⬇️ 74KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 016 | ⬇️ 17KB/s
+      - 🎁 t.me/PFSub | 🇹🇼 TW 017 | ⬇️ 53KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 018 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 019 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 020 | ⬇️ 921KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 021 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 022 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 023 | ⬇️ 16KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 024 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 025 | ⬇️ 539KB/s
+      - 🎁 t.me/PFSub | 🇯🇵 JP 026 | ⬇️ 25KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 027 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 028 | ⬇️ 11KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 029 | ⬇️ 925KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 030 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 031 | ⬇️ 4KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 032 | ⬇️ 113KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 033 | ⬇️ 41KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 034 | ⬇️ 24KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 035 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 036 | ⬇️ 23KB/s
+      - 🎁 t.me/PFSub | 🇯🇵 JP 037 | ⬇️ 211KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 038 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 039 | ⬇️ 6KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 040 | ⬇️ 22KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 041 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 042 | ⬇️ 177KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 043 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 044 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 045 | ⬇️ 16KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 046 | ⬇️ 214KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 047 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 048 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 049 | ⬇️ 752KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 050 | ⬇️ 395KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 051 | ⬇️ 213KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 052 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 053 | ⬇️ 851KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 054 | ⬇️ 219KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 055 | ⬇️ 279KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 056 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 057 | ⬇️ 326KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 058 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 059 | ⬇️ 36KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 060 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 061 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 062 | ⬇️ 469KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 063 | ⬇️ 232KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 064 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 065 | ⬇️ 422KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 066 | ⬇️ 76KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 067 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 068 | ⬇️ 104KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 069 | ⬇️ 161KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 070 | ⬇️ 13KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 071 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 072 | ⬇️ 195KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 073 | ⬇️ 189KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 074 | ⬇️ 1MB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 075 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 076 | ⬇️ 53KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 077 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 078 | ⬇️ 14KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 079 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 080 | ⬇️ 2MB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 081 | ⬇️ 651KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 082 | ⬇️ 24KB/s
+      - 🎁 t.me/PFSub | 🇫🇷 FR 083 | ⬇️ 196KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 084 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 085 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇫🇷 FR 086 | ⬇️ 1MB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 087 | ⬇️ 186KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 088 | ⬇️ 6KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 089 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 090 | ⬇️ 739KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 091 | ⬇️ 16KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 092 | ⬇️ 41KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 093 | ⬇️ 57KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 094 | ⬇️ 218KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 095 | ⬇️ 17KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 096 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 097 | ⬇️ 55KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 098 | ⬇️ 475KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 099 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 100 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 101 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 102 | ⬇️ 38KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 103 | ⬇️ 346KB/s
+      - 🎁 t.me/PFSub | 🇫🇷 FR 104 | ⬇️ 206KB/s
+      - 🎁 t.me/PFSub | 🇫🇷 FR 105 | ⬇️ 3MB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 106 | ⬇️ 416KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 107 | ⬇️ 609KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 108 | ⬇️ 86KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 109 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 110 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 111 | ⬇️ 49KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 112 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 113 | ⬇️ 325KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 114 | ⬇️ 66KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 115 | ⬇️ 115KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 116 | ⬇️ 12KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 117 | ⬇️ 30KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 118 | ⬇️ 10KB/s
       - 🎁 t.me/PFSub | 🇻🇳 VN 119 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 120 | ⬇️ 194KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 121 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 122 | ⬇️ 498KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 123 | ⬇️ 274KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 124 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 125 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 126 | ⬇️ 177KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 127 | ⬇️ 219KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 128 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 129 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 130 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 131 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 132 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 133 | ⬇️ 173KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 134 | ⬇️ 654KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 135 | ⬇️ 209KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 136 | ⬇️ 306KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 137 | ⬇️ 210KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 138 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 139 | ⬇️ 162KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 140 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 141 | ⬇️ 94KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 142 | ⬇️ 207KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 143 | ⬇️ 227KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 144 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇫🇷 FR 145 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 146 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 147 | ⬇️ 31KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 148 | ⬇️ 200KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 149 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 150 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 151 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 152 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 153 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 154 | ⬇️ 505KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 155 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 156 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 157 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 158 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 159 | ⬇️ 397KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 160 | ⬇️ 282KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 161 | ⬇️ 174KB/s
-      - 🎁 t.me/PFSub | 🇫🇷 FR 162 | ⬇️ 813KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 163 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 164 | ⬇️ 249KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 165 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 166 | ⬇️ 82KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 167 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 168 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 169 | ⬇️ 29KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 170 | ⬇️ 679KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 171 | ⬇️ 40KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 172 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 173 | ⬇️ 2MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 174 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 175 | ⬇️ 19KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 176 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 177 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 178 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 179 | ⬇️ 1011KB/s
-      - 🎁 t.me/PFSub | 🇸🇬 SG 180 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 120 | ⬇️ 55KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 121 | ⬇️ 199KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 122 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 123 | ⬇️ 76KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 124 | ⬇️ 165KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 125 | ⬇️ 226KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 126 | ⬇️ 132KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 127 | ⬇️ 37KB/s
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -762,186 +550,133 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🎁 t.me/PFSub | 🇭🇰 HK 001 | ⬇️ 4KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 002 | ⬇️ 7KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 003 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 004 | ⬇️ 970KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 005 | ⬇️ 941KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 006 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 007 | ⬇️ 151KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 008 | ⬇️ 359KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 009 | ⬇️ 156KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 010 | ⬇️ 171KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 011 | ⬇️ 198KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 012 | ⬇️ 32KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 013 | ⬇️ 150KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 014 | ⬇️ 232KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 015 | ⬇️ 153KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 016 | ⬇️ 181KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 017 | ⬇️ 15KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 018 | ⬇️ 175KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 019 | ⬇️ 144KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 020 | ⬇️ 19KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 021 | ⬇️ 57KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 022 | ⬇️ 222KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 023 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 024 | ⬇️ 15KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 025 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 026 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 027 | ⬇️ 6KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 028 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 029 | ⬇️ 51KB/s
-      - 🎁 t.me/PFSub | 🇹🇼 TW 030 | ⬇️ 38KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 031 | ⬇️ 6KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 032 | ⬇️ 21KB/s
-      - 🎁 t.me/PFSub | 🇹🇼 TW 033 | ⬇️ 585KB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 034 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 035 | ⬇️ 503KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 036 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 037 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 038 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 039 | ⬇️ 143KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 040 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 041 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 042 | ⬇️ 391KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 043 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 044 | ⬇️ 21KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 045 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 046 | ⬇️ 114KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 047 | ⬇️ 3MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 048 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 049 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 050 | ⬇️ 226KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 051 | ⬇️ 457KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 052 | ⬇️ 46KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 053 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 054 | ⬇️ 18KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 055 | ⬇️ 222KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 056 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 057 | ⬇️ 2MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 058 | ⬇️ 923KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 059 | ⬇️ 22KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 060 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 061 | ⬇️ 20KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 062 | ⬇️ 747KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 063 | ⬇️ 646KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 064 | ⬇️ 550KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 065 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 066 | ⬇️ 256KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 067 | ⬇️ 214KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 068 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 069 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 070 | ⬇️ 213KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 071 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 072 | ⬇️ 20KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 073 | ⬇️ 63KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 074 | ⬇️ 217KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 075 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 076 | ⬇️ 133KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 077 | ⬇️ 72KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 078 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 079 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 080 | ⬇️ 25KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 081 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇫🇷 FR 082 | ⬇️ 471KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 083 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇫🇷 FR 084 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 085 | ⬇️ 287KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 086 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 087 | ⬇️ 113KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 088 | ⬇️ 594KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 089 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 090 | ⬇️ 18KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 091 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 092 | ⬇️ 203KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 093 | ⬇️ 726KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 094 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 095 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 096 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 097 | ⬇️ 417KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 098 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 099 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 100 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 101 | ⬇️ 496KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 102 | ⬇️ 502KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 103 | ⬇️ 95KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 104 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 105 | ⬇️ 221KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 106 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 107 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 108 | ⬇️ 36KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 109 | ⬇️ 17KB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 110 | ⬇️ 86KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 111 | ⬇️ 222KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 112 | ⬇️ 211KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 113 | ⬇️ 221KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 114 | ⬇️ 193KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 115 | ⬇️ 17KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 116 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇵🇭 PH 117 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 118 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇳🇱 NL 001 | ⬇️ 13KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 002 | ⬇️ 104KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 003 | ⬇️ 105KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 004 | ⬇️ 169KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 005 | ⬇️ 114KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 006 | ⬇️ 105KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 007 | ⬇️ 122KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 008 | ⬇️ 123KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 009 | ⬇️ 186KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 010 | ⬇️ 142KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 011 | ⬇️ 120KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 012 | ⬇️ 149KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 013 | ⬇️ 105KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 014 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 015 | ⬇️ 74KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 016 | ⬇️ 17KB/s
+      - 🎁 t.me/PFSub | 🇹🇼 TW 017 | ⬇️ 53KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 018 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 019 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 020 | ⬇️ 921KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 021 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 022 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 023 | ⬇️ 16KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 024 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 025 | ⬇️ 539KB/s
+      - 🎁 t.me/PFSub | 🇯🇵 JP 026 | ⬇️ 25KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 027 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 028 | ⬇️ 11KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 029 | ⬇️ 925KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 030 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 031 | ⬇️ 4KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 032 | ⬇️ 113KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 033 | ⬇️ 41KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 034 | ⬇️ 24KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 035 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 036 | ⬇️ 23KB/s
+      - 🎁 t.me/PFSub | 🇯🇵 JP 037 | ⬇️ 211KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 038 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 039 | ⬇️ 6KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 040 | ⬇️ 22KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 041 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 042 | ⬇️ 177KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 043 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 044 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 045 | ⬇️ 16KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 046 | ⬇️ 214KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 047 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 048 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 049 | ⬇️ 752KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 050 | ⬇️ 395KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 051 | ⬇️ 213KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 052 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 053 | ⬇️ 851KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 054 | ⬇️ 219KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 055 | ⬇️ 279KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 056 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 057 | ⬇️ 326KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 058 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 059 | ⬇️ 36KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 060 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 061 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 062 | ⬇️ 469KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 063 | ⬇️ 232KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 064 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 065 | ⬇️ 422KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 066 | ⬇️ 76KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 067 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 068 | ⬇️ 104KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 069 | ⬇️ 161KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 070 | ⬇️ 13KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 071 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 072 | ⬇️ 195KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 073 | ⬇️ 189KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 074 | ⬇️ 1MB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 075 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 076 | ⬇️ 53KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 077 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 078 | ⬇️ 14KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 079 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 080 | ⬇️ 2MB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 081 | ⬇️ 651KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 082 | ⬇️ 24KB/s
+      - 🎁 t.me/PFSub | 🇫🇷 FR 083 | ⬇️ 196KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 084 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 085 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇫🇷 FR 086 | ⬇️ 1MB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 087 | ⬇️ 186KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 088 | ⬇️ 6KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 089 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 090 | ⬇️ 739KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 091 | ⬇️ 16KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 092 | ⬇️ 41KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 093 | ⬇️ 57KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 094 | ⬇️ 218KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 095 | ⬇️ 17KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 096 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 097 | ⬇️ 55KB/s
+      - 🎁 t.me/PFSub | 🇮🇪 IE 098 | ⬇️ 475KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 099 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 100 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 101 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 102 | ⬇️ 38KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 103 | ⬇️ 346KB/s
+      - 🎁 t.me/PFSub | 🇫🇷 FR 104 | ⬇️ 206KB/s
+      - 🎁 t.me/PFSub | 🇫🇷 FR 105 | ⬇️ 3MB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 106 | ⬇️ 416KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 107 | ⬇️ 609KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 108 | ⬇️ 86KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 109 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 110 | ⬇️ 9KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 111 | ⬇️ 49KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 112 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 113 | ⬇️ 325KB/s
+      - 🎁 t.me/PFSub | 🇸🇪 SE 114 | ⬇️ 66KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 115 | ⬇️ 115KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 116 | ⬇️ 12KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 117 | ⬇️ 30KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 118 | ⬇️ 10KB/s
       - 🎁 t.me/PFSub | 🇻🇳 VN 119 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 120 | ⬇️ 194KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 121 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 122 | ⬇️ 498KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 123 | ⬇️ 274KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 124 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 125 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 126 | ⬇️ 177KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 127 | ⬇️ 219KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 128 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 129 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 130 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 131 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 132 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 133 | ⬇️ 173KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 134 | ⬇️ 654KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 135 | ⬇️ 209KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 136 | ⬇️ 306KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 137 | ⬇️ 210KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 138 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇮🇪 IE 139 | ⬇️ 162KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 140 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 141 | ⬇️ 94KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 142 | ⬇️ 207KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 143 | ⬇️ 227KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 144 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇫🇷 FR 145 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 146 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 147 | ⬇️ 31KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 148 | ⬇️ 200KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 149 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 150 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 151 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 152 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 153 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇸🇪 SE 154 | ⬇️ 505KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 155 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 156 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 157 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 158 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 159 | ⬇️ 397KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 160 | ⬇️ 282KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 161 | ⬇️ 174KB/s
-      - 🎁 t.me/PFSub | 🇫🇷 FR 162 | ⬇️ 813KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 163 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 164 | ⬇️ 249KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 165 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 166 | ⬇️ 82KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 167 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 168 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 169 | ⬇️ 29KB/s
-      - 🎁 t.me/PFSub | 🇳🇱 NL 170 | ⬇️ 679KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 171 | ⬇️ 40KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 172 | ⬇️ 10KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 173 | ⬇️ 2MB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 174 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 175 | ⬇️ 19KB/s
-      - 🎁 t.me/PFSub | 🇩🇪 DE 176 | ⬇️ 9KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 177 | ⬇️ 11KB/s
-      - 🎁 t.me/PFSub | 🇻🇳 VN 178 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 179 | ⬇️ 1011KB/s
-      - 🎁 t.me/PFSub | 🇸🇬 SG 180 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇵🇭 PH 120 | ⬇️ 55KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 121 | ⬇️ 199KB/s
+      - 🎁 t.me/PFSub | 🇻🇳 VN 122 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 123 | ⬇️ 76KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 124 | ⬇️ 165KB/s
+      - 🎁 t.me/PFSub | 🇩🇪 DE 125 | ⬇️ 226KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 126 | ⬇️ 132KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 127 | ⬇️ 37KB/s
   - name: 📲 电报消息
     type: select
     proxies:
@@ -1153,117 +888,97 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🎁 t.me/PFSub | 🇭🇰 HK 001 | ⬇️ 4KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 002 | ⬇️ 7KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 012 | ⬇️ 32KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 017 | ⬇️ 15KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 023 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 024 | ⬇️ 15KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 025 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 027 | ⬇️ 6KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 028 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 029 | ⬇️ 51KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 031 | ⬇️ 6KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 032 | ⬇️ 21KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 037 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 044 | ⬇️ 21KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 045 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 059 | ⬇️ 22KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 060 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 061 | ⬇️ 20KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 072 | ⬇️ 20KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 075 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 080 | ⬇️ 25KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 104 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 160 | ⬇️ 282KB/s
-      - 🎁 t.me/PFSub | 🇭🇰 HK 169 | ⬇️ 29KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 016 | ⬇️ 17KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 028 | ⬇️ 11KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 031 | ⬇️ 4KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 036 | ⬇️ 23KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 038 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 053 | ⬇️ 851KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 056 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 066 | ⬇️ 76KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 077 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 084 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 085 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 088 | ⬇️ 6KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 095 | ⬇️ 17KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 097 | ⬇️ 55KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 099 | ⬇️ 15KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 102 | ⬇️ 38KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 106 | ⬇️ 416KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 111 | ⬇️ 49KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 115 | ⬇️ 115KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 116 | ⬇️ 12KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 117 | ⬇️ 30KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 123 | ⬇️ 76KB/s
+      - 🎁 t.me/PFSub | 🇭🇰 HK 127 | ⬇️ 37KB/s
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🎁 t.me/PFSub | 🇯🇵 JP 021 | ⬇️ 57KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 049 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 057 | ⬇️ 2MB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 073 | ⬇️ 63KB/s
-      - 🎁 t.me/PFSub | 🇯🇵 JP 091 | ⬇️ 1MB/s
+      - 🎁 t.me/PFSub | 🇯🇵 JP 026 | ⬇️ 25KB/s
+      - 🎁 t.me/PFSub | 🇯🇵 JP 037 | ⬇️ 211KB/s
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 🎁 t.me/PFSub | 🇺🇸 US 003 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 004 | ⬇️ 970KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 005 | ⬇️ 941KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 006 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 007 | ⬇️ 151KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 008 | ⬇️ 359KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 009 | ⬇️ 156KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 010 | ⬇️ 171KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 011 | ⬇️ 198KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 013 | ⬇️ 150KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 014 | ⬇️ 232KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 015 | ⬇️ 153KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 016 | ⬇️ 181KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 018 | ⬇️ 175KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 019 | ⬇️ 144KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 022 | ⬇️ 222KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 035 | ⬇️ 503KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 042 | ⬇️ 391KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 047 | ⬇️ 3MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 058 | ⬇️ 923KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 062 | ⬇️ 747KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 063 | ⬇️ 646KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 064 | ⬇️ 550KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 066 | ⬇️ 256KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 071 | ⬇️ 1MB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 074 | ⬇️ 217KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 088 | ⬇️ 594KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 093 | ⬇️ 726KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 101 | ⬇️ 496KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 102 | ⬇️ 502KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 122 | ⬇️ 498KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 134 | ⬇️ 654KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 136 | ⬇️ 306KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 141 | ⬇️ 94KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 159 | ⬇️ 397KB/s
-      - 🎁 t.me/PFSub | 🇺🇸 US 179 | ⬇️ 1011KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 002 | ⬇️ 104KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 003 | ⬇️ 105KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 004 | ⬇️ 169KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 005 | ⬇️ 114KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 006 | ⬇️ 105KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 007 | ⬇️ 122KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 008 | ⬇️ 123KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 009 | ⬇️ 186KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 010 | ⬇️ 142KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 011 | ⬇️ 120KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 012 | ⬇️ 149KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 013 | ⬇️ 105KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 049 | ⬇️ 752KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 055 | ⬇️ 279KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 059 | ⬇️ 36KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 069 | ⬇️ 161KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 073 | ⬇️ 189KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 076 | ⬇️ 53KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 081 | ⬇️ 651KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 090 | ⬇️ 739KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 103 | ⬇️ 346KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 107 | ⬇️ 609KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 108 | ⬇️ 86KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 113 | ⬇️ 325KB/s
+      - 🎁 t.me/PFSub | 🇺🇸 US 126 | ⬇️ 132KB/s
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🎁 t.me/PFSub | 🇹🇼 TW 030 | ⬇️ 38KB/s
-      - 🎁 t.me/PFSub | 🇹🇼 TW 033 | ⬇️ 585KB/s
+      - 🎁 t.me/PFSub | 🇹🇼 TW 017 | ⬇️ 53KB/s
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🎁 t.me/PFSub | 🇸🇬 SG 180 | ⬇️ 8KB/s
+      - DIRECT
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🎁 t.me/PFSub | 🇰🇷 KR 026 | ⬇️ 13KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 052 | ⬇️ 46KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 055 | ⬇️ 222KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 065 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 090 | ⬇️ 18KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 108 | ⬇️ 36KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 109 | ⬇️ 17KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 115 | ⬇️ 17KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 121 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 124 | ⬇️ 12KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 138 | ⬇️ 8KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 144 | ⬇️ 16KB/s
-      - 🎁 t.me/PFSub | 🇰🇷 KR 165 | ⬇️ 1MB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 023 | ⬇️ 16KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 045 | ⬇️ 16KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 047 | ⬇️ 8KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 048 | ⬇️ 10KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 058 | ⬇️ 7KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 070 | ⬇️ 13KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 078 | ⬇️ 14KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 082 | ⬇️ 24KB/s
+      - 🎁 t.me/PFSub | 🇰🇷 KR 112 | ⬇️ 7KB/s
   - name: 🎥 奈飞节点
     type: select
     proxies:
