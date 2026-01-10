@@ -26,6 +26,8 @@ jobs:
       run: |
         curl -s https://github.com/Alvin9999-newpac/fanqiang/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7 | grep -oP '(?<=data-snippet-clipboard-copy-content=")[^"]+' > ./freenode.txt
         curl -s https://github.com/Alvin9999-newpac/fanqiang/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7 | grep -oP '(?<=data-snippet-clipboard-copy-content=")[^"]+' >> ./freenode.txt     
+        curl -s https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/Vless.txt > ./freenode.txt
+        curl -s https://raw.githubusercontent.com/kismetpro/NodeSuber/refs/heads/main/Splitted-By-Protocol/hy2.txt >> ./freenode.txt
         sed -i 's/amp;//g' ./freenode.txt
         #cat ./freenode.txt | base64 -w 0  > ./sub/freenode-base64
         #cat ./freenode-base64
@@ -33,8 +35,6 @@ jobs:
       #continue-on-error: true  # 即使出错也继续执行后续步骤       
     - name: some more
       run: |
-        curl -s https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/Vless.txt > ./freenode.txt
-        curl -s https://raw.githubusercontent.com/kismetpro/NodeSuber/refs/heads/main/Splitted-By-Protocol/hy2.txt >> ./freenode.txt
         curl -s https://raw.githubusercontent.com/kismetpro/NodeSuber/refs/heads/main/Splitted-By-Protocol/tuic.txt >> ./freenode.txt
         #curl -s https://raw.githubusercontent.com/kismetpro/NodeSuber/refs/heads/main/Splitted-By-Protocol/trojan.txt >> ./freenode.txt
         curl -s https://raw.githubusercontent.com/Argh94/Proxy-List/refs/heads/main/Hysteria2.txt >> ./freenode.txt
