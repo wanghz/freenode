@@ -49,10 +49,7 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         #if ! git diff --quiet freenode-base64; then
-        echo "File has changes."
-        echo "1-检查时间：$(TZ=UTC-8 date +%Y-%m-%d" "%H:%M:%S)" > status
         git add .
-        git commit -m "节点更新时间：$(TZ=UTC-8 date +%Y-%m-%d" "%H:%M:%S)"
+        git diff --quiet && git diff --staged --quiet || git commit -m "🔄 Auto update proxies [$(date +'%Y-%m-%d %H:%M')]"
         git push
-
 
