@@ -1,274 +1,975 @@
 port: 7890
 socks-port: 7891
+mixed-port: 10801
+redir-port: 7892
+tproxy-port: 7893
 allow-lan: true
-mode: Rule
-log-level: info
-external-controller: 127.0.0.1:9090
-proxies:
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 001 | ⬇️ 8MB/s, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 002 | ⬇️ 709KB/s, server: 8.210.79.212, port: 55185, type: vmess, uuid: aa3c3018-288b-46f3-af1c-9044e18d6e5b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Notif_Chat}}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 003 | ⬇️ 1MB/s, server: 154.219.119.183, port: 36674, type: http, username: kotonica, password: asd2580369##, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 004 | ⬇️ 636KB/s, server: 47.243.135.74, port: 55185, type: vmess, uuid: 1375985e-334a-4c25-8f64-52a182bc8037, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Notif_Chat}}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 005 | ⬇️ 350KB/s, server: 8.218.208.153, port: 55185, type: vmess, uuid: 8f19ff04-9180-4776-9ebf-314d94a3e91b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Notif_Chat}}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 006 | ⬇️ 708KB/s, server: 47.238.95.38, port: 55185, type: vmess, uuid: 4c99bdf8-7860-4f0a-9fe2-27f7fc4be61a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Notif_Chat}}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 007 | ⬇️ 709KB/s, server: 8.210.132.120, port: 55185, type: vmess, uuid: 9525a9ae-ad0f-44cf-ae38-f946fe77ee78, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Notif_Chat}}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 008 | ⬇️ 1MB/s, server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: 123}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 009 | ⬇️ 10MB/s, server: 104.17.25.173, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/x-aniu/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 010 | ⬇️ 2MB/s, server: 104.17.25.173, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 011 | ⬇️ 2MB/s, server: staticdelivery.nexusmods.com, port: 443, type: vless, uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735, tls: true, servername: snip.ere.de5.net, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: snip.ere.de5.net}}}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 012 | ⬇️ 16MB/s, server: 2026.01.1.kr.aimirror.top, port: 443, type: vless, uuid: eeaa07ca-2693-42f8-e544-a16521d8e922, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: SXqEq6ZholDwAcZRjV-E4IjCP_qUNeDcnzroQ4lwoA8}, servername: www.icloud.com, client-fingerprint: safari, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇹🇼 TW 013 | ⬇️ 23MB/s, server: 2026.01.1.tw.aimirror.top, port: 443, type: vless, uuid: eeaa07ca-2693-42f8-e544-a16521d8e922, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: -r9XcOa4PqlVraJwpM-DB8SHHw27W-Lq8MFnvEqwMSk}, servername: www.icloud.com, client-fingerprint: safari, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 014 | ⬇️ 20MB/s, server: 104.17.25.173, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇯🇵 JP 015 | ⬇️ 15MB/s, server: tunnel2.qqa678.com, port: 47083, type: vmess, uuid: 2ab2ff5b-9684-4150-bec0-6bd036ae7c26, alterId: 0, cipher: auto, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 016 | ⬇️ 2MB/s, server: 104.17.25.173, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 017 | ⬇️ 48KB/s, server: 78fb080c-t9lmo0-tbomae-4mce.hkt.east.wctype.com, port: 8300, type: anytls, password: 06c625ea-5902-11ee-9e87-f23c9313b177, client-fingerprint: chrome, udp: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 018 | ⬇️ 64KB/s, server: 49.128.219.75, port: 52838, type: vmess, uuid: 77bc10e1-65b0-443c-8a6d-e0a08506e056, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/x]}}
-  - {name: 🎁 t.me/PFSub | 🇹🇼 TW 019 | ⬇️ 10MB/s, server: tw.yiciyuanquicken.online, port: 31224, type: vmess, uuid: d51abb35-94a4-4529-9244-2808beaa4624, alterId: 0, cipher: auto, tls: true, servername: tw.yiciyuanquicken.online}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 020 | ⬇️ 3MB/s, server: 172.238.111.21, port: 11332, type: vless, uuid: ff4edd17-5a4b-41d4-e178-2dd60149b7f1, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [telewebion.com]}}}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 021 | ⬇️ 6MB/s, server: 172.238.111.21, port: 11332, type: vless, uuid: ff4edd17-5a4b-41d4-e178-2dd60149b7f1, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [telewebion.com]}}}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 022 | ⬇️ 22MB/s, server: 2026.01.2.hk.aimirror.top, port: 443, type: vless, uuid: eeaa07ca-2693-42f8-e544-a16521d8e922, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: KwIjeh5fgXZEOlg68dpzFTNAcbdqI0WUacwlcOgGrCU}, servername: www.icloud.com, client-fingerprint: safari, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 023 | ⬇️ 10MB/s, server: b7fd6a5e-t9lmo0-t9izwa-64gc.hkt.east.wctype.com, port: 8300, type: anytls, password: d720a490-d56b-11ef-a1cb-f23c9313b177, client-fingerprint: chrome, udp: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇯🇵 JP 024 | ⬇️ 1MB/s, server: mofacpdd.til69.com, port: 39841, type: ss, cipher: chacha20-ietf-poly1305, password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 025 | ⬇️ 347KB/s, server: 172.238.111.21, port: 11332, type: vless, uuid: ff4edd17-5a4b-41d4-e178-2dd60149b7f1, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [telewebion.com]}}}
-  - {name: 🎁 t.me/PFSub | 🇮🇩 ID 026 | ⬇️ 187KB/s, server: mofahx2.til69.com, port: 40391, type: trojan, password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5, sni: v1-dy.ixigua.com, skip-cert-verify: true, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 027 | ⬇️ 408KB/s, server: mofahx2.til69.com, port: 59009, type: trojan, password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5, sni: v1-dy.ixigua.com, skip-cert-verify: true, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 028 | ⬇️ 8MB/s, server: 94.237.93.9, port: 59421, type: vless, uuid: ccbc334b-de33-4431-89b4-35b756230f51, tls: false, servername: soft98.ir, client-fingerprint: chrome, network: http, http-opts: {method: GET, path: [/], headers: {Host: [soft98.ir]}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇮🇳 IN 029 | ⬇️ 40KB/s, server: 134.209.147.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 030 | ⬇️ 10MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇮🇳 IN 031 | ⬇️ 1MB/s, server: mofahx2.til69.com, port: 33243, type: trojan, password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5, sni: v1-dy.ixigua.com, skip-cert-verify: true, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 032 | ⬇️ 1MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 033 | ⬇️ 6MB/s, server: 94.237.93.9, port: 59421, type: vless, uuid: ccbc334b-de33-4431-89b4-35b756230f51, tls: false, client-fingerprint: chrome, network: http, http-opts: {method: GET, path: [/], headers: {Host: [soft98.ir]}}}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 034 | ⬇️ 271KB/s, server: 58.152.53.45, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇲🇲 MM 035 | ⬇️ 3MB/s, server: mofahx2.til69.com, port: 19797, type: trojan, password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5, sni: v1-dy.ixigua.com, skip-cert-verify: true, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 036 | ⬇️ 8MB/s, server: 94.237.93.9, port: 59421, type: vless, uuid: ccbc334b-de33-4431-89b4-35b756230f51, tls: false, servername: soft98.ir, network: http, http-opts: {method: GET, path: [/], headers: {Host: [soft98.ir]}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 037 | ⬇️ 5MB/s, server: 94.237.93.9, port: 59421, type: vless, uuid: ccbc334b-de33-4431-89b4-35b756230f51, tls: false, servername: soft98.ir, client-fingerprint: chrome, network: http, http-opts: {method: GET, path: [/], headers: {Host: [soft98.ir]}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 038 | ⬇️ 10MB/s, server: 94.237.93.9, port: 59421, type: vless, uuid: ccbc334b-de33-4431-89b4-35b756230f51, tls: false, client-fingerprint: chrome, network: http, http-opts: {method: GET, path: [/], headers: {Host: [soft98.ir]}}}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 039 | ⬇️ 47KB/s, server: 49.128.219.75, port: 37916, type: http, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 040 | ⬇️ 8MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 041 | ⬇️ 72KB/s, server: 49.128.219.117, port: 52967, type: vmess, uuid: 1e76907e-6dc3-4127-b17c-a57b417ff579, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/x]}}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 042 | ⬇️ 11MB/s, server: 94.237.93.9, port: 59421, type: vless, uuid: ccbc334b-de33-4431-89b4-35b756230f51, tls: false, servername: soft98.ir, network: http, http-opts: {method: GET, path: [/], headers: {Host: [soft98.ir]}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 043 | ⬇️ 6MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 044 | ⬇️ 10MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 045 | ⬇️ 8MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 046 | ⬇️ 1MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/x-aniu/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 047 | ⬇️ 160KB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 048 | ⬇️ 6MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇹🇭 TH 049 | ⬇️ 72KB/s, server: mofahx2.til69.com, port: 43855, type: trojan, password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5, sni: v1-dy.ixigua.com, skip-cert-verify: true, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 050 | ⬇️ 108KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 051 | ⬇️ 112KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 052 | ⬇️ 1MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/x-aniu/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 053 | ⬇️ 87KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 054 | ⬇️ 112KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 055 | ⬇️ 9MB/s, server: mbqg940.26l6c42.rkzn8ni.vm331.cn, port: 55515, type: vless, uuid: ca2da009-aa7f-46f2-9ca4-c88594ebab9e, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: yOXf9Jf0HJ5WNLojkijy1WmYUxd1FNfRRagGoBKAMRk, short-id: "585260ed93fc" }, servername: www.discoverasr.com, client-fingerprint: qq, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 056 | ⬇️ 54KB/s, server: 49.128.219.117, port: 27853, type: http, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 057 | ⬇️ 6MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 058 | ⬇️ 84KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 059 | ⬇️ 87KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 060 | ⬇️ 115KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 061 | ⬇️ 133KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 062 | ⬇️ 8MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 063 | ⬇️ 94KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 064 | ⬇️ 10MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 065 | ⬇️ 70KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 066 | ⬇️ 116KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 067 | ⬇️ 54KB/s, server: 49.128.219.117, port: 55185, type: vmess, uuid: fe9e04bf-ade6-44f6-b608-ad0871515fdf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Notif_Chat}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 068 | ⬇️ 11MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735, tls: true, servername: snip.ere.de5.net, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: snip.ere.de5.net}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 069 | ⬇️ 87KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 070 | ⬇️ 6MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 071 | ⬇️ 113KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 072 | ⬇️ 7MB/s, server: 94.237.93.9, port: 59421, type: vless, uuid: ccbc334b-de33-4431-89b4-35b756230f51, tls: false, servername: soft98.ir, client-fingerprint: chrome, network: http, http-opts: {method: GET, path: [/], headers: {Host: [soft98.ir]}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 073 | ⬇️ 16MB/s, server: 104.17.25.173, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 074 | ⬇️ 114KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 075 | ⬇️ 99KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇸🇬 SG 076 | ⬇️ 15MB/s, server: 13.158.129.83, port: 3579, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 077 | ⬇️ 146KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 078 | ⬇️ 111KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 079 | ⬇️ 89KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 080 | ⬇️ 113KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 081 | ⬇️ 109KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 082 | ⬇️ 107KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 083 | ⬇️ 116KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 084 | ⬇️ 9MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 085 | ⬇️ 1MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/x-aniu/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 086 | ⬇️ 171KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 087 | ⬇️ 275KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 088 | ⬇️ 107KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 089 | ⬇️ 87KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 090 | ⬇️ 97KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 091 | ⬇️ 89KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 092 | ⬇️ 120KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 093 | ⬇️ 6MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 094 | ⬇️ 118KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 095 | ⬇️ 84KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 096 | ⬇️ 4MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 097 | ⬇️ 88KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 098 | ⬇️ 93KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 099 | ⬇️ 5MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/x-aniu/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 100 | ⬇️ 164KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 101 | ⬇️ 112KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 102 | ⬇️ 146KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 103 | ⬇️ 126KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 104 | ⬇️ 100KB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/x-aniu/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 105 | ⬇️ 82KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 106 | ⬇️ 95KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 107 | ⬇️ 93KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 108 | ⬇️ 90KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 109 | ⬇️ 112KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 110 | ⬇️ 95KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 111 | ⬇️ 114KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 112 | ⬇️ 8MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 113 | ⬇️ 79KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 114 | ⬇️ 113KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 115 | ⬇️ 116KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 116 | ⬇️ 9MB/s, server: 94.237.93.9, port: 59421, type: vless, uuid: ccbc334b-de33-4431-89b4-35b756230f51, tls: false, servername: soft98.ir, client-fingerprint: chrome, network: http, http-opts: {method: GET, path: [/], headers: {Host: [soft98.ir]}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 117 | ⬇️ 103KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 118 | ⬇️ 138KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 119 | ⬇️ 84KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 120 | ⬇️ 83KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 121 | ⬇️ 13MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/x-aniu/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 122 | ⬇️ 209KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 123 | ⬇️ 105KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 124 | ⬇️ 10MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 125 | ⬇️ 99KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 126 | ⬇️ 7MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/x-aniu/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 127 | ⬇️ 197KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 128 | ⬇️ 15MB/s, server: 1f99c2a2-t9l0g0-t9ijp5-4550.hkt.east.wctype.com, port: 8300, type: anytls, password: 6286105c-fb6d-11ef-be96-f23c93136cb3, client-fingerprint: chrome, udp: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 129 | ⬇️ 9MB/s, server: 216.167.92.219, port: 51209, type: http, username: kZXMC3Z1, password: ZfO6JRez, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 130 | ⬇️ 15MB/s, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 131 | ⬇️ 10MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 132 | ⬇️ 11MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/x-aniu/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 133 | ⬇️ 2MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 134 | ⬇️ 12MB/s, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 135 | ⬇️ 8MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 136 | ⬇️ 94KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 137 | ⬇️ 12MB/s, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 138 | ⬇️ 124KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 139 | ⬇️ 17MB/s, server: f2bf4378-t9l0g0-t9idoa-64gc.hkt.east.wctype.com, port: 8300, type: anytls, password: d720a490-d56b-11ef-a1cb-f23c9313b177, client-fingerprint: chrome, udp: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 140 | ⬇️ 11MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 141 | ⬇️ 159KB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 142 | ⬇️ 3MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 143 | ⬇️ 11MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/x-aniu/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 144 | ⬇️ 11MB/s, server: 2026.01.1.hk.aimirror.top, port: 443, type: vless, uuid: eeaa07ca-2693-42f8-e544-a16521d8e922, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: KwIjeh5fgXZEOlg68dpzFTNAcbdqI0WUacwlcOgGrCU}, servername: www.icloud.com, client-fingerprint: safari, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 145 | ⬇️ 14MB/s, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 146 | ⬇️ 6MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 147 | ⬇️ 12MB/s, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 148 | ⬇️ 12MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 149 | ⬇️ 823KB/s, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 150 | ⬇️ 11MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 151 | ⬇️ 11MB/s, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 152 | ⬇️ 12MB/s, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 153 | ⬇️ 5MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 154 | ⬇️ 6MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 155 | ⬇️ 15MB/s, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 156 | ⬇️ 15MB/s, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇸🇬 SG 157 | ⬇️ 255KB/s, server: 160.16.87.174, port: 3901, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 158 | ⬇️ 19MB/s, server: 104.16.250.22, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/x-aniu/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 159 | ⬇️ 16MB/s, server: ec1c1972-t9lmo0-ta37qp-b4pt.hkt.east.wctype.com, port: 8300, type: anytls, password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad, client-fingerprint: chrome, udp: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 160 | ⬇️ 9MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 161 | ⬇️ 5MB/s, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 162 | ⬇️ 11MB/s, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 163 | ⬇️ 69KB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 164 | ⬇️ 5MB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 165 | ⬇️ 51KB/s, server: 49.128.219.75, port: 55185, type: vmess, uuid: 02f456a3-f2e5-4d35-9436-2a49337cc937, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Notif_Chat}}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 166 | ⬇️ 14MB/s, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇦🇹 AT 167 | ⬇️ 123KB/s, server: 152.53.33.43, port: 443, type: vless, uuid: 057b649c-54b1-4f68-86b1-90381637a2cf, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.speedtest.net]}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 168 | ⬇️ 77KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 169 | ⬇️ 9MB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 170 | ⬇️ 37KB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 171 | ⬇️ 1MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/x-aniu/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 172 | ⬇️ 546KB/s, server: 58.152.53.45, port: 443, type: trojan, password: BxceQaOe, sni: 58.152.53.45, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 173 | ⬇️ 11MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 174 | ⬇️ 18MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/x-aniu/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 175 | ⬇️ 4MB/s, server: www.visa.cn, port: 443, type: vless, uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735, tls: true, servername: snip.ere.de5.net, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: snip.ere.de5.net}}}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 176 | ⬇️ 62KB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇮🇹 IT 177 | ⬇️ 5MB/s, server: 57.131.19.236, port: 5058, type: vless, uuid: 9273eeed-bc0a-463a-9556-54d50674c91a, tls: true, reality-opts: {public-key: 04E0TOQrXL1Z40zAF99p6MR3WC4-iaAcVB4WNcDpuXo}, servername: refersion.com, client-fingerprint: firefox, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 178 | ⬇️ 1MB/s, server: 103.186.154.246, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 179 | ⬇️ 22KB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 180 | ⬇️ 5MB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 181 | ⬇️ 2MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 182 | ⬇️ 9MB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 183 | ⬇️ 4MB/s, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 184 | ⬇️ 11MB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 185 | ⬇️ 18KB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 186 | ⬇️ 14KB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇱🇻 LV 187 | ⬇️ 13KB/s, server: lv.fastdbn.com, port: 5001, type: vless, uuid: ec7f2b6a-d627-40ea-a017-36052c4ba426, tls: true, reality-opts: {public-key: 12UHjWCU_BNIkRmxt-6QKAuVuSIFzoS2jkN1BIMzGjM}, servername: services.3cx.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: downloads.3cx.com}}
-  - {name: 🎁 t.me/PFSub | 🇻🇳 VN 188 | ⬇️ 1MB/s, server: 103.186.155.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 189 | ⬇️ 28KB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇮🇹 IT 190 | ⬇️ 17KB/s, server: 57.131.19.236, port: 5058, type: vless, uuid: 9273eeed-bc0a-463a-9556-54d50674c91a, tls: true, reality-opts: {public-key: 04E0TOQrXL1Z40zAF99p6MR3WC4-iaAcVB4WNcDpuXo}, servername: refersion.com, client-fingerprint: firefox, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 191 | ⬇️ 3MB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 192 | ⬇️ 37KB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 193 | ⬇️ 16KB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 194 | ⬇️ 312KB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 195 | ⬇️ 5MB/s, server: 121.169.46.116, port: 1090, type: socks5, username: Og%3D%3D}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 196 | ⬇️ 422KB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 197 | ⬇️ 20KB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇱🇻 LV 198 | ⬇️ 15KB/s, server: lv.fastdbn.com, port: 5001, type: vless, uuid: ec7f2b6a-d627-40ea-a017-36052c4ba426, tls: true, reality-opts: {public-key: 12UHjWCU_BNIkRmxt-6QKAuVuSIFzoS2jkN1BIMzGjM}, servername: services.3cx.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: downloads.3cx.com}}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 199 | ⬇️ 14MB/s, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 200 | ⬇️ 113KB/s, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 201 | ⬇️ 452KB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇦🇹 AT 202 | ⬇️ 11KB/s, server: 152.53.50.126, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 203 | ⬇️ 6MB/s, server: 94.228.213.219, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "48720c" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇱🇻 LV 204 | ⬇️ 12KB/s, server: lv.fastdbn.com, port: 5001, type: vless, uuid: ec7f2b6a-d627-40ea-a017-36052c4ba426, tls: true, reality-opts: {public-key: 12UHjWCU_BNIkRmxt-6QKAuVuSIFzoS2jkN1BIMzGjM}, servername: services.3cx.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: downloads.3cx.com}}
-  - {name: 🎁 t.me/PFSub | 🇦🇹 AT 205 | ⬇️ 17KB/s, server: 152.53.51.24, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 206 | ⬇️ 193KB/s, server: 162.159.16.63, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇦🇹 AT 207 | ⬇️ 15KB/s, server: 152.53.51.24, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
-  - {name: 🎁 t.me/PFSub | 🇫🇷 FR 208 | ⬇️ 39KB/s, server: 185.194.217.97, port: 1080, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇫🇮 FI 209 | ⬇️ 7KB/s, server: 135.181.155.97, port: 443, type: vless, uuid: 309fa273-6579-4cb2-9143-7cad50401eba, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY, short-id: "7cad5040" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 210 | ⬇️ 5MB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 211 | ⬇️ 114KB/s, server: 193.233.254.9, port: 1080, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 212 | ⬇️ 10KB/s, server: octopusss5.info, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
-  - {name: 🎁 t.me/PFSub | 🇦🇹 AT 213 | ⬇️ 27KB/s, server: 152.53.33.43, port: 443, type: vless, uuid: 057b649c-54b1-4f68-86b1-90381637a2cf, tls: false, servername: www.speedtest.net, client-fingerprint: chrome, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.speedtest.net]}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇦🇹 AT 214 | ⬇️ 43KB/s, server: 152.53.48.224, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
-  - {name: 🎁 t.me/PFSub | 🇮🇹 IT 215 | ⬇️ 5MB/s, server: 57.131.19.236, port: 5058, type: vless, uuid: 9273eeed-bc0a-463a-9556-54d50674c91a, tls: true, reality-opts: {public-key: 04E0TOQrXL1Z40zAF99p6MR3WC4-iaAcVB4WNcDpuXo}, servername: refersion.com, client-fingerprint: firefox, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 216 | ⬇️ 13MB/s, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 217 | ⬇️ 9KB/s, server: 159.195.42.189, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 218 | ⬇️ 7MB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 219 | ⬇️ 767KB/s, server: 162.159.44.142, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇫🇮 FI 220 | ⬇️ 10KB/s, server: 78.153.139.68, port: 8443, type: vless, uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4, short-id: "58c512b4422e2517" }, servername: images.apple.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇦🇹 AT 221 | ⬇️ 38KB/s, server: 152.53.33.43, port: 443, type: vless, uuid: 057b649c-54b1-4f68-86b1-90381637a2cf, tls: false, client-fingerprint: chrome, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.speedtest.net]}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 222 | ⬇️ 689KB/s, server: 58.152.53.45, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇮🇹 IT 223 | ⬇️ 19KB/s, server: 57.131.19.236, port: 5058, type: vless, uuid: 9273eeed-bc0a-463a-9556-54d50674c91a, tls: true, reality-opts: {public-key: 04E0TOQrXL1Z40zAF99p6MR3WC4-iaAcVB4WNcDpuXo}, servername: refersion.com, client-fingerprint: firefox, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇫🇷 FR 224 | ⬇️ 82KB/s, server: sktr.berkeart.ir, port: 19702, type: vless, uuid: 1f3b130d-7d29-45d1-b5aa-adc5cd94a885, tls: true, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: "6ba85179e30d4fc2" }, servername: check-host.net, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: xyz}}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 225 | ⬇️ 767KB/s, server: 193.233.254.8, port: 1080, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 226 | ⬇️ 1MB/s, server: 193.233.254.9, port: 1080, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 227 | ⬇️ 2MB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇱🇻 LV 228 | ⬇️ 11KB/s, server: lv.fastdbn.com, port: 5001, type: vless, uuid: ec7f2b6a-d627-40ea-a017-36052c4ba426, tls: true, reality-opts: {public-key: 12UHjWCU_BNIkRmxt-6QKAuVuSIFzoS2jkN1BIMzGjM}, servername: services.3cx.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: downloads.3cx.com}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇫🇷 FR 229 | ⬇️ 103KB/s, server: sktr.berkeart.ir, port: 19702, type: vless, uuid: 1f3b130d-7d29-45d1-b5aa-adc5cd94a885, tls: true, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: "6ba85179e30d4fc2" }, servername: check-host.net, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: xyz}}
-  - {name: 🎁 t.me/PFSub | 🇫🇷 FR 230 | ⬇️ 266KB/s, server: sktr.berkeart.ir, port: 19702, type: vless, uuid: 1f3b130d-7d29-45d1-b5aa-adc5cd94a885, tls: true, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: "6ba85179e30d4fc2" }, servername: check-host.net, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: xyz}}
-  - {name: 🎁 t.me/PFSub | 🇦🇹 AT 231 | ⬇️ 14KB/s, server: 152.53.51.24, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 232 | ⬇️ 899KB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇫🇷 FR 233 | ⬇️ 1MB/s, server: 185.194.217.97, port: 1080, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 234 | ⬇️ 842KB/s, server: 193.233.254.8, port: 1080, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 235 | ⬇️ 57KB/s, server: 193.233.254.7, port: 1080, type: socks5, username: T2dAMTkzLjIzMy4yNTQuNzo@193.233.254.7, password: "@193.233.254.7:"}
-  - {name: 🎁 t.me/PFSub | 🇦🇹 AT 236 | ⬇️ 10KB/s, server: 152.53.51.24, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 237 | ⬇️ 1MB/s, server: 193.233.254.9, port: 1080, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 238 | ⬇️ 1MB/s, server: 121.169.46.116, port: 1090, type: socks5}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 239 | ⬇️ 9MB/s, server: 121.169.46.116, port: 1090, type: socks5, username: Og%3D%3D}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 240 | ⬇️ 7KB/s, server: 159.195.42.189, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 241 | ⬇️ 398KB/s, server: 193.233.254.8, port: 1080, type: socks5, username: Og@193.233.254.8}
-  - {name: 🎁 t.me/PFSub | 🇦🇹 AT 242 | ⬇️ 13KB/s, server: 152.53.51.24, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 243 | ⬇️ 43KB/s, server: 90b96b82-t9l0g0-tclkqs-deip.hkt.east.wctype.com, port: 8300, type: anytls, password: 7a2512b4-09ee-11f0-8d46-f23c9313b177, client-fingerprint: chrome, udp: true, skip-cert-verify: true}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 244 | ⬇️ 2MB/s, server: 193.233.254.8, port: 1080, type: socks5, username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D}
-  - {name: 🎁 t.me/PFSub | 🇦🇹 AT 245 | ⬇️ 60KB/s, server: 152.53.48.224, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 246 | ⬇️ 1MB/s, server: 58.152.53.45, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇦🇹 AT 247 | ⬇️ 20KB/s, server: 152.53.51.24, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 248 | ⬇️ 741KB/s, server: 193.233.254.8, port: 1080, type: socks5, username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 249 | ⬇️ 9KB/s, server: 155.254.20.102, port: 14032, type: vmess, uuid: ecdd9300-5c08-4e76-d7dd-c41ea03f1ec7, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 250 | ⬇️ 342KB/s, server: 58.152.53.45, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇦🇹 AT 251 | ⬇️ 13KB/s, server: 152.53.48.224, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 252 | ⬇️ 166KB/s, server: 58.152.53.45, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇦🇹 AT 253 | ⬇️ 14KB/s, server: 152.53.51.24, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
-  - {name: 🎁 t.me/PFSub | 🇦🇹 AT 254 | ⬇️ 449KB/s, server: 152.53.33.43, port: 443, type: vless, uuid: 057b649c-54b1-4f68-86b1-90381637a2cf, tls: false, servername: www.speedtest.net, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.speedtest.net]}}, udp: true}
-  - {name: 🎁 t.me/PFSub | 🇦🇹 AT 255 | ⬇️ 15KB/s, server: 152.53.51.24, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 256 | ⬇️ 21KB/s, server: 193.233.254.7, port: 1080, type: socks5, username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 257 | ⬇️ 4MB/s, server: 193.233.254.9, port: 1080, type: socks5, username: T2dAMTkzLjIzMy4yNTQuOTpAMTkzLjIzMy4yNTQuOTo%3D}
-  - {name: 🎁 t.me/PFSub | 🇳🇱 NL 258 | ⬇️ 37KB/s, server: vipnet15s.alireza031.shop, port: 58591, type: vless, uuid: a887a4f7-228e-4900-8cfb-119209cd1b9d, tls: true, reality-opts: {public-key: V_wKDwjR9mgwDKVBNYGDPL2-cdXP4pq1cCVUka6ZGQE, short-id: "b4fdd4191a9c9621" }, servername: tgju.org, client-fingerprint: firefox, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 259 | ⬇️ 10MB/s, server: 193.233.254.7, port: 1080, type: socks5, username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D}
-  - {name: 🎁 t.me/PFSub | 🇭🇰 HK 260 | ⬇️ 378KB/s, server: 58.152.110.210, port: 443, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net}
-  - {name: 🎁 t.me/PFSub | 🇰🇷 KR 261 | ⬇️ 286KB/s, server: 121.169.46.116, port: 1090, type: socks5, username: Og%3D%3D}
-  - {name: 🎁 t.me/PFSub | 🇫🇮 FI 262 | ⬇️ 8KB/s, server: 78.153.139.68, port: 8443, type: vless, uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4, short-id: "58c512b4422e2517" }, servername: images.apple.com, client-fingerprint: random, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇺🇸 US 263 | ⬇️ 1MB/s, server: 162.159.45.232, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🎁 t.me/PFSub | 🇫🇮 FI 264 | ⬇️ 5KB/s, server: 78.153.139.68, port: 8443, type: vless, uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4, short-id: "58c512b4422e2517" }, servername: images.apple.com, client-fingerprint: random, network: tcp}
-  - {name: 🎁 t.me/PFSub | 🇩🇪 DE 265 | ⬇️ 5MB/s, server: 193.233.254.8, port: 1080, type: socks5, username: Og@193.233.254.8, password: "@193.233.254.8:"}
-proxy-groups: ~
+bind-address: "*"
+find-process-mode: strict
+mode: rule
+secret: ""
+unified-delay: false
+tcp-concurrent: true
+geodata-mode: false
+skip-auth-prefixes:
+    - 127.0.0.1/32
+authentication: []
+lan-allowed-ips:
+    - 0.0.0.0/0
+    - ::/0
+lan-disallowed-ips: []
+geox-url:
+    geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+    geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+    mmdb: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb"
+geo-auto-update: true
+geo-update-interval: 24
+log-level: silent
+ipv6: false
+external-controller: 0.0.0.0:9090 # 
+external-controller-tls: 0.0.0.0:9443
+external-controller-unix: mihomo.sock
+external-controller-pipe: \\.\pipe\mihomo
+external-ui: ui
+external-ui-url: "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip"
+external-doh-server: /dns-query
+global-client-fingerprint: chrome
+profile:
+    store-selected: false
+    store-fake-ip: true
+sniffer:
+    enable: true
+    sniff:
+        HTTP:
+            ports: [80, 8080-8880]
+            override-destination: true
+        TLS:
+            ports: [443, 8443]
+        QUIC:
+            ports: [443, 8443]
+    skip-domain:
+        - "Mijia Cloud"
+        - "+.push.apple.com"
+tun:
+    enable: true
+    stack: system
+    auto-route: true
+    auto-redirect: true
+    auto-detect-interface: true
+    dns-hijack:
+        - any:53
+        - tcp://any:53
+    device: mihomo
+    mtu: 9000
+    strict-route: false
+    gso: true
+    gso-max-size: 65536
+    udp-timeout: 300
+    iproute2-table-index: 2022
+    iproute2-rule-index: 9000
+    endpoint-independent-nat: false
+    route-exclude-address:
+        - 172.16.0.0/12
+        - fc00::/7
+dns:
+    enable: true
+    listen: 0.0.0.0:53
+    ipv6: false
+    default-nameserver: [223.5.5.5, 119.29.29.29]
+    enhanced-mode: fake-ip
+    fake-ip-range: 198.18.0.1/16
+    use-hosts: true
+    nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
+    url-test: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
+    url-test-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32]}
+proxy-groups:
+    - name: Proxy
+      type: select
+      interval: 300
+      url: https://gstatic.com/generate_204
+      lazy: true
+      timeout: 2000
+      max-failed-times: 3
+      proxies:
+        - "\U0001F64F 自动选择"
+        - "\U0001F4AA 手动选择"
+        - "\U0001F3A1负载均衡"
+        - "\U0001F1ED\U0001F1F0 香港节点"
+        - "\U0001F1EF\U0001F1F5 日本节点"
+        - "\U0001F1F0\U0001F1F7 韩国节点"
+        - "\U0001F1F8\U0001F1EC 新加坡节点"
+        - "\U0001F1FA\U0001F1F8 美国节点"
+        - "\U0001F1EC\U0001F1E7 英国节点"
+        - "\U0001F1EB\U0001F1F7 法国节点"
+        - "\U0001F1E9\U0001F1EA 德国节点"
+        - "\U0001F1E8\U0001F1E6 加拿大节点"
+        - "\U0001F1E6\U0001F1FA 澳大利亚节点"
+        - "\U0001F1F3\U0001F1F1 荷兰节点"
+        - "\U0001F1F7\U0001F1FA 俄罗斯节点"
+        - "\U0001F1ED\U0001F1FA 匈牙利节点"
+        - "\U0001F1FA\U0001F1E6 乌克兰节点"
+        - "\U0001F1F5\U0001F1F1 波兰节点"
+        - "\U0001F1EE\U0001F1F9 意大利节点"
+        - "\U0001F1EE\U0001F1F7 伊朗节点"
+      icon: https://cdn.jsdelivr.net/gh/mihomo-party-org/mihomo-party/resources/icon.png
+    - name: Cloudflare
+      type: select
+      interval: 300
+      url: https://gstatic.com/generate_204
+      lazy: true
+      timeout: 2000
+      max-failed-times: 3
+      proxies:
+        - Proxy
+        - DIRECT
+        - "\U0001F1ED\U0001F1F0 香港节点"
+        - "\U0001F1EF\U0001F1F5 日本节点"
+        - "\U0001F1F0\U0001F1F7 韩国节点"
+        - "\U0001F1F8\U0001F1EC 新加坡节点"
+        - "\U0001F1FA\U0001F1F8 美国节点"
+        - "\U0001F1EC\U0001F1E7 英国节点"
+        - "\U0001F1EB\U0001F1F7 法国节点"
+        - "\U0001F1E9\U0001F1EA 德国节点"
+        - "\U0001F1E8\U0001F1E6 加拿大节点"
+        - "\U0001F1E6\U0001F1FA 澳大利亚节点"
+        - "\U0001F1F3\U0001F1F1 荷兰节点"
+        - "\U0001F1F7\U0001F1FA 俄罗斯节点"
+        - "\U0001F1ED\U0001F1FA 匈牙利节点"
+        - "\U0001F1FA\U0001F1E6 乌克兰节点"
+        - "\U0001F1F5\U0001F1F1 波兰节点"
+        - "\U0001F1EE\U0001F1F9 意大利节点"
+        - "\U0001F1EE\U0001F1F7 伊朗节点"
+      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/cloudflare.png
+    - name: Bing
+      type: select
+      interval: 300
+      url: https://gstatic.com/generate_204
+      lazy: true
+      timeout: 2000
+      max-failed-times: 3
+      proxies:
+        - DIRECT
+        - Proxy
+        - "\U0001F1ED\U0001F1F0 香港节点"
+        - "\U0001F1EF\U0001F1F5 日本节点"
+        - "\U0001F1F0\U0001F1F7 韩国节点"
+        - "\U0001F1F8\U0001F1EC 新加坡节点"
+        - "\U0001F1FA\U0001F1F8 美国节点"
+        - "\U0001F1EC\U0001F1E7 英国节点"
+        - "\U0001F1EB\U0001F1F7 法国节点"
+        - "\U0001F1E9\U0001F1EA 德国节点"
+        - "\U0001F1E8\U0001F1E6 加拿大节点"
+        - "\U0001F1E6\U0001F1FA 澳大利亚节点"
+        - "\U0001F1F3\U0001F1F1 荷兰节点"
+        - "\U0001F1F7\U0001F1FA 俄罗斯节点"
+        - "\U0001F1ED\U0001F1FA 匈牙利节点"
+        - "\U0001F1FA\U0001F1E6 乌克兰节点"
+        - "\U0001F1F5\U0001F1F1 波兰节点"
+        - "\U0001F1EE\U0001F1F9 意大利节点"
+        - "\U0001F1EE\U0001F1F7 伊朗节点"
+      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/microsoft-bing.png
+    - name: Github
+      type: select
+      interval: 300
+      url: https://github.com
+      lazy: true
+      timeout: 2000
+      max-failed-times: 3
+      proxies:
+        - Proxy
+        - "\U0001F1ED\U0001F1F0 香港节点"
+        - "\U0001F1EF\U0001F1F5 日本节点"
+        - "\U0001F1F0\U0001F1F7 韩国节点"
+        - "\U0001F1F8\U0001F1EC 新加坡节点"
+        - "\U0001F1FA\U0001F1F8 美国节点"
+        - "\U0001F1EC\U0001F1E7 英国节点"
+        - "\U0001F1EB\U0001F1F7 法国节点"
+        - "\U0001F1E9\U0001F1EA 德国节点"
+        - "\U0001F1E8\U0001F1E6 加拿大节点"
+        - "\U0001F1E6\U0001F1FA 澳大利亚节点"
+        - "\U0001F1F3\U0001F1F1 荷兰节点"
+        - "\U0001F1F7\U0001F1FA 俄罗斯节点"
+        - "\U0001F1ED\U0001F1FA 匈牙利节点"
+        - "\U0001F1FA\U0001F1E6 乌克兰节点"
+        - "\U0001F1F5\U0001F1F1 波兰节点"
+        - "\U0001F1EE\U0001F1F9 意大利节点"
+        - "\U0001F1EE\U0001F1F7 伊朗节点"
+      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/github.png
+    - name: OpenAI
+      type: select
+      interval: 300
+      url: https://openai.com
+      lazy: true
+      timeout: 2000
+      max-failed-times: 3
+      proxies:
+        - "\U0001F64F 自动选择"
+        - "\U0001F4AA 手动选择"
+        - "\U0001F1FA\U0001F1F8 美国节点"
+        - "\U0001F1ED\U0001F1F0 香港节点"
+        - "\U0001F1F9\U0001F1FC 台湾节点"
+        - "\U0001F1EF\U0001F1F5 日本节点"
+        - "\U0001F1F0\U0001F1F7 韩国节点"
+        - "\U0001F1F8\U0001F1EC 新加坡节点"
+        - "\U0001F1EC\U0001F1E7 英国节点"
+        - "\U0001F1EB\U0001F1F7 法国节点"
+        - "\U0001F1E9\U0001F1EA 德国节点"
+        - "\U0001F1E8\U0001F1E6 加拿大节点"
+        - "\U0001F1E6\U0001F1FA 澳大利亚节点"
+        - "\U0001F1F3\U0001F1F1 荷兰节点"
+        - "\U0001F1F7\U0001F1FA 俄罗斯节点"
+        - "\U0001F1ED\U0001F1FA 匈牙利节点"
+        - "\U0001F1FA\U0001F1E6 乌克兰节点"
+        - "\U0001F1F5\U0001F1F1 波兰节点"
+        - "\U0001F1EE\U0001F1F9 意大利节点"
+        - "\U0001F1EE\U0001F1F7 伊朗节点"
+      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/chatgpt.png
+    - name: Netflix
+      type: select
+      interval: 300
+      url: https://netflix.com
+      lazy: true
+      timeout: 2000
+      max-failed-times: 3
+      proxies:
+        - "\U0001F64F 自动选择"
+        - "\U0001F4AA 手动选择"
+        - "\U0001F1FA\U0001F1F8 美国节点"
+        - "\U0001F1ED\U0001F1F0 香港节点"
+        - "\U0001F1F9\U0001F1FC 台湾节点"
+        - "\U0001F1EF\U0001F1F5 日本节点"
+        - "\U0001F1F0\U0001F1F7 韩国节点"
+        - "\U0001F1F8\U0001F1EC 新加坡节点"
+        - "\U0001F1EC\U0001F1E7 英国节点"
+        - "\U0001F1EB\U0001F1F7 法国节点"
+        - "\U0001F1E9\U0001F1EA 德国节点"
+        - "\U0001F1E8\U0001F1E6 加拿大节点"
+        - "\U0001F1E6\U0001F1FA 澳大利亚节点"
+        - "\U0001F1F3\U0001F1F1 荷兰节点"
+        - "\U0001F1F7\U0001F1FA 俄罗斯节点"
+        - "\U0001F1ED\U0001F1FA 匈牙利节点"
+        - "\U0001F1FA\U0001F1E6 乌克兰节点"
+        - "\U0001F1F5\U0001F1F1 波兰节点"
+        - "\U0001F1EE\U0001F1F9 意大利节点"
+        - "\U0001F1EE\U0001F1F7 伊朗节点"
+      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/netflix.png
+    - name: Disney+
+      type: select
+      interval: 300
+      url: https://disney.com
+      lazy: true
+      timeout: 2000
+      max-failed-times: 3
+      proxies:
+        - "\U0001F64F 自动选择"
+        - "\U0001F4AA 手动选择"
+        - "\U0001F1FA\U0001F1F8 美国节点"
+        - "\U0001F1ED\U0001F1F0 香港节点"
+        - "\U0001F1F9\U0001F1FC 台湾节点"
+        - "\U0001F1EF\U0001F1F5 日本节点"
+        - "\U0001F1F0\U0001F1F7 韩国节点"
+        - "\U0001F1F8\U0001F1EC 新加坡节点"
+        - "\U0001F1EC\U0001F1E7 英国节点"
+        - "\U0001F1EB\U0001F1F7 法国节点"
+        - "\U0001F1E9\U0001F1EA 德国节点"
+        - "\U0001F1E8\U0001F1E6 加拿大节点"
+        - "\U0001F1E6\U0001F1FA 澳大利亚节点"
+        - "\U0001F1F3\U0001F1F1 荷兰节点"
+        - "\U0001F1F7\U0001F1FA 俄罗斯节点"
+        - "\U0001F1ED\U0001F1FA 匈牙利节点"
+        - "\U0001F1FA\U0001F1E6 乌克兰节点"
+        - "\U0001F1F5\U0001F1F1 波兰节点"
+        - "\U0001F1EE\U0001F1F9 意大利节点"
+        - "\U0001F1EE\U0001F1F7 伊朗节点"
+      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/disney-plus.png
+    - name: YouTube
+      type: select
+      interval: 300
+      url: https://youtube.com
+      lazy: true
+      timeout: 2000
+      max-failed-times: 3
+      proxies:
+        - "\U0001F64F 自动选择"
+        - "\U0001F4AA 手动选择"
+        - "\U0001F1FA\U0001F1F8 美国节点"
+        - "\U0001F1ED\U0001F1F0 香港节点"
+        - "\U0001F1F9\U0001F1FC 台湾节点"
+        - "\U0001F1EF\U0001F1F5 日本节点"
+        - "\U0001F1F0\U0001F1F7 韩国节点"
+        - "\U0001F1F8\U0001F1EC 新加坡节点"
+        - "\U0001F1EC\U0001F1E7 英国节点"
+        - "\U0001F1EB\U0001F1F7 法国节点"
+        - "\U0001F1E9\U0001F1EA 德国节点"
+        - "\U0001F1E8\U0001F1E6 加拿大节点"
+        - "\U0001F1E6\U0001F1FA 澳大利亚节点"
+        - "\U0001F1F3\U0001F1F1 荷兰节点"
+        - "\U0001F1F7\U0001F1FA 俄罗斯节点"
+        - "\U0001F1ED\U0001F1FA 匈牙利节点"
+        - "\U0001F1FA\U0001F1E6 乌克兰节点"
+        - "\U0001F1F5\U0001F1F1 波兰节点"
+        - "\U0001F1EE\U0001F1F9 意大利节点"
+        - "\U0001F1EE\U0001F1F7 伊朗节点"
+      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/youtube.png
+    - name: TikTok
+      type: select
+      proxies:
+        - Proxy
+        - "\U0001F1ED\U0001F1F0 香港节点"
+        - "\U0001F1EF\U0001F1F5 日本节点"
+        - "\U0001F1F0\U0001F1F7 韩国节点"
+        - "\U0001F1F8\U0001F1EC 新加坡节点"
+        - "\U0001F1FA\U0001F1F8 美国节点"
+        - "\U0001F1EC\U0001F1E7 英国节点"
+        - "\U0001F1EB\U0001F1F7 法国节点"
+        - "\U0001F1E9\U0001F1EA 德国节点"
+        - "\U0001F1E8\U0001F1E6 加拿大节点"
+        - "\U0001F1E6\U0001F1FA 澳大利亚节点"
+        - "\U0001F1F3\U0001F1F1 荷兰节点"
+        - "\U0001F1F7\U0001F1FA 俄罗斯节点"
+        - "\U0001F1ED\U0001F1FA 匈牙利节点"
+        - "\U0001F1FA\U0001F1E6 乌克兰节点"
+        - "\U0001F1F5\U0001F1F1 波兰节点"
+        - "\U0001F1EE\U0001F1F9 意大利节点"
+        - "\U0001F1EE\U0001F1F7 伊朗节点"
+      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/tiktok.png
+    - name: Spotify
+      type: select
+      proxies:
+        - Proxy
+        - "\U0001F1ED\U0001F1F0 香港节点"
+        - "\U0001F1EF\U0001F1F5 日本节点"
+        - "\U0001F1F0\U0001F1F7 韩国节点"
+        - "\U0001F1F8\U0001F1EC 新加坡节点"
+        - "\U0001F1FA\U0001F1F8 美国节点"
+        - "\U0001F1EC\U0001F1E7 英国节点"
+        - "\U0001F1EB\U0001F1F7 法国节点"
+        - "\U0001F1E9\U0001F1EA 德国节点"
+        - "\U0001F1E8\U0001F1E6 加拿大节点"
+        - "\U0001F1E6\U0001F1FA 澳大利亚节点"
+        - "\U0001F1F3\U0001F1F1 荷兰节点"
+        - "\U0001F1F7\U0001F1FA 俄罗斯节点"
+        - "\U0001F1ED\U0001F1FA 匈牙利节点"
+        - "\U0001F1FA\U0001F1E6 乌克兰节点"
+        - "\U0001F1F5\U0001F1F1 波兰节点"
+        - "\U0001F1EE\U0001F1F9 意大利节点"
+        - "\U0001F1EE\U0001F1F7 伊朗节点"
+      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/spotify.png
+    - name: Telegram
+      type: select
+      url: https://telegram.org
+      interval: 300
+      timeout: 2000
+      max-failed-times: 3
+      proxies:
+        - Proxy
+        - "\U0001F1ED\U0001F1F0 香港节点"
+        - "\U0001F1EF\U0001F1F5 日本节点"
+        - "\U0001F1F0\U0001F1F7 韩国节点"
+        - "\U0001F1F8\U0001F1EC 新加坡节点"
+        - "\U0001F1FA\U0001F1F8 美国节点"
+        - "\U0001F1EC\U0001F1E7 英国节点"
+        - "\U0001F1EB\U0001F1F7 法国节点"
+        - "\U0001F1E9\U0001F1EA 德国节点"
+        - "\U0001F1E8\U0001F1E6 加拿大节点"
+        - "\U0001F1E6\U0001F1FA 澳大利亚节点"
+        - "\U0001F1F3\U0001F1F1 荷兰节点"
+        - "\U0001F1F7\U0001F1FA 俄罗斯节点"
+        - "\U0001F1ED\U0001F1FA 匈牙利节点"
+        - "\U0001F1FA\U0001F1E6 乌克兰节点"
+        - "\U0001F1F5\U0001F1F1 波兰节点"
+        - "\U0001F1EE\U0001F1F9 意大利节点"
+        - "\U0001F1EE\U0001F1F7 伊朗节点"
+      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/telegram.png
+    - name: Microsoft
+      type: select
+      proxies:
+        - Proxy
+        - DIRECT
+        - "\U0001F1ED\U0001F1F0 香港节点"
+        - "\U0001F1EF\U0001F1F5 日本节点"
+        - "\U0001F1F0\U0001F1F7 韩国节点"
+        - "\U0001F1F8\U0001F1EC 新加坡节点"
+        - "\U0001F1FA\U0001F1F8 美国节点"
+        - "\U0001F1EC\U0001F1E7 英国节点"
+        - "\U0001F1EB\U0001F1F7 法国节点"
+        - "\U0001F1E9\U0001F1EA 德国节点"
+        - "\U0001F1E8\U0001F1E6 加拿大节点"
+        - "\U0001F1E6\U0001F1FA 澳大利亚节点"
+        - "\U0001F1F3\U0001F1F1 荷兰节点"
+        - "\U0001F1F7\U0001F1FA 俄罗斯节点"
+        - "\U0001F1ED\U0001F1FA 匈牙利节点"
+        - "\U0001F1FA\U0001F1E6 乌克兰节点"
+        - "\U0001F1F5\U0001F1F1 波兰节点"
+        - "\U0001F1EE\U0001F1F9 意大利节点"
+        - "\U0001F1EE\U0001F1F7 伊朗节点"
+      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/microsoft.png
+    - name: Onedrive
+      type: select
+      proxies:
+        - DIRECT
+        - Proxy
+        - "\U0001F1ED\U0001F1F0 香港节点"
+        - "\U0001F1EF\U0001F1F5 日本节点"
+        - "\U0001F1F0\U0001F1F7 韩国节点"
+        - "\U0001F1F8\U0001F1EC 新加坡节点"
+        - "\U0001F1FA\U0001F1F8 美国节点"
+        - "\U0001F1EC\U0001F1E7 英国节点"
+        - "\U0001F1EB\U0001F1F7 法国节点"
+        - "\U0001F1E9\U0001F1EA 德国节点"
+        - "\U0001F1E8\U0001F1E6 加拿大节点"
+        - "\U0001F1E6\U0001F1FA 澳大利亚节点"
+        - "\U0001F1F3\U0001F1F1 荷兰节点"
+        - "\U0001F1F7\U0001F1FA 俄罗斯节点"
+        - "\U0001F1ED\U0001F1FA 匈牙利节点"
+        - "\U0001F1FA\U0001F1E6 乌克兰节点"
+        - "\U0001F1F5\U0001F1F1 波兰节点"
+        - "\U0001F1EE\U0001F1F9 意大利节点"
+        - "\U0001F1EE\U0001F1F7 伊朗节点"
+      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/microsoft-onedrive.png
+    - name: Apple
+      type: select
+      proxies:
+        - DIRECT
+        - Proxy
+        - "\U0001F1ED\U0001F1F0 香港节点"
+        - "\U0001F1EF\U0001F1F5 日本节点"
+        - "\U0001F1F0\U0001F1F7 韩国节点"
+        - "\U0001F1F8\U0001F1EC 新加坡节点"
+        - "\U0001F1FA\U0001F1F8 美国节点"
+        - "\U0001F1EC\U0001F1E7 英国节点"
+        - "\U0001F1EB\U0001F1F7 法国节点"
+        - "\U0001F1E9\U0001F1EA 德国节点"
+        - "\U0001F1E8\U0001F1E6 加拿大节点"
+        - "\U0001F1E6\U0001F1FA 澳大利亚节点"
+        - "\U0001F1F3\U0001F1F1 荷兰节点"
+        - "\U0001F1F7\U0001F1FA 俄罗斯节点"
+        - "\U0001F1ED\U0001F1FA 匈牙利节点"
+        - "\U0001F1FA\U0001F1E6 乌克兰节点"
+        - "\U0001F1F5\U0001F1F1 波兰节点"
+        - "\U0001F1EE\U0001F1F9 意大利节点"
+        - "\U0001F1EE\U0001F1F7 伊朗节点"
+      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/apple.png
+    - name: Gamer
+      type: select
+      include-all: true
+      filter: "^(?=.*((?i)游戏|\U0001F3AE|(\\b(GAME)\\b)))(?!.*((?i)回国|校园)).*$"
+      proxies:
+        - DIRECT
+        - Proxy
+      icon: https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Game.png
+    - name: GlobalMedia
+      type: select
+      proxies:
+        - Proxy
+        - DIRECT
+        - "\U0001F1ED\U0001F1F0 香港节点"
+        - "\U0001F1EF\U0001F1F5 日本节点"
+        - "\U0001F1F0\U0001F1F7 韩国节点"
+        - "\U0001F1F8\U0001F1EC 新加坡节点"
+        - "\U0001F1FA\U0001F1F8 美国节点"
+        - "\U0001F1EC\U0001F1E7 英国节点"
+        - "\U0001F1EB\U0001F1F7 法国节点"
+        - "\U0001F1E9\U0001F1EA 德国节点"
+        - "\U0001F1E8\U0001F1E6 加拿大节点"
+        - "\U0001F1E6\U0001F1FA 澳大利亚节点"
+        - "\U0001F1F3\U0001F1F1 荷兰节点"
+        - "\U0001F1F7\U0001F1FA 俄罗斯节点"
+        - "\U0001F1ED\U0001F1FA 匈牙利节点"
+        - "\U0001F1FA\U0001F1E6 乌克兰节点"
+        - "\U0001F1F5\U0001F1F1 波兰节点"
+        - "\U0001F1EE\U0001F1F9 意大利节点"
+        - "\U0001F1EE\U0001F1F7 伊朗节点"
+      icon: https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/ForeignMedia.png
+    - name: "\U0001F4AA 手动选择"
+      type: select
+      include-all: true
+    - name: "\U0001F64F 自动选择"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      include-all: true
+    - name: "\U0001F3A1负载均衡"
+      type: load-balance
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      disable-udp: false
+      timeout: 2000
+      max-failed-times: 3
+      strategy: sticky-sessions
+      include-all: true
+    - name: "\U0001F1ED\U0001F1F0 香港节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)HK|香港|港"
+      include-all: true
+    - name: "\U0001F1F9\U0001F1FC 台湾节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)TW|台湾|台"
+      include-all: true
+    - name: "\U0001F1EF\U0001F1F5 日本节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)JP"
+      include-all: true
+    - name: "\U0001F1F0\U0001F1F7 韩国节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)KR|韩国|韩"
+      include-all: true
+    - name: "\U0001F1F8\U0001F1EC 新加坡节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)SG|新加坡|狮城"
+      include-all: true
+    - name: "\U0001F1FA\U0001F1F8 美国节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)US|美国|美"
+      include-all: true
+    - name: "\U0001F1EC\U0001F1E7 英国节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)UK|GB|英国|英"
+      include-all: true
+    - name: "\U0001F1EB\U0001F1F7 法国节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)FR|法国|法"
+      include-all: true
+    - name: "\U0001F1E9\U0001F1EA 德国节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)DE|德国|德"
+      include-all: true
+    - name: "\U0001F1E8\U0001F1E6 加拿大节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)CA|加拿大"
+      include-all: true
+    - name: "\U0001F1E6\U0001F1FA 澳大利亚节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)AU|澳大利亚|澳洲"
+      include-all: true
+    - name: "\U0001F1F3\U0001F1F1 荷兰节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)NL|荷兰"
+      include-all: true
+    - name: "\U0001F1F7\U0001F1FA 俄罗斯节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)RU|俄罗斯|俄"
+      include-all: true
+    - name: "\U0001F1ED\U0001F1FA 匈牙利节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)HU|匈牙利"
+      include-all: true
+    - name: "\U0001F1FA\U0001F1E6 乌克兰节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)UA|乌克兰"
+      include-all: true
+    - name: "\U0001F1F5\U0001F1F1 波兰节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)PL|波兰"
+      include-all: true
+    - name: "\U0001F1EE\U0001F1F9 意大利节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)IT|意大利"
+      include-all: true
+    - name: "\U0001F1EE\U0001F1F7 伊朗节点"
+      type: url-test
+      tolerance: 100
+      interval: 60
+      lazy: true
+      url: https://gstatic.com/generate_204
+      timeout: 2000
+      max-failed-times: 3
+      filter: "(?i)IR|伊朗"
+      include-all: true
+
+rule-providers:
+    GlobalMedia:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml
+        path: ./RuleSet/GlobalMedia.yaml
+    ChinaMedia:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMedia/ChinaMedia.yaml
+        path: ./RuleSet/ChinaMedia.yaml
+    Netflix:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix_Classical_No_Resolve.yaml
+        path: ./RuleSet/Netflix.yaml
+    Disney+:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Disney/Disney_No_Resolve.yaml
+        path: ./RuleSet/Disney+.yaml
+    YouTube:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube_No_Resolve.yaml
+        path: ./RuleSet/YouTube.yaml
+    Apple:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple_Classical_No_Resolve.yaml
+        path: ./RuleSet/Apple.yaml
+    Microsoft:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft_No_Resolve.yaml
+        path: ./RuleSet/Microsoft.yaml
+    Nintendo:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Nintendo/Nintendo.yaml
+        path: ./RuleSet/Nintendo.yaml
+    PlayStation:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/PlayStation/PlayStation.yaml
+        path: ./RuleSet/PlayStation.yaml
+    Epic:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Epic/Epic.yaml
+        path: ./RuleSet/Epic.yaml
+    Xbox:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Xbox/Xbox.yaml
+        path: ./RuleSet/Xbox.yaml
+    TikTok:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/TikTok/TikTok_No_Resolve.yaml
+        path: ./RuleSet/TikTok.yaml
+    Spotify:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Spotify/Spotify.yaml
+        path: ./RuleSet/Spotify.yaml
+    OpenAI:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml
+        path: ./RuleSet/OpenAI.yaml
+    Proxy:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Proxy/Proxy_Classical_No_Resolve.yaml
+        path: ./RuleSet/Proxy.yaml
+    China:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml
+        path: ./RuleSet/China.yaml
+    Tencent:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Tencent/Tencent.yaml
+        path: ./RuleSet/Tencent.yaml
+    LAN:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml
+        path: ./RuleSet/LAN.yaml
+    Cloudflare:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Cloudflare/Cloudflare.yaml
+        path: ./RuleSet/Cloudflare.yaml
+    Onedrive:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OneDrive/OneDrive.yaml
+        path: ./RuleSet/Onedrive.yaml
+    Bing:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bing/Bing.yaml
+        path: ./RuleSet/Bing.yaml
+    Github:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitHub/GitHub.yaml
+        path: ./RuleSet/Github.yaml
+    Telegram:
+        type: http
+        behavior: classical
+        interval: 86400
+        format: yaml
+        proxy: DIRECT
+        url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml
+        path: ./RuleSet/Telegram.yaml
 rules:
+    - RULE-SET,ChinaMedia,DIRECT
+    - RULE-SET,China,DIRECT
+    - RULE-SET,LAN,DIRECT
+    - GEOIP,CN,DIRECT
+    - RULE-SET,ChinaMedia,DIRECT
+    - RULE-SET,China,DIRECT
+    - RULE-SET,LAN,DIRECT
+    - GEOIP,CN,DIRECT
+    - RULE-SET,OpenAI,OpenAI
+    - RULE-SET,Cloudflare,Cloudflare
+    - RULE-SET,Github,Github
+    - RULE-SET,Onedrive,Onedrive
+    - RULE-SET,Bing,Bing
+    - RULE-SET,Apple,Apple
+    - RULE-SET,Spotify,Spotify
+    - RULE-SET,TikTok,TikTok
+    - RULE-SET,Netflix,Netflix
+    - RULE-SET,Disney+,Disney+
+    - RULE-SET,YouTube,YouTube
+    - RULE-SET,Telegram,Telegram
+    - RULE-SET,Nintendo,Gamer
+    - RULE-SET,PlayStation,Gamer
+    - RULE-SET,Epic,Gamer
+    - RULE-SET,Xbox,Gamer
+    - RULE-SET,Microsoft,Microsoft
+    - RULE-SET,GlobalMedia,GlobalMedia
+    - RULE-SET,Proxy,Proxy
+    - MATCH,Proxy
+
+proxies:
+ - {"client-fingerprint":"chrome","name":" t.me/PFSub | 🇸🇬 SG 001 | ⬇️ 193KB/s","network":"tcp","password":"c1d83c0c7d57cead4379ba14a82df69b","port":390,"server":"160.16.87.174","skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan"}
+ - {"client-fingerprint":"chrome","name":" t.me/PFSub | 🇭🇰 HK 002 | ⬇️ 106KB/s","network":"tcp","password":"c1d83c0c7d57cead4379ba14a82df69b","port":443,"server":"203.198.84.150","skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan"}
+ - {"delay":2533,"name":" t.me/PFSub | 🇺🇸 US 003 | ⬇️ 5MB/s","port":1080,"server":"174.138.61.184","skip-cert-verify":true,"type":"socks5","udp":true}
+ - {"cipher":"aes-256-cfb","country":"🇰🇷KR","name":" t.me/PFSub | 🇰🇷 KR 004 | ⬇️ 963KB/s","password":"qwerREWQ@@","port":51537,"server":"211.201.169.70","type":"ss"}
+ - {"cipher":"aes-256-cfb","name":" t.me/PFSub | 🇰🇷 KR 005 | ⬇️ 130KB/s","password":"qwerREWQ@@","port":29707,"server":"221.139.79.20","type":"ss","udp":true}
+ - {"cipher":"aes-256-cfb","country":"🇮🇪IE","name":" t.me/PFSub | 🇮🇪 IE 006 | ⬇️ 10MB/s","password":"amazonskr05","port":443,"server":"34.242.133.144","type":"ss"}
+ - {"cipher":"aes-256-cfb","name":" t.me/PFSub | 🇰🇷 KR 007 | ⬇️ 383KB/s","password":"qwerREWQ@@","port":19203,"server":"121.170.203.147","type":"ss","udp":true}
+ - {"client-fingerprint":"chrome","name":" t.me/PFSub | 🇭🇰 HK 008 | ⬇️ 111KB/s","network":"tcp","password":"c1d83c0c7d57cead4379ba14a82df69b","port":443,"server":"203.198.84.150","sni":"www.nintendogames.net","type":"trojan"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 009 | ⬇️ 159KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.59","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🇺🇸US","name":" t.me/PFSub | 🇺🇸 US 010 | ⬇️ 4MB/s","password":"amazonskr05","port":443,"server":"34.236.146.184","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 011 | ⬇️ 46KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.54","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 012 | ⬇️ 67KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.155.213","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 013 | ⬇️ 72KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.186","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🇺🇸US","name":" t.me/PFSub | 🇺🇸 US 014 | ⬇️ 2MB/s","password":"amazonskr05","port":443,"server":"3.94.168.57","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 015 | ⬇️ 47KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.9","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 016 | ⬇️ 19KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.52","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 017 | ⬇️ 52KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.155.147","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 018 | ⬇️ 43KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.155.224","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 019 | ⬇️ 34KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.209","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 020 | ⬇️ 94KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.227","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 021 | ⬇️ 53KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.155.143","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 022 | ⬇️ 158KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.155.120","type":"ss"}
+ - {"cipher":"aes-256-cfb","name":" t.me/PFSub | 🇰🇷 KR 023 | ⬇️ 202KB/s","password":"qwerREWQ@@","port":56223,"server":"218.38.103.150","type":"ss","udp":true}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 024 | ⬇️ 25KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.155.43","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 025 | ⬇️ 155KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.43","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 026 | ⬇️ 19KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.77","type":"ss"}
+ - {"cipher":"chacha20-ietf-poly1305","country":"🇷🇺RU","name":" t.me/PFSub | 🇷🇺 RU 027 | ⬇️ 1MB/s","password":"nKohne07VrxB-nq43cxzs7Vu9Nnp4JXY","port":504,"server":"ru1.clear-vpn.org","type":"ss"}
+ - {"cipher":"chacha20-ietf-poly1305","name":" t.me/PFSub | 🇺🇸 US 028 | ⬇️ 191KB/s","password":"5d8680180abdb564","port":45234,"server":"154.53.34.27","type":"ss","udp":true}
+ - {"client-fingerprint":"chrome","country":"🇭🇰 HK","name":" t.me/PFSub | 🇭🇰 HK 029 | ⬇️ 156KB/s","network":"tcp","password":"BxceQaOe","port":443,"server":"58.152.53.45","skip-cert-verify":true,"type":"trojan","udp":true}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 030 | ⬇️ 44KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.155.46","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 031 | ⬇️ 35KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.246","type":"ss"}
+ - {"cipher":"chacha20-ietf-poly1305","country":"🇬🇮GI","name":" t.me/PFSub | 🇪🇸 ES 032 | ⬇️ 92KB/s","password":"ktfBL37Yk9yWC785ruhgvULSo9LMLxEaXFALt7diSgREzwaeBGayijUw8PzXGwjPaKJokoGRrDQviGY41P1XH9Ah7Er3Wyj4","port":40312,"server":"my.adultdama.cc","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 033 | ⬇️ 336KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.60","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 034 | ⬇️ 207KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.62","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 035 | ⬇️ 43KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.51","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 036 | ⬇️ 22KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.142","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 037 | ⬇️ 93KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.155.108","type":"ss"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 038 | ⬇️ 43KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.165","type":"ss"}
+ - {"client-fingerprint":"chrome","name":" t.me/PFSub | 🇸🇬 SG 039 | ⬇️ 80KB/s","network":"tcp","password":"c1d83c0c7d57cead4379ba14a82df69b","port":390,"server":"160.16.87.174","sni":"www.nintendogames.net","type":"trojan"}
+ - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":" t.me/PFSub | 🇻🇳 VN 040 | ⬇️ 91KB/s","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.153","type":"ss"}
+ - {"country":"🇺🇸US","name":" t.me/PFSub | 🇺🇸 US 041 | ⬇️ 1MB/s","password":"e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e","port":443,"server":"134.195.101.191","skip-cert-verify":true,"sni":"www.apple.com","type":"hysteria2","udp":true}
+ - {"client-fingerprint":"chrome","country":"🇹🇼TW","name":" t.me/PFSub | 🇭🇰 HK 042 | ⬇️ 41KB/s","network":"tcp","password":"adb1ceb1-e1c0-497d-98e3-2484f8815a53","port":31103,"server":"green2.cdntencentmusic.com","skip-cert-verify":true,"sni":"green2.cdntencentmusic.com","type":"trojan","udp":true}
+ - {"client-fingerprint":"chrome","country":"🇹🇼TW","name":" t.me/PFSub | 🇭🇰 HK 043 | ⬇️ 41KB/s","network":"tcp","password":"42bf0597-7ac9-4842-a0d9-c6bb39ef3f94","port":31103,"server":"green2.cdntencentmusic.com","skip-cert-verify":true,"sni":"green2.cdntencentmusic.com","type":"trojan","udp":true}
+ - {"client-fingerprint":"chrome","country":"🇹🇼TW","name":" t.me/PFSub | 🇭🇰 HK 044 | ⬇️ 41KB/s","network":"tcp","password":"0e1a4026-89b4-4f9c-b7c4-8fb2933c30db","port":31103,"server":"green2.cdntencentmusic.com","skip-cert-verify":true,"sni":"green2.cdntencentmusic.com","type":"trojan","udp":true}
+ - {"cipher":"aes-256-cfb","country":"🏁 ZZ","name":" t.me/PFSub | 🇵🇹 PT 045 | ⬇️ 17KB/s","password":"f8f7aCzcPKbsF8p3","port":989,"server":"185.231.233.112","type":"ss"}
+ - {"client-fingerprint":"chrome","country":"🇹🇼TW","name":" t.me/PFSub | 🇭🇰 HK 046 | ⬇️ 37KB/s","network":"tcp","password":"63dbd122-6932-43ea-9c0e-06ed91f0d3d3","port":31103,"server":"green2.cdntencentmusic.com","skip-cert-verify":true,"sni":"green2.cdntencentmusic.com","type":"trojan","udp":true}
+ - {"client-fingerprint":"chrome","country":"🇹🇼TW","name":" t.me/PFSub | 🇭🇰 HK 047 | ⬇️ 38KB/s","network":"tcp","password":"0d9ec64e-1108-4007-8c93-8f627cace0ac","port":31103,"server":"green2.cdntencentmusic.com","skip-cert-verify":true,"sni":"green2.cdntencentmusic.com","type":"trojan","udp":true}
+ - {"cipher":"aes-256-cfb","name":" t.me/PFSub | 🇰🇷 KR 048 | ⬇️ 89KB/s","password":"qwerREWQ@@","port":49049,"server":"221.139.79.41","type":"ss","udp":true}
+ - {"client-fingerprint":"chrome","name":" t.me/PFSub | 🇨🇦 CA 049 | ⬇️ 151KB/s","network":"tcp","password":"63b21d86-a49c-4936-a634-0b5af3e30433","port":443,"server":"tuntro006.instconn.com","skip-cert-verify":true,"sni":"torontorm1.686911.xyz","type":"trojan","udp":true}
+ - {"client-fingerprint":"chrome","country":"🇹🇼TW","name":" t.me/PFSub | 🇭🇰 HK 050 | ⬇️ 39KB/s","network":"tcp","password":"63dbd122-6932-43ea-9c0e-06ed91f0d3d3","port":31102,"server":"green2.cdntencentmusic.com","skip-cert-verify":true,"sni":"green2.cdntencentmusic.com","type":"trojan","udp":true}
+ - {"client-fingerprint":"chrome","country":"🇹🇼TW","name":" t.me/PFSub | 🇺🇸 US 051 | ⬇️ 38KB/s","network":"tcp","password":"a7b4444c-6033-45fe-bdee-8e8fe64a419d","port":35502,"server":"green2.cdntencentmusic.com","skip-cert-verify":true,"sni":"green2.cdntencentmusic.com","type":"trojan","udp":true}
+ - {"alterId":0,"client-fingerprint":"chrome","name":" t.me/PFSub | 🇭🇰 HK 052 | ⬇️ 51KB/s","network":"tcp","password":"c1d83c0c7d57cead4379ba14a82df69b","port":443,"server":"203.198.84.150","skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","udp":true}
+ - {"client-fingerprint":"chrome","name":" t.me/PFSub | 🇸🇬 SG 053 | ⬇️ 10MB/s","network":"ws","port":2053,"server":"104.26.12.27","servername":"snippet.danfeng21.ndjp.net","skip-cert-verify":false,"tls":true,"type":"vless","uuid":"a2a396c3-f40e-4dee-bdbb-b1201f12dc1c","ws-opts":{"headers":{"Host":"snippet.danfeng21.ndjp.net"},"path":"/danfengfp"}}
+ - {"name":" t.me/PFSub | 🇺🇸 US 054 | ⬇️ 2MB/s","password":"e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e","port":443,"server":"134.195.101.191","skip-cert-verify":true,"sni":"www.apple.com","tfo":false,"type":"hysteria2"}
+ - {"client-fingerprint":"chrome","name":" t.me/PFSub | 🇸🇬 SG 055 | ⬇️ 10MB/s","network":"ws","port":2053,"server":"104.26.12.27","servername":"snippet.danfeng21.ndjp.net","skip-cert-verify":false,"tls":true,"type":"vless","uuid":"a2a396c3-f40e-4dee-bdbb-b1201f12dc1c","ws-opts":{"headers":{"Host":"snippet.danfeng21.ndjp.net"},"path":"/danfengfp"}}
+ - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","name":" t.me/PFSub | 🇩🇪 DE 056 | ⬇️ 9MB/s","network":"tcp","port":443,"reality-opts":{"public-key":"RTiq5daK_aG5LQSByzhQevcZVfT18MvPpO1-5w3lkVw","short-id":"185b5686fe5b13ce"},"server":"ge.rakslinevpn.su","servername":"ge.rakslinevpn.su","skip-cert-verify":false,"tls":true,"type":"vless","uuid":"56d1d355-92c9-4a9c-91e4-327d29d9a82f"}
+ - {"client-fingerprint":"chrome","encryption":"none","name":" t.me/PFSub | 🇳🇱 NL 057 | ⬇️ 1MB/s","network":"ws","port":80,"server":"nl-78w-c.southnetworks.cloud","skip-cert-verify":false,"tls":false,"type":"vless","uuid":"094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa","ws-opts":{"headers":{"Host":"nl-78w-c.southnetworks.cloud"},"path":"/getWorkerUpdates"}}
+ - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","name":" t.me/PFSub | 🇸🇪 SE 058 | ⬇️ 1MB/s","network":"tcp","port":443,"reality-opts":{"public-key":"5SelFVPOWp4xCFbAqu1gwYAHeRowzhcYlSRwcbHahRQ","short-id":"d0d6607bc870c202"},"server":"se.rakslinevpn.su","servername":"se.rakslinevpn.su","skip-cert-verify":false,"tls":true,"type":"vless","uuid":"56d1d355-92c9-4a9c-91e4-327d29d9a82f"}
+ - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","name":" t.me/PFSub | 🇩🇪 DE 059 | ⬇️ 40KB/s","network":"tcp","port":20125,"reality-opts":{"public-key":"1bPmkcedCRTLaJKYbqpeSrhogDkNxtiNxaj5roifhxg","short-id":"c4f99ca73a6884db"},"server":"c6.play2go.cloud","servername":"www.microsoft.com","skip-cert-verify":false,"tls":true,"type":"vless","uuid":"0f8fa422-65d2-4fc9-a508-07c72b658816"}
+ - {"client-fingerprint":"chrome","name":" t.me/PFSub | 🇭🇰 HK 060 | ⬇️ 25KB/s","network":"tcp","password":"BxceQaOe","port":443,"server":"58.152.53.45","skip-cert-verify":true,"sni":"t.me%252Fripaojiedian","type":"trojan"}
+ - {"client-fingerprint":"chrome","encryption":"none","name":" t.me/PFSub | 🇨🇦 CA 061 | ⬇️ 12MB/s","network":"ws","port":80,"server":"104.18.32.47","skip-cert-verify":false,"tls":false,"type":"vless","uuid":"6abc2840-25fd-4dd7-b1aa-0892fe98f2d9","ws-opts":{"headers":{"Host":"MySterIOUS-chECk94Bl5oXQ6C.eCoTOUriSs.cO.uK."},"path":"/?ed"}}
+ - {"client-fingerprint":"chrome","encryption":"none","name":" t.me/PFSub | 🇬🇧 GB 062 | ⬇️ 10MB/s","network":"ws","port":443,"server":"cdnjs.com","servername":"639057258114955879.civic-perma.info","skip-cert-verify":false,"tls":true,"type":"vless","uuid":"53f0bca8-f170-4ef7-8031-c7d441189dbf","ws-opts":{"early-data-header-name":"Sec-WebSocket-Protocol","headers":{"Host":"639057258114955879.civic-perma.info"},"max-early-data":2560,"path":"/cahttingws"}}
+ - {"name":" t.me/PFSub | 🇺🇸 US 063 | ⬇️ 3MB/s","password":"e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e","port":443,"server":"134.195.101.191","skip-cert-verify":true,"sni":"www.apple.com","tfo":false,"type":"hysteria2"}
+ - {"client-fingerprint":"chrome","encryption":"none","name":" t.me/PFSub | 🇳🇱 NL 064 | ⬇️ 227KB/s","network":"ws","port":2052,"server":"nodejs.org","skip-cert-verify":false,"tls":false,"type":"vless","uuid":"f8ae018b-b84d-4c9b-b03b-4642c3a25977","ws-opts":{"headers":{"Host":"ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy."},"path":"/?ed"}}
+ - {"client-fingerprint":"chrome","encryption":"none","name":" t.me/PFSub | 🇩🇪 DE 065 | ⬇️ 8MB/s","network":"ws","port":80,"server":"104.18.32.47","skip-cert-verify":false,"tls":false,"type":"vless","uuid":"1e35b4bf-b270-4c0b-918d-62746eedd2ad","ws-opts":{"headers":{"Host":"EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY."},"path":"/?ed"}}
+ - {"client-fingerprint":"chrome","encryption":"none","name":" t.me/PFSub | 🇫🇷 FR 066 | ⬇️ 14MB/s","network":"ws","port":443,"server":"69.84.182.13","servername":"fr-1-fr-1.aiopen.sbs","skip-cert-verify":false,"tls":true,"type":"vless","uuid":"e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e","ws-opts":{"headers":{"Host":"fr-1-fr-1.aiopen.sbs"},"path":"/kbjc/fr1"}}
+ - {"client-fingerprint":"chrome","encryption":"none","name":" t.me/PFSub | 🇬🇷 GR 067 | ⬇️ 7MB/s","network":"ws","port":443,"server":"cdnjs.com","servername":"639057258093033836.corolla-perma.info","skip-cert-verify":false,"tls":true,"type":"vless","uuid":"118abefa-b585-49c5-a342-61d0e75402f5","ws-opts":{"early-data-header-name":"Sec-WebSocket-Protocol","headers":{"Host":"639057258093033836.corolla-perma.info"},"max-early-data":2560,"path":"/bzxqrlws"}}
+ - {"alterId":0,"client-fingerprint":"chrome","name":" t.me/PFSub | 🇭🇰 HK 068 | ⬇️ 59KB/s","network":"tcp","password":"BxceQaOe","port":443,"server":"58.152.53.45","skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","type":"trojan","udp":true}
+ - {"client-fingerprint":"chrome","encryption":"none","name":" t.me/PFSub | 🇫🇷 FR 069 | ⬇️ 11MB/s","network":"ws","port":443,"server":"69.84.182.13","servername":"fr-1-fr-1.aiopen.sbs","skip-cert-verify":false,"tls":true,"type":"vless","uuid":"e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e","ws-opts":{"headers":{"Host":"fr-1-fr-1.aiopen.sbs"},"path":"/kbjc/fr1"}}
+ - {"client-fingerprint":"chrome","encryption":"none","name":" t.me/PFSub | 🇮🇹 IT 070 | ⬇️ 2MB/s","network":"ws","port":443,"server":"194.76.18.25","servername":"rAyAn-cOnFiG-it-1.pArSa.dPdNs.oRg","skip-cert-verify":false,"tls":true,"type":"vless","uuid":"8388434b-bbc8-4e00-b497-69a7f56f6e24","ws-opts":{"headers":{"Host":"rAyAn-cOnFiG-it-1.pArSa.dPdNs.oRg"},"path":"/ws"}}
+ - {"client-fingerprint":"chrome","encryption":"none","name":" t.me/PFSub | 🇫🇷 FR 071 | ⬇️ 13MB/s","network":"ws","port":443,"server":"104.24.69.114","servername":"rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg","skip-cert-verify":false,"tls":true,"type":"vless","uuid":"85462399-8624-4e5c-bbb0-f95d84ca8256","ws-opts":{"headers":{"Host":"rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg"},"path":"/ws"}}
+ - {"client-fingerprint":"chrome","name":" t.me/PFSub | 🇸🇪 SE 072 | ⬇️ 130KB/s","network":"ws","password":"T9BpZIVMNv","port":8443,"server":"vip3.kaixincloud.top","skip-cert-verify":false,"sni":"sweden.vmaxpanel.com","type":"trojan","ws-opts":{"headers":{"Host":"sweden.vmaxpanel.com"},"path":"/amd"}}
+ - {"client-fingerprint":"chrome","name":" t.me/PFSub | 🇸🇪 SE 073 | ⬇️ 135KB/s","network":"ws","password":"T9BpZIVMNv","port":8443,"server":"vip1.kaixincloud.top","skip-cert-verify":false,"sni":"sweden.vmaxpanel.com","type":"trojan","ws-opts":{"headers":{"Host":"sweden.vmaxpanel.com"},"path":"/amd"}}
