@@ -78,6 +78,26 @@ jobs:
           echo "Conversion succeeded"
           ls -lh ./sub/pawdroid.yaml
 
+          SOURCE_URL3="https://fuzhang.net/proxy/nodes.txt"
+      
+          curl -fLsS --retry 3 --max-time 180 \
+            --get 'http://127.0.0.1:25500/sub' \
+            --data-urlencode 'target=clash' \
+            --data-urlencode "url=$SOURCE_URL3" \
+            --data-urlencode 'list=true' \
+            -o ./sub/nodes.txt
+      
+          if ! grep -qE '^(proxies|proxy-providers):' ./sub/nodes.txt; then
+            echo "No valid Clash nodes or providers generated"
+            head -c 2000 ./sub/nodes.txt
+            echo
+            docker logs --tail 100 subconverter
+            exit 1
+          fi
+      
+          echo "Conversion succeeded"
+          ls -lh ./sub/nodes.txt
+          
           SOURCE_URL32="https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/verified.txt"
       
           curl -fLsS --retry 3 --max-time 180 \
