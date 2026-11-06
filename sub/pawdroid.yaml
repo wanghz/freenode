@@ -1,6 +1,8 @@
 proxies:
   - {name: 美国+V2CROSS.COM, server: 208.69.78.33, port: 443, client-fingerprint: chrome, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, skip-cert-verify: false, sni: courses.yourultimateprofessionalcareerhub.com, type: trojan, udp: true}
-  - {name: 新西兰+V2CROSS.COM, server: 202.50.253.63, port: 19999, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, type: ss, udp: true}
+  - {name: 北京市+惟译天创信息技术有限公司, server: jp.sofast.live, port: 52683, encryption: none, network: tcp, type: vless, udp: true, uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc, xudp: true}
   - {name: 美国+FDCServers数据中心, server: 198.16.113.222, port: 8443, client-fingerprint: chrome, encryption: none, flow: xtls-rprx-vision, network: tcp, reality-opts: {public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE, short-id: "69984b9e02545831"}, servername: www.apple.com, tls: true, type: vless, udp: true, uuid: 98a24806-141a-43d3-b094-bd66c4eb93b8, xudp: true}
   - {name: 美国+V2CROSS.COM-01, server: 154.36.158.197, port: 8388, cipher: aes-256-gcm, password: BeaUf9c0AEWH40Pu, type: ss, udp: true}
   - {name: 美国 CloudFlare节点, server: cf.877771.xyz, port: 443, alpn: [""], alterId: 0, cipher: auto, network: ws, servername: vmess.lbw666.dpdns.org, skip-cert-verify: false, tls: true, type: vmess, udp: true, uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db, ws-opts: {early-data-header-name: Sec-WebSocket-Protocol, headers: {Host: vmess.lbw666.dpdns.org}, max-early-data: 2048, path: /ws}, xudp: true}
+  - {name: 北京市+惟译天创信息技术有限公司-01, server: jp.sofast.live, port: 52683, encryption: none, network: tcp, type: vless, udp: true, uuid: 399b6b23-cc40-4831-a494-61948e2df133, xudp: true}
+  - {name: 新西兰+V2CROSS.COM, server: 202.50.253.36, port: 19999, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, type: ss, udp: true}
