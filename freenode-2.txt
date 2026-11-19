@@ -67,65 +67,36 @@ ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkNoYW5uZWwgOiBARGFpbHlfQ29uZmlncyIsDQogICJhZGQi
 ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkNoYW5uZWwgOiBARGFpbHlfQ29uZmlncyIsDQogICJhZGQiOiAiNjcuMjIwLjk1LjMiLA0KICAicG9ydCI6ICIxODAwMCIsDQogICJpZCI6ICJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiLA0KICAiaW5zZWN1cmUiOiAiMCIsDQogICJ2Y24iOiAiIiwNCiAgInBjcyI6ICIiDQp9vless://cb024c9c-2a4b-4adf-a2b6-cc9c5077fc36@fastly.dunnexa.ir:443?encryption=mlkem768x25519plus.native.0rtt.cCpOxgCVxgLlIS_BaB3AZQBi1AXk1K-lRr2Uef3diG8&security=tls&sni=cdn.akamai.steamstatic.com&fp=firefox&alpn=h2&vcn=firefox.com&pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&type=ws&host=duvavuma223.global.ssl.fastly.net&path=%2F#🌐服务器66 | 11月17日 |bin1site1.github.io 
 vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@104.24.196.20:443?encryption=none&security=tls&sni=fs.qicai99.com&type=ws&host=fs.qicai99.com&path=%2FDailyConfigs--DailyConfigs--DailyConfigs#🌐服务器67 | 11月17日 |bin1site1.github.io 
 ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkNoYW5uZWwgOiBARGFpbHlfQ29uZmlncyIsDQogICJhZGQiOiAiMTcyLjY3LjE1Ni4xMjEiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiZTcwYTViNzAtZjYzYy00NDUwLWFmOGItOTQ5OTBjZGY4MGMwIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJ3d3cuZ3B0Y2xvdWRhaS5jb20iLA0KICAicGF0aCI6ICIvdHJ1dGgiLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAid3d3LmdwdGNsb3VkYWkuY29tIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiIsDQogICJpbnNlY3VyZSI6ICIwIiwNCiAgInZjbiI6ICIiLA0KICAicGNzIjogIiINCn0=vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.26:23576?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fuck.rkn&fp=chrome&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01&type=tcp&headerType=none#🌐服务器68 | 11月17日 |bin1site1.github.io 
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@shopify.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|136ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@time.is:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|142ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@cf.345673.xyz:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|155ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@icook.tw:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|169ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@ip.sb:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|174ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@icook.hk:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|185ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@japan.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|208ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@malaysia.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|220ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@russia.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|239ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@skk.moe:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|243ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.visa.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|249ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@singapore.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|250ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@emby2.misakaf.org:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|260ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.visa.com.sg:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|316ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.visa.co.jp:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|321ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.visa.com.hk:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|342ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.visakorea.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|383ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.digitalocean.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|393ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@cf.0sm.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|417ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.shopify.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|424ms
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.18:19999#%F0%9F%87%AE%F0%9F%87%B9IT_1%7C2.3MB%2Fs
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.36:19999#%F0%9F%87%AE%F0%9F%87%B9IT_2%7C1.2MB%2Fs
-hysteria2://23c82941-70f4-4381-90db-bd28e9a902e9@steel7.hadsvpn.com:443?sni=steel7.hadsvpn.com#%F0%9F%87%BA%F0%9F%87%B8US_1%7C4.5MB%2Fs
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@shopify.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|111ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@cf.345673.xyz:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|115ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@time.is:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|116ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@ip.sb:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|125ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@emby2.misakaf.org:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|126ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@japan.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|132ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@icook.hk:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|138ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@malaysia.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|145ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@russia.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|148ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@skk.moe:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|160ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.visa.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|175ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@singapore.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|178ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.visa.com.tw:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|203ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.visa.com.sg:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|209ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.visa.com.hk:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|209ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.visa.co.jp:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|225ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@saas.sin.fan:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|228ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@youxuan.cf.090227.xyz:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|228ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.visakorea.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|229ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@cf.cloudflare.182682.xyz:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|254ms
+hysteria2://b7f20af6-7523-11f1-a6a1-f23c913c8d2b@906512ec-tovmo0-tou0p4-1ji20.hk3.hyhuawei.com:443?insecure=1&sni=906512ec-tovmo0-tou0p4-1ji20.hk3.hyhuawei.com#%F0%9F%87%AD%F0%9F%87%B0HK_1%7C1.4MB%2Fs
+vless://d38b03c3-ff14-4ee0-80de-cd089f84ee38@ct.877774.xyz:443?security=tls&type=ws&path=%2Fannouncement%3Fed%3D2048&host=us-lax.862400.xyz&packetEncoding=xudp&sni=us-lax.862400.xyz&fp=random&encryption=none#%F0%9F%87%BA%F0%9F%87%B8US_1%7C3.5MB%2Fs
+hysteria2://u9axzkplfc3463am@sub.macdonalder.cyou:16146?obfs=salamander&obfs-password=mn1g0eianbese7bl&sni=sub.macdonalder.cyou#%F0%9F%87%B3%F0%9F%87%B1NL_1%7C1.1MB%2Fs%7CGPT%E2%81%BA%7CYT-RU%7CNF%7CD%2B%7C0%25
+hysteria://38.6.222.130:11008?alpn=h3&auth=dongtaiwang.com&downmbps=55&password=dongtaiwang.com&servername=bing.com&insecure=1&peer=bing.com&upmbps=11#%F0%9F%87%BA%F0%9F%87%B8US_1%7C1.4MB%2Fs%7CGPT%E2%81%BA%7CYT-CN%7CNF%7C1%25
+socks://QUozZDlnSnc6MXBCN0hWNnU%3D@151.246.109.158:42000#❓Other_1|1.0MB/s|GPT⁺
+socks://a3M4Nzg0NDkyNjBkOllsUm9XdkUwZExfY1VxUzk0d1BlS25BNA%3D%3D@87.84.49.140:62000#❓Other_2|2.3MB/s|GPT⁺
+socks://a3M4Nzg0NDkyNjBkOllsUm9XdkUwZExfY1VxUzk0d1BlS25BNA%3D%3D@87.84.49.245:62000#❓Other_3|2.1MB/s|GPT⁺
 
 
 
 
 
 
-
-
-
-
-hysteria2://u9axzkplfc3463am@sub.macdonalder.cyou:16146?obfs=salamander&obfs-password=mn1g0eianbese7bl&sni=sub.macdonalder.cyou#%F0%9F%87%B3%F0%9F%87%B1NL_1%7C4.2MB%2Fs%7CGPT%E2%81%BA%7CYT-RU%7CNF%7CD%2B%7C0%25
-
-
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.18:19999#%F0%9F%87%AE%F0%9F%87%B9IT_1%7C1.8MB%2Fs%7CGPT%E2%81%BA%7CYT-CN%7CNF%7C31%25
-
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.36:19999#%F0%9F%87%AE%F0%9F%87%B9IT_2%7C1.7MB%2Fs%7CGPT%E2%81%BA%7CYT-CN%7C31%25
-socks://aDg3NTI3ako6ZkFnRTJqcUs%3D@151.246.108.69:42000#🇹🇭TH_1|1.5MB/s|GPT⁺|YT-US|0%
-
-
-
-
-
-
-
-
-
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.90:19999#%F0%9F%87%AE%F0%9F%87%B9IT_3%7C1.9MB%2Fs%7CGPT%E2%81%BA%7CYT-CN%7CNF%7C31%25
-socks://dV9yYjFkYmEyOmwxdGxyZHg1MnY%3D@66.253.2.69:62000#❓Other_1|2.2MB/s|GPT
-socks://QUozZDlnSnc6MXBCN0hWNnU%3D@151.246.109.158:42000#❓Other_2|1.2MB/s|GPT⁺
-hysteria://38.6.222.130:11008?alpn=h3&auth=dongtaiwang.com&downmbps=55&password=dongtaiwang.com&servername=bing.com&insecure=1&peer=bing.com&upmbps=11#%F0%9F%87%BA%F0%9F%87%B8US_3%7C1.2MB%2Fs%7CGPT%E2%81%BA%7CYT-CN%7CNF%7C1%25
-
-
-
-
-
-
-
-
-vless://9195e0f1-f466-4e69-838f-a95519b5d45e@122.9.123.248:44306?security=reality&type=tcp&sni=dl.google.com&fp=chrome&flow=xtls-rprx-vision&sid=c11a9913&pbk=qzoG-cG8dG_C1T2tsWnWgooE9eekntARY0fVGIyg4Fg&encryption=none#%F0%9F%87%B8%F0%9F%87%ACSG_1%7C1.1MB%2Fs%7CGPT%E2%81%BA%7CYT-SG%7C2%25
