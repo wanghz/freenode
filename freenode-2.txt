@@ -67,62 +67,44 @@ ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkNoYW5uZWwgOiBARGFpbHlfQ29uZmlncyIsDQogICJhZGQi
 ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkNoYW5uZWwgOiBARGFpbHlfQ29uZmlncyIsDQogICJhZGQiOiAiNjcuMjIwLjk1LjMiLA0KICAicG9ydCI6ICIxODAwMCIsDQogICJpZCI6ICJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiLA0KICAiaW5zZWN1cmUiOiAiMCIsDQogICJ2Y24iOiAiIiwNCiAgInBjcyI6ICIiDQp9vless://cb024c9c-2a4b-4adf-a2b6-cc9c5077fc36@fastly.dunnexa.ir:443?encryption=mlkem768x25519plus.native.0rtt.cCpOxgCVxgLlIS_BaB3AZQBi1AXk1K-lRr2Uef3diG8&security=tls&sni=cdn.akamai.steamstatic.com&fp=firefox&alpn=h2&vcn=firefox.com&pcs=cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e&type=ws&host=duvavuma223.global.ssl.fastly.net&path=%2F#🌐服务器66 | 11月17日 |bin1site1.github.io 
 vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@104.24.196.20:443?encryption=none&security=tls&sni=fs.qicai99.com&type=ws&host=fs.qicai99.com&path=%2FDailyConfigs--DailyConfigs--DailyConfigs#🌐服务器67 | 11月17日 |bin1site1.github.io 
 ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkNoYW5uZWwgOiBARGFpbHlfQ29uZmlncyIsDQogICJhZGQiOiAiMTcyLjY3LjE1Ni4xMjEiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiZTcwYTViNzAtZjYzYy00NDUwLWFmOGItOTQ5OTBjZGY4MGMwIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJ3d3cuZ3B0Y2xvdWRhaS5jb20iLA0KICAicGF0aCI6ICIvdHJ1dGgiLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAid3d3LmdwdGNsb3VkYWkuY29tIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiIsDQogICJpbnNlY3VyZSI6ICIwIiwNCiAgInZjbiI6ICIiLA0KICAicGNzIjogIiINCn0=vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.26:23576?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fuck.rkn&fp=chrome&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01&type=tcp&headerType=none#🌐服务器68 | 11月17日 |bin1site1.github.io 
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@cf.345673.xyz:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|209ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@shopify.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|225ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@time.is:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|242ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@icook.hk:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|267ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@cfip.1323123.xyz:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|340ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@emby2.misakaf.org:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|349ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@icook.tw:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|373ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@japan.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|380ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@russia.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|382ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@malaysia.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|382ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@singapore.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|424ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.visa.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|430ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.visa.com.sg:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|437ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.visa.com.hk:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|446ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.visakorea.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|495ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.visa.com.tw:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|528ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@gur.gov.ua:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|531ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.wto.org:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|531ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@palera.in:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|548ms
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@iplocation.io:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|549ms
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.18:19999#%F0%9F%87%AE%F0%9F%87%B9IT_1%7C2.3MB%2Fs
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.27:19999#%F0%9F%87%AE%F0%9F%87%B9IT_2%7C2.8MB%2Fs
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.36:19999#%F0%9F%87%AE%F0%9F%87%B9IT_3%7C2.0MB%2Fs
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.54:19999#%F0%9F%87%AE%F0%9F%87%B9IT_4%7C2.7MB%2Fs
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.72:19999#%F0%9F%87%AE%F0%9F%87%B9IT_5%7C1.6MB%2Fs
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.90:19999#%F0%9F%87%AE%F0%9F%87%B9IT_6%7C2.7MB%2Fs
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.99:19999#%F0%9F%87%AE%F0%9F%87%B9IT_7%7C1.2MB%2Fs
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7hVU18xfDIuN01CL3MiLCJhZGQiOiIxOTIuNzQuMjM2LjE0OCIsInBvcnQiOiIzMDAwNCIsImlkIjoiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwiYWlkIjoiNjQiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoidGxzIiwic25pIjoid3d3LjkxMzM0NTY1Lnh5eiIsInBhdGgiOiIvcGF0aC8xNzMzNDc3NzgzNzA1IiwiaG9zdCI6Ind3dy45MTMzNDU2NS54eXoifQ==
-ss://2022-blake3-chacha20-poly1305:8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y%3D@47.254.128.109:443#%F0%9F%87%A9%F0%9F%87%AADE_1%7C3.6MB%2Fs
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.81:19999#%F0%9F%87%AE%F0%9F%87%B9IT_8%7C2.0MB%2Fs
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.45:19999#%F0%9F%87%AE%F0%9F%87%B9IT_9%7C2.9MB%2Fs
-vless://0280c276-641b-49af-b699-4931c30ac137@chess.com:443?security=tls&type=xhttp&path=%2Fapi&host=norway.xn--nlqaa425dbaab446bbabd698meae.online&packetEncoding=xudp&alpn=h2&sni=norway.xn--nlqaa425dbaab446bbabd698meae.online.&fp=edge&mode=auto&encryption=none#%F0%9F%87%A9%F0%9F%87%AADE_2%7C2.0MB%2Fs
-vless://25ac78e7-6d1d-4c9a-a450-c01a4871769f@pebble.gerqix.online:443?security=tls&type=grpc&mode=gun&serviceName=glush.de2.v1&packetEncoding=xudp&alpn=h2&sni=windlass.gerqix.online&fp=chrome&encryption=none#%E2%9D%93Other_1%7C3.2MB%2Fs
-vless://40992c2a-513e-4837-9594-23411fd42afd@161.35.37.106:443?security=none&type=tcp&headerType=http&path=%2F&host=fast.com&packetEncoding=xudp&encryption=none#%F0%9F%87%AC%F0%9F%87%A7GB_1%7C3.4MB%2Fs
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HufCfh7xUV18xfDQuOU1CL3MiLCJhZGQiOiJkcDh5ay54aWFveWFuLmlvIiwicG9ydCI6IjE2NjE2IiwiaWQiOiI5MDRmMDU2OS04Njk1LTQ2NmYtOTdjZi0wZGUyZmFjZTFiNDYiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsInRscyI6IiIsInBhdGgiOiIvIiwiaG9zdCI6ImY5MzA5Y2M4ODYzN2MyNmY1NTJhMWE2NGZiMzExY2FlLm1vYmdzbGIudGJjYWNoZS5jb20ifQ==
-hysteria://62.210.124.132:24667?alpn=h3&auth=dongtaiwang.com&downmbps=55&password=dongtaiwang.com&servername=bing.com&insecure=1&peer=bing.com&upmbps=11&udp=true#%F0%9F%87%AB%F0%9F%87%B7FR_1%7C2.9MB%2Fs
-hysteria://62.210.124.132:24667?alpn=h3&auth=dongtaiwang.com&downmbps=55 Mbps&protocol=udp&insecure=1&peer=bing.com&upmbps=11 Mbps&udp=true#%F0%9F%87%AB%F0%9F%87%B7FR_2%7C2.8MB%2Fs
-
-
-
-
-
-
-
-
-socks://dV9yYjFkYmEyOmwxdGxyZHg1MnY%3D@66.253.2.69:62000#🇺🇸US_3|3.2MB/s
-
-
-
-
-
-
-
-
-
-socks://dWZDb2JoeWR6NFdkOkpkRmxyWmhxSFA%3D@69.16.157.244:1080#🇮🇹IT_10|3.1MB/s
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@emby2.misakaf.org:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|238ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@cf.345673.xyz:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|269ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@shopify.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|298ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.ipaddress.my:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|336ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.baipiao.eu.org:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|352ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@ip.sb:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|360ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@whatismyipaddress.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|366ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.pcmag.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|395ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.zsu.gov.ua:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|401ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@iplocation.io:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|404ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.iplocation.net:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|405ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@gur.gov.ua:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|407ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@fbi.gov:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|416ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@icook.tw:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|429ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.wto.org:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|431ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@japan.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|433ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@icook.hk:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|438ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@cf.0sm.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|439ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.ipchicken.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|450ms
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.iakeys.com:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|464ms
+ss://2022-blake3-chacha20-poly1305:8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y%3D@47.254.128.109:443#%F0%9F%87%A9%F0%9F%87%AADE_1%7C1.1MB%2Fs
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.90:19999#%F0%9F%87%AE%F0%9F%87%B9IT_1%7C1.8MB%2Fs
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.72:19999#%F0%9F%87%AE%F0%9F%87%B9IT_2%7C1.4MB%2Fs
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.81:19999#%F0%9F%87%AE%F0%9F%87%B9IT_3%7C1.5MB%2Fs
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.45:19999#%F0%9F%87%AE%F0%9F%87%B9IT_4%7C1.6MB%2Fs
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.18:19999#%F0%9F%87%AE%F0%9F%87%B9IT_5%7C1.4MB%2Fs
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.63:19999#%F0%9F%87%AE%F0%9F%87%B9IT_6%7C1.4MB%2Fs
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.54:19999#%F0%9F%87%AE%F0%9F%87%B9IT_7%7C2.4MB%2Fs
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.36:19999#%F0%9F%87%AE%F0%9F%87%B9IT_8%7C1.5MB%2Fs
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.27:19999#%F0%9F%87%AE%F0%9F%87%B9IT_9%7C1.4MB%2Fs
+vless://0f2dc4af-951f-4690-922e-07c6e8bab26a@45.86.245.122:8444?security=tls&type=xhttp&path=%2Fxh&host=at-43-wt6w.new-wave-split.site&packetEncoding=none&sni=at-43-wt6w.new-wave-split.site&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1NL_1%7C2.1MB%2Fs
+vless://0280c276-641b-49af-b699-4931c30ac137@188.114.98.0:443?security=tls&type=xhttp&path=%2Fapi&host=norway.xn--nlqaa425dbaab446bbabd698meae.online&packetEncoding=none&alpn=h2&sni=norway.xn--nlqaa425dbaab446bbabd698meae.online&fp=unsafe&mode=auto#%F0%9F%87%A9%F0%9F%87%AADE_2%7C1.5MB%2Fs
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7hVU18xfDEuM01CL3MiLCJhZGQiOiIxOTIuNzQuMjM2LjE0OCIsInBvcnQiOiIzMDAwNCIsImlkIjoiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwiYWlkIjoiNjQiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoidGxzIiwic25pIjoid3d3LjkxMzM0NTY1Lnh5eiIsInBhdGgiOiIvcGF0aC8xNzMzNDc3NzgzNzA1IiwiaG9zdCI6Ind3dy45MTMzNDU2NS54eXoifQ==
+vless://40992c2a-513e-4837-9594-23411fd42afd@161.35.37.106:443?security=none&type=tcp&headerType=http&path=%2F&host=fast.com&packetEncoding=xudp&encryption=none#%F0%9F%87%AC%F0%9F%87%A7GB_1%7C2.7MB%2Fs
+vless://40992c2a-513e-4837-9594-23411fd42afd@146.190.21.145:443?security=none&type=tcp&headerType=http&path=%2F&host=fast.com&packetEncoding=xudp&encryption=none#%F0%9F%87%B3%F0%9F%87%B1NL_2%7C2.2MB%2Fs
+trojan://bpb-trojan@russia.com:443?sni=kargar001.pages.dev&type=ws&path=%2Ftr%3Fed%3D2560&alpn=h3&fp=chrome#%F0%9F%87%A9%F0%9F%87%AADE_3%7C2.3MB%2Fs
+vless://50414e45-4c5f-5a45-5553-52108a2d5224@104.27.88.172:80?security=none&type=ws&path=%2Fapi%2Fws&host=web-app-nr6wpa.app-tp57xz.workers.dev&packetEncoding=xudp&sni=web-app-nr6wpa.app-tp57xz.workers.dev&encryption=none#%F0%9F%87%A9%F0%9F%87%AADE_4%7C3.5MB%2Fs
+hysteria://62.210.124.132:24667?alpn=h3&auth=dongtaiwang.com&downmbps=55&password=dongtaiwang.com&servername=bing.com&insecure=1&peer=bing.com&upmbps=11&udp=true#%F0%9F%87%AB%F0%9F%87%B7FR_1%7C1014KB%2Fs
 
 
 
@@ -135,7 +117,41 @@ socks://dWZDb2JoeWR6NFdkOkpkRmxyWmhxSFA%3D@69.16.157.244:1080#🇮🇹IT_10|3.1M
 
 
 
-anytls://0324fbc29561@sdf65h46wr.df6h451rh.xin:443?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=images.ctfassets.net&insecure=1&udp=1#%F0%9F%87%BA%F0%9F%87%B8US_7%7C1.4MB%2Fs
+socks://dV9yYjFkYmEyOmwxdGxyZHg1MnY%3D@66.253.2.69:62000#🇺🇸US_2|1.3MB/s
+
+socks://a3M4Nzg0NDkyNjBkOllsUm9XdkUwZExfY1VxUzk0d1BlS25BNA%3D%3D@87.84.49.140:62000#🇹🇭TH_1|1.1MB/s
+socks://a3M4Nzg0NDkyNjBkOllsUm9XdkUwZExfY1VxUzk0d1BlS25BNA%3D%3D@87.84.49.245:62000#🇹🇭TH_2|1.6MB/s
+
+vless://076b9961-51c7-407f-92b8-a8f2c6d42a7f@177.202.76.255:443?security=reality&type=tcp&packetEncoding=xudp&sni=pl-2.vpezid.net&fp=firefox&flow=xtls-rprx-vision&sid=09e501600e39ed57&pbk=CnC08-EGzr6smaBZbQXW7y2mjH4uHcJly0ROcqtv0Gk&encryption=none#%F0%9F%87%B5%F0%9F%87%B1PL_1%7C3.1MB%2Fs
+vless://cd3d8e5c-794f-4c34-8222-59d3e99e35fe@104.20.63.254:443?security=tls&type=ws&path=%2F%3Fed%3D2048&host=joeypg.ezbiz.dynv6.net&packetEncoding=xudp&sni=joeypg.ezbiz.dynv6.net&fp=chrome&encryption=none#%F0%9F%87%A9%F0%9F%87%AADE_11%7C2.8MB%2Fs
+vless://5821f560-4156-4faf-80ec-9d798b128090@172.64.159.178:2053?security=tls&type=ws&path=%2F&host=cdn.lahjy.xyz&packetEncoding=xudp&sni=cdn.lahjy.xyz&fp=chrome&encryption=none#%F0%9F%87%B8%F0%9F%87%ACSG_1%7C2.1MB%2Fs
+vless://5821f560-4156-4faf-80ec-9d798b128090@172.64.229.239:2083?security=tls&type=ws&path=%2F&host=cdn.lahjy.xyz&packetEncoding=xudp&sni=cdn.lahjy.xyz&fp=chrome&encryption=none#%F0%9F%87%AF%F0%9F%87%B5JP_1%7C2.2MB%2Fs
+vless://5821f560-4156-4faf-80ec-9d798b128090@162.159.158.245:2096?security=tls&type=ws&path=%2F&host=cdn.lahjy.xyz&packetEncoding=xudp&sni=cdn.lahjy.xyz&fp=chrome&encryption=none#%F0%9F%87%A9%F0%9F%87%AADE_12%7C3.1MB%2Fs
+socks://dWZDb2JoeWR6NFdkOkpkRmxyWmhxSFA%3D@69.16.157.244:1080#🇮🇹IT_10|1.7MB/s
+vless://50414e45-4c5f-5a45-5553-52108a2d5224@104.27.88.172:80?security=none&type=ws&path=%2Fapi%2Fws&host=web-app-nr6wpa.app-tp57xz.workers.dev&packetEncoding=xudp#%F0%9F%87%A9%F0%9F%87%AADE_13%7C2.9MB%2Fs
+socks://dGVzdDEyMzp0ZXN0MTIz@104.168.249.36:1080#🇺🇸US_3|2.2MB/s
+vless://4fabeed0-790e-9724-8f12-138ed31ac60e@122.8.92.7:8443?security=reality&type=grpc&mode=gun&serviceName=TunService&packetEncoding=xudp&sni=download.nvidia.com&fp=chrome&pbk=FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk#%F0%9F%87%AB%F0%9F%87%AEFI_1%7C4.3MB%2Fs
+socks://VGVrMng2YXY6REp5MVQwZHQ%3D@144.225.47.8:42000#🇲🇽MX_1|1.3MB/s
+socks://Og%3D%3D@47.251.249.48:7777#🇺🇸US_4|3.1MB/s
+vless://0280c276-641b-49af-b699-4931c30ac137@104.18.137.67:443?security=tls&type=xhttp&path=%2Fapi&host=norway.xn--nlqaa425dbaab446bbabd698meae.online&packetEncoding=xudp&alpn=h2&sni=norway.xn--nlqaa425dbaab446bbabd698meae.online.&fp=firefox#%F0%9F%87%A9%F0%9F%87%AADE_14%7C1.1MB%2Fs
+
+
+
+
+
+
+socks://a3M4Nzg0NDkyNjBkOllsUm9XdkUwZExfY1VxUzk0d1BlS25BNA%3D%3D@87.84.49.206:62000#🇹🇭TH_3|1.7MB/s
+
+
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7hVU18yfDIuM01CL3N8R1BU4oG6fFlULUNOfE5GfDElIiwiYWRkIjoiMTkyLjc0LjIzNi4xNDgiLCJwb3J0IjoiMzAwMDQiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsImFpZCI6IjY0Iiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsInRscyI6InRscyIsInNuaSI6Ind3dy45MTMzNDU2NS54eXoiLCJwYXRoIjoiL3BhdGgvMTczMzQ3Nzc4MzcwNSIsImhvc3QiOiJ3d3cuOTEzMzQ1NjUueHl6In0=
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7hVU18zfDEuNE1CL3N8R1BU4oG6fFlULUNOfE5GfDElIiwiYWRkIjoiMTkyLjc0LjIzNi4xNDgiLCJwb3J0IjoiMzAwMDQiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsImFpZCI6IjY0Iiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsInRscyI6InRscyIsInNuaSI6Ind3dy45MTMzNDU2NS54eXoiLCJwYXRoIjoiL3BhdGgvMTczMzQ3Nzc4MzcwNSJ9
+
+
+
+
+hysteria://62.210.124.132:24667?alpn=h3&auth=dongtaiwang.com&downmbps=55&protocol=udp&insecure=1&upmbps=11&x_toolall-mihomo=true#%F0%9F%87%AB%F0%9F%87%B7FR_1%7C2.5MB%2Fs%7CGPT%E2%81%BA%7CD%2B%7C33%25
+hysteria://62.210.124.132:24667?alpn=h3&auth=dongtaiwang.com&downmbps=55&password=dongtaiwang.com&servername=bing.com&insecure=1&peer=bing.com&upmbps=11#%F0%9F%87%AB%F0%9F%87%B7FR_2%7C2.6MB%2Fs%7CGPT%E2%81%BA%7CD%2B%7C33%25
 
 
 
@@ -146,39 +162,6 @@ anytls://0324fbc29561@sdf65h46wr.df6h451rh.xin:443?security=tls&type=tcp&packetE
 
 
 
-socks://cGFaRk4zSkE6RUdKRHk1S2c%3D@103.248.150.50:42000#🇯🇵JP_1|2.4MB/s
-hysteria://62.210.124.132:24667?alpn=h3&auth=dongtaiwang.com&downmbps=55&protocol=udp&insecure=1&upmbps=11&x_toolall-mihomo=true&udp=true#%F0%9F%87%AB%F0%9F%87%B7FR_6%7C1.8MB%2Fs
-
-socks://cm91dGUxNjRKSWEyQ0JQeGZ5OlZBd3lKUVgwaUtNSml5Q3c1VVZLOXdHSA%3D%3D@103.14.164.202:42000#🇹🇭TH_1|1.3MB/s
-
-vless://cda0862a-0f87-4be9-8ed8-1d0c9e382839@196.196.148.63:443?security=reality&type=xhttp&path=%2F0616f2d729aa&packetEncoding=xudp&sni=fc82dfx.nl8.h1clayd.click&fp=chrome&sid=7b2b1a14a6e0630d&pbk=dtO7khFLUkpFDQOtNzo4Th4hJKLoPSY2VtD_9k4Hgiw&mode=auto&encryption=none#%F0%9F%87%B3%F0%9F%87%B1NL_12%7C1.4MB%2Fs
-vless://cda0862a-0f87-4be9-8ed8-1d0c9e382839@196.196.148.63:443?security=reality&type=grpc&mode=gun&serviceName=204adda7e3da&packetEncoding=xudp&sni=717252g.nl8.h1clayd.click&fp=firefox&sid=d3bd772514c87d28&pbk=PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU&encryption=none#%F0%9F%87%B3%F0%9F%87%B1NL_13%7C1.2MB%2Fs
-socks://a2luZ3N0YXIxMjM6a2luZ3N0YXIxMjMrKw%3D%3D@23.230.200.250:62000#🇺🇸US_10|2.0MB/s
-vless://0280c276-641b-49af-b699-4931c30ac137@104.18.139.67:443?security=tls&type=xhttp&path=%2Fapi&host=norway.xn--nlqaa425dbaab446bbabd698meae.online&packetEncoding=xudp&alpn=h2&sni=norway.xn--nlqaa425dbaab446bbabd698meae.online.&fp=firefox#%F0%9F%87%A9%F0%9F%87%AADE_10%7C2.4MB%2Fs
-socks://dGVzdDEyMzp0ZXN0MTIz@104.168.249.36:1080#🇺🇸US_11|1.0MB/s
-wireguard://OEysS%2F3kryZt7O%2FRobQFlmPatDWuUl9bwef0IoMX%2FUo%3D@8.6.112.246:1180/?mtu=1280&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&reserved=0%2C0%2C0&udp=1&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8e4e%3A939b%3Ab987%3A39aa%3Ac46c%2F128#%F0%9F%87%A8%F0%9F%87%B3CN_1%7C3.7MB%2Fs
-wireguard://GJTd46xB%2Ffjfi6vyJmpxUiNrNdjZTW0Qhi7b0PkER1Y%3D@188.114.97.6:987/?keepalive=5&mtu=1280&persistent-keepalive=5&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&reserved=175%2C93%2C41&udp=1&wnoise=quic&wnoisecount=15&wnoisedelay=1-2&wpayloadsize=5-10&address=172.16.0.2%2F32#%F0%9F%87%A8%F0%9F%87%B3CN_2%7C2.2MB%2Fs
-wireguard://EH18t6hUfxFfP5cUXKBNGXgLS9wTgQ%2FiMNSTOlBCDHs%3D@162.159.192.4:4500/?keepalive=5&mtu=1280&persistent-keepalive=5&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&reserved=114%2C58%2C245&udp=1&wnoise=quic&wnoisecount=5&wnoisedelay=5&wpayloadsize=40-90&address=172.16.0.2%2F32#%F0%9F%87%A8%F0%9F%87%B3CN_3%7C1.6MB%2Fs
-
-
-ss://2022-blake3-chacha20-poly1305:8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y%3D@47.254.167.157:443#%F0%9F%87%A9%F0%9F%87%AADE_11%7C1.5MB%2Fs
-socks://VUJYaWNoMEs6VnZVQUZpMkU%3D@72.57.228.87:62000#🇲🇽MX_1|2.9MB/s
-socks://dGVzdDEyMzp0ZXN0MTIz@169.255.56.148:1080#🇬🇭GH_1|1.2MB/s
-vless://0f2dc4af-951f-4690-922e-07c6e8bab26a@31.6.1.115:443?security=tls&type=xhttp&path=%2Fxh&host=cdn.winter-jam.site&packetEncoding=xudp&sni=cdn.winter-jam.site&fp=firefox&mode=auto&encryption=none#%F0%9F%87%B7%F0%9F%87%B4RO_3%7C3.9MB%2Fs
-socks://VGVrMng2YXY6REp5MVQwZHQ%3D@144.225.47.161:42000#🇲🇽MX_2|1.1MB/s
-ss://2022-blake3-chacha20-poly1305:Cg2Dw4OhdBZhqbeO9ZTA3g%2FGk%2FAvsrYZGhAJeGnQIx4%3D@3.8.210.56:443#%F0%9F%87%A9%F0%9F%87%AADE_12%7C3.1MB%2Fs
-
-vless://0280c276-641b-49af-b699-4931c30ac137@104.18.140.67:443?security=tls&type=xhttp&path=%2Fapi&host=norway.xn--nlqaa425dbaab446bbabd698meae.online&packetEncoding=xudp&alpn=h2&sni=norway.xn--nlqaa425dbaab446bbabd698meae.online.&fp=edge#%F0%9F%87%A9%F0%9F%87%AADE_13%7C1.2MB%2Fs
-trojan://FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF@95.143.196.32:443?sni=connect-se.mimowhat.online&type=tcp&alpn=h2%2Chttp%2F1.1&fp=chrome#%F0%9F%87%B8%F0%9F%87%AASE_1%7C1.4MB%2Fs
-vless://0280c276-641b-49af-b699-4931c30ac137@104.18.141.67:443?security=tls&type=xhttp&path=%2Fapi&host=norway.xn--nlqaa425dbaab446bbabd698meae.online&packetEncoding=xudp&alpn=h2&sni=norway.xn--nlqaa425dbaab446bbabd698meae.online.&fp=firefox#%F0%9F%87%A9%F0%9F%87%AADE_14%7C1.3MB%2Fs
-vless://4201786b-d99b-4147-a5f0-20d47acddb81@196.199.122.2:443?security=reality&type=xhttp&packetEncoding=xudp&sni=38917fx.es1.h1clayd.click&fp=firefox&sid=d5501b156391e01d&pbk=4mgkA2kT_Im0rkGi-fVSUU5CyF5xvMVcjA6MXBSEDAA&encryption=none#%F0%9F%87%AA%F0%9F%87%B8ES_2%7C1007KB%2Fs
-vless://0280c276-641b-49af-b699-4931c30ac137@104.18.137.67:443?security=tls&type=xhttp&path=%2Fapi&host=norway.xn--nlqaa425dbaab446bbabd698meae.online&packetEncoding=xudp&alpn=h2&sni=norway.xn--nlqaa425dbaab446bbabd698meae.online.&fp=firefox#%F0%9F%87%A9%F0%9F%87%AADE_15%7C2.3MB%2Fs
-socks://Og%3D%3D@66.179.191.39:1080#🇺🇸US_13|3.8MB/s
-
-
-
-
-socks://a3M4Nzg0NDkyNjBkOllsUm9XdkUwZExfY1VxUzk0d1BlS25BNA%3D%3D@87.84.49.206:62000#🇹🇭TH_2|1.6MB/s
 
 
 
@@ -186,4 +169,52 @@ socks://a3M4Nzg0NDkyNjBkOllsUm9XdkUwZExfY1VxUzk0d1BlS25BNA%3D%3D@87.84.49.206:62
 
 
 
-hysteria2://ca60984f-b1f0-4073-bd33-4c75168f749a@31.59.169.225:443?insecure=1&sni=ge-beer-1.fantoff.online#%F0%9F%87%A9%F0%9F%87%AADE_1%7C1.9MB%2Fs%7CGPT%E2%81%BA%7CYT-RU%7CNF%7C0%25
+
+
+
+
+socks://a2luZ3N0YXIxMjM6a2luZ3N0YXIxMjMrKw%3D%3D@23.230.200.250:62000#🇺🇸US_7|1.0MB/s|GPT|NF|D+|0%
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.81:19999#%F0%9F%87%AE%F0%9F%87%B9IT_1%7C1.3MB%2Fs%7CGPT%E2%81%BA%7CYT-CN%7CNF%7C0%25
+
+
+
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.63:19999#%F0%9F%87%AE%F0%9F%87%B9IT_2%7C1.8MB%2Fs%7CGPT%E2%81%BA%7CYT-CN
+
+
+
+
+
+socks://QUozZDlnSnc6MXBCN0hWNnU%3D@151.246.109.158:42000#🇹🇭TH_1|2.1MB/s|GPT⁺|YT-US|0%
+
+
+socks://Og%3D%3D@103.248.228.166:5555#❓Other_1|7.6MB/s|GPT⁺
+socks://a3M4Nzg0NDkyNjBkOllsUm9XdkUwZExfY1VxUzk0d1BlS25BNA%3D%3D@87.84.49.245:62000#❓Other_2|3.7MB/s|GPT⁺
+socks://a3M4Nzg0NDkyNjBkOllsUm9XdkUwZExfY1VxUzk0d1BlS25BNA%3D%3D@87.84.49.140:62000#❓Other_3|3.6MB/s|GPT⁺
+socks://dV9yYjFkYmEyOmwxdGxyZHg1MnY%3D@66.253.2.69:62000#❓Other_4|2.1MB/s|GPT⁺
+socks://cGFaRk4zSkE6RUdKRHk1S2c%3D@103.248.150.50:42000#❓Other_5|3.1MB/s|GPT
+socks://clZra3JhcVQ6Mmo3Q0NaUWI%3D@94.194.164.203:62000#❓Other_6|1.8MB/s|GPT
+socks://dV9yZjZiYTg3OnIxNzAzMDU3YXM%3D@216.132.114.182:62000#❓Other_7|2.3MB/s|GPT⁺
+vless://ead3595f-4020-4e76-a3ec-c248e1a2f2f7@free.fugui.lol:62015?security=reality&type=tcp&sni=swdist.apple.com&fp=chrome&flow=xtls-rprx-vision&sid=fa514b83&pbk=IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ#%F0%9F%87%AC%F0%9F%87%A7GB_2%7C1.1MB%2Fs%7CGPT%E2%81%BA%7C9%25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anytls://0324fbc29561@sdf65h46wr.df6h451rh.xin:443?security=tls&type=tcp&allowInsecure=1&sni=images.ctfassets.net&insecure=1&udp=1#%F0%9F%87%BA%F0%9F%87%B8US_10%7C1.3MB%2Fs%7CGPT%E2%81%BA%7CYT-CN%7CNF%7C0%25
+
+
+
+
+vless://f4e7fdb5-9b1b-44e7-990a-40ee7da9cdc5@swe4.mlbaz.ir:2222?security=none&type=http&path=%2F&host=ajax.googleapis.com#%F0%9F%87%AB%F0%9F%87%AEFI_1%7C1.6MB%2Fs%7CGPT%E2%81%BA%7CNF%7C0%25
+socks://dWZDb2JoeWR6NFdkOkpkRmxyWmhxSFA%3D@69.16.157.244:1080#❓Other_8|1.1MB/s|GPT
+vless://25ac78e7-6d1d-4c9a-a450-c01a4871769f@pebble.gerqix.online:443?security=tls&type=grpc&mode=gun&serviceName=glush.de2.v1&alpn=h2&sni=windlass.gerqix.online&fp=chrome&encryption=none#%F0%9F%87%A9%F0%9F%87%AADE_8%7C1.7MB%2Fs%7CGPT%E2%81%BA%7CNF%7CD%2B%7C0%25
